@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Japanese Duolingo Visualizer</title>
+  </head>
+
+  <body>
+    <main>
+      <aside>
+        <h1>Sorry, but at the moment, this page is under construction.</h1>
+      </aside>
+
+      <header>Header</header>
+
+      <section>
+        <p>Section 1: Experience Graph</p>
+        <article>Graph of Experience</article>
+      </section>
+
+      <section>
+        <p>Section 2: Streak Graph</p>
+        <article>Graph of Streak</article>
+      </section>
+
+      <section>
+        <p>Section 3: Words Graph</p>
+        <article>Graph of Words Learned</article>
+      </section>
+
+      <footer>
+        <nav>Navigation bar consisting of my GitHub Profile.</nav>
+
+        <p>Japanese Duolingo Visualizer</p>
+      </footer>
+    </main>
+
+    <script async type="text/javascript">
+      /**
+       * Who doesn't love intellisense?
+       *
+       * @typedef Data
+       * @type {object}
+       * @property {string} date - Date for today.
+       * @property {{ xp_goal: string, xp_today: string }} experience - Total experience.
+       * @property {string[]} learned_words - Words that I have already learned.
+       * @property {number} number_of_learned_words - Number of words that I have already learned.
+       * @property {{ daily_goal: string, site_streak: string, streak_extended_today: boolean }} streak_information - Information about Duolingo streak.
+       */
+
+      /**
+       * Fetches the 'database' - a JSON file consisting of Duolingo progress. The URL
+       * has to be one step backwards, as you're going to access the `index.html` file in
+       * the GitHub Pages production version!
+       *
+       * For example:
+       * - `https://lauslim12.github.io/japanese-duolingo-visualizer/index.html` -- this is wrong!
+       * - `https://lauslim12.github.io/japanese-duolingo-visualizer` -- this is correct!
+       *
+       * @returns {Data[]} Data consisting of Duolingo information.
+       */
+      async function getDataFromJSON() {
+        const url = `${window.location.href}/..`;
+        const response = await fetch(`${url}/data/duolingo-progress.json`);
+
+        return response.json();
+      }
+
+      /**
+       * Renders the experience graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderExperienceGraph(data) {
+        return null;
+      }
+
+      /**
+       * Renders the streak graph.
+       */
+      function renderStreakGraph() {
+        return null;
+      }
+
+      /**
+       * Renderes the words graph.
+       */
+      function renderWordsGraph() {
+        return null;
+      }
+
+      /**
+       * Bootstraps the whole DOM and renders the graphs
+       * for you.
+       */
+      async function bootstrap() {
+        const data = getDataFromJSON();
+
+        return null;
+      }
+
+      /**
+       * Runner.
+       */
+      bootstrap()
+        .then(() => {
+          console.log("Website has finished rendering your Duolingo data.");
+        })
+        .catch(() => {
+          console.error("An error ocurred. Please refresh the page!");
+        });
+    </script>
+  </body>
+</html>
