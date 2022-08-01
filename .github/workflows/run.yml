@@ -1,0 +1,58 @@
+name: Run
+
+on:
+  # Escape clause to run the script manually if the cron fails to run.
+  workflow_dispatch:
+  schedule:
+    # Timezone is in UTC, intentionally set like this to prevent queueing with many other
+    # cron schedules. GitHub itself do not recommended using this cron setting if you want a guarantee that the job
+    # is really run on that perfect schedule.
+    - cron: "15 01 * * *"
+
+jobs:
+  run:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Poetry
+        run: curl -sSL https://install.python-poetry.org | python3 -
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: "poetry"
+
+      - name: Ensures Poetry uses Python 3.9.
+        run: poetry env use "3.9"
+
+      - name: Install all dependencies
+        run: poetry install --no-dev --no-interaction
+
+      - name: Execute Python script
+        run: poetry run python3 main.py
+        env:
+          DUOLINGO_USERNAME: ${{ secrets.DUOLINGO_USERNAME }}
+          DUOLINGO_PASSWORD: ${{ secrets.DUOLINGO_PASSWORD }}
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+
+      - name: Set commit message as environment variable
+        run: |
+          NOW=$(date '+%Y-%m-%d')
+          echo "COMMIT_MESSAGE=auto: Duolingo status as of $NOW." >> $GITHUB_ENV
+
+      - name: Commit changes and push them to GitHub
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "data"
+          author_name: ${{ secrets.GIT_AUTHOR_NAME }}
+          author_email: ${{ secrets.GIT_AUTHOR_EMAIL }}
+          message: ${{ env.COMMIT_MESSAGE }}
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
