@@ -52,7 +52,7 @@ jobs:
           author_email: ${{ secrets.GIT_AUTHOR_EMAIL }}
           message: ${{ env.COMMIT_MESSAGE }}
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: .
+      # - name: Deploy to GitHub Pages
+      #   uses: JamesIves/github-pages-deploy-action@v4
+      #   with:
+      #     folder: .
