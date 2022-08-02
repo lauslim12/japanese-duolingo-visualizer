@@ -108,7 +108,7 @@ class Duolingo:
         # Return proper response object.
         return response
 
-    def login(self) -> Union[Tuple[str, Literal["password", "jwt"]], NoReturn]:
+    def login(self) -> Union[str, NoReturn]:
         """
         Logs in to the Duolingo API. Steps:
         - If the user does not have a JWT, they will be logged in with their `username` and `password`.
