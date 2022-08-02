@@ -5,15 +5,14 @@ from json import JSONDecodeError, dump, load
 from typing import Any
 
 
-class StoreException(Exception):
-    """Exception that will be raised if unwanted things happen during the usage of this class."""
-
-
 @dataclass
 class Store:
     """
     Store handles all file input/output and processing steps properly.
     """
+
+    class StoreException(Exception):
+        """Exception that will be raised if unwanted things happen during the usage of this class."""
 
     data: dict[str, Any]
     filename: str
@@ -33,7 +32,7 @@ class Store:
                 except JSONDecodeError as error:
                     self.json_content = []
         except EnvironmentError as error:
-            raise StoreException(f"Environment error: {error}.")
+            raise self.StoreException(f"Environment error: {error}.")
 
     def store_to_json_file(self) -> None:
         """

@@ -2,6 +2,8 @@
 
 Visualize your 日本語 progress in Duolingo everyday. Powered with Python, Poetry, GitHub Actions, and GitHub Pages (HTML, CSS, JS, Bootstrap).
 
+Currently, the automation is done and fully tested, but the website to visualize the progress has not yet been made.
+
 ## Motivation
 
 Everyday, I practice 日本語 on Duolingo.
@@ -28,6 +30,10 @@ This right and recommended usage of this is 'you should never have to run this s
 - Put more secrets: `GIT_AUTHOR_EMAIL`, and `GIT_AUTHOR_NAME` (equivalent when you're setting up Git: `git config --global user.email ...`).
 - For the first time, you should clear the `data/duolingo-progress.json` file manually, leaving only `[]` (an empty array) in that file.
 - Wait for the cron, and then the script will run properly without you having to do anything! Please check the repository to see the update.
+
+Please note that sometimes the cron scheduler may delay because of some unforeseen circumstances at GitHub's side. That's why I provided the `workflow_dispatch` option, so it could be run, even when the cron scheduler fails to run.
+
+It is recommended that you run this script **with your JWT and not your password for safety concerns.**
 
 ## Usage (Manual)
 
@@ -56,10 +62,14 @@ poetry run python3 main.py
 Ensure to run these scripts to keep the code quality consistent:
 
 ```bash
-poetry run black src main.py
-poetry run isort src main.py
-poetry run mypy src main.py
+# run black, isort, mypy, and pytest
+poetry run black src
+poetry run isort src
+poetry run mypy
+poetry run pytest --cov=src tests --verbose
 ```
+
+Please also write tests if you want to add a new feature!
 
 ## License
 

@@ -30,7 +30,12 @@ def main() -> None:
         username=environ.get("DUOLINGO_USERNAME"),
         password=environ.get("DUOLINGO_PASSWORD"),
         jwt=environ.get("DUOLINGO_JWT"),
+        daily_progress={},
+        user_data={},
     )
+
+    # Log in to the API client.
+    lingo.login()
 
     # Shape our data.
     progress = {

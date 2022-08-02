@@ -1,0 +1,40 @@
+name: Python
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  python:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Poetry
+        run: curl -sSL https://install.python-poetry.org | python3 -
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: "poetry"
+
+      - name: Ensures Poetry uses Python 3.9.
+        run: poetry env use "3.9"
+
+      - name: Install all dependencies
+        run: poetry install
+
+      - name: Format code (black)
+        run: poetry run black src main.py
+
+      - name: Sort imports (isort)
+        run: poetry run isort src main.py
+
+      - name: Check typing (mypy)
+        run: poetry run mypy
+
+      - name: Run unit-tests and generate coverage in console
+        run: poetry run pytest --cov=src tests --verbose
