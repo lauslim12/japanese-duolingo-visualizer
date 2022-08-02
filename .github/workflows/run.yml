@@ -7,7 +7,7 @@ on:
     # Timezone is in UTC, intentionally set like this to prevent queueing with many other
     # cron schedules. GitHub itself does not recommended using this cron setting if you want a guarantee that the job
     # is really run on that perfect schedule.
-    - cron: "15 17 * * *"
+    - cron: "15 10 * * *"
 
 jobs:
   run:
