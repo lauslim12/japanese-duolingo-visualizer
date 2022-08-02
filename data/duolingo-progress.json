@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "date": "2022/08/02",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 524
+    },
+    "number_of_learned_words": 87,
+    "streak_information": {
+      "site_streak": 6,
+      "streak_extended_today": true
+    },
+    "time": "10:38:04"
+  }
+]
