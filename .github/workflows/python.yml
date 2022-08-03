@@ -28,13 +28,13 @@ jobs:
         run: poetry install
 
       - name: Format code (black)
-        run: poetry run black src main.py
+        run: poetry run black src
 
       - name: Sort imports (isort)
-        run: poetry run isort src main.py
+        run: poetry run isort src
 
       - name: Check typing (mypy)
         run: poetry run mypy
 
       - name: Run unit-tests and generate coverage in console
-        run: poetry run pytest --cov=src tests --verbose
+        run: poetry run pytest --verbose --cov=src tests

@@ -87,32 +87,24 @@ class TestDuolingo:
         url = "https://example.com"
 
         # 1. Ensures this function works properly.
-        expected_status_code, expected_response = 200, "sample response"
-        requests_mock.get(url, status_code=200, text="sample response")
-        assert expected_status_code == duolingo.request(url).status_code
-        assert expected_response == duolingo.request(url).text
+        requests_mock.get(url, status_code=200, text="ok")
+        assert 200 == duolingo.request(url).status_code
+        assert "ok" == duolingo.request(url).text
 
         # 2. Mocking: 401.
-        expected_status_code, expected_response = 401, "unauthorized"
         requests_mock.get(url, status_code=401, text="unauthorized")
-        with pytest.raises(Exception) as execinfo:
-            assert expected_status_code == duolingo.request(url).status_code
-        assert execinfo.type == duolingo.UnauthorizedException
+        with pytest.raises(duolingo.UnauthorizedException):
+            duolingo.request(url)
 
         # 3. Mocking: 404.
-        expected_status_code, expected_response = 404, "not found"
         requests_mock.get(url, status_code=404, text="not found")
-        with pytest.raises(Exception) as execinfo:
-            assert expected_status_code == duolingo.request(url).status_code
-        assert execinfo.type == duolingo.NotFoundException
+        with pytest.raises(duolingo.NotFoundException):
+            duolingo.request(url)
 
         # 4. Mocking: 403 and Captcha.
-        expected_status_code, expected_response = 403, '{"blockScript": "sample"}'
         requests_mock.get(url, status_code=403, text='{"blockScript": "sample"}')
-        with pytest.raises(Exception) as execinfo:
-            assert expected_status_code == duolingo.request(url).status_code
-            assert expected_response == duolingo.request(url).text
-        assert execinfo.type == duolingo.CaptchaException
+        with pytest.raises(duolingo.CaptchaException):
+            duolingo.request(url)
 
     def test_login(self, duolingo: Duolingo, requests_mock: requests_mock.Mocker):
         login_url = f"{duolingo.BASE_URL}/login"
@@ -120,25 +112,29 @@ class TestDuolingo:
         daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}"
         expected_jwt = "token"
 
-        # Mock the login session (failure). For context: our class and our `login` function
+        # 1. Mock the login session (failure). For context: our class and our `login` function
         # here is not pure, so if we test the successful case first, `self.jwt` would have been
         # defined with `token`, hence making this case 'unable to fail' and of course in terms of
         # unit testing, this is not good.
-        with pytest.raises(Exception) as error:
-            requests_mock.post(login_url, text='{"failure": "here"}')
+        requests_mock.post(login_url, text='{"failure": "here"}')
+        with pytest.raises(duolingo.LoginException):
             duolingo.login()
 
-        assert error.type == duolingo.LoginException
-
-        # Now we ensure that our function works properly.
+        # 2. Now we ensure that our function works properly. There is a bit of a side effect:
+        # The function mutates the `user_data`, and it will cause 'id' to be `None` in the next `daily_url`
+        # step. That's why we intentionally wrote the JSON response's `id` as `1` (we are making them the
+        # same as the initial constructor for ease of testing). For easier-to-understand version:
+        #
+        # - Log in.
+        # - Gets the user data, set the mock response's `id` attribute to `1` so it can be used in the next API call.
+        # - Gets the daily progress data (to get our progress, we need that `id` attribute!).
         requests_mock.post(login_url, text='{"jwt": "token"}', headers={"jwt": "token"})
-
-        # Below is another side effect: the function mutates the `user_data`, and it will cause 'id' to be
-        # undefined in the next `daily_url` step. That's why we intentionally wrote the JSON response's
-        # `id` as `1` (we are making them the same as the initial constructor).
         requests_mock.get(data_url, text='{"id": 1}')
         requests_mock.get(daily_url, text='{"sample": "success json"}')
-        assert expected_jwt == duolingo.login()
+
+        # Ensures everything works correctly.
+        actual_jwt = duolingo.login()
+        assert expected_jwt == actual_jwt
 
     def test_get_words(self, duolingo: Duolingo):
         expected_words = ["水", "独学", "ナルト", "楓", "進歩", "勉強", "四月", "口", "力", "先生"]
