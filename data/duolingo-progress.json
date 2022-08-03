@@ -11,5 +11,18 @@
       "streak_extended_today": true
     },
     "time": "10:38:04"
+  },
+  {
+    "date": "2022/08/03",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 721
+    },
+    "number_of_learned_words": 94,
+    "streak_information": {
+      "site_streak": 7,
+      "streak_extended_today": true
+    },
+    "time": "10:34:36"
   }
 ]
