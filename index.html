@@ -192,7 +192,9 @@
        */
       async function getDataFromJSON() {
         const url = `${window.location.protocol}//${window.location.hostname}`;
-        const response = await fetch(`${url}/duolingo-progress.json`);
+        const response = await fetch(
+          `${url}/japanese-duolingo-visualizer/duolingo-progress.json`
+        );
 
         return response.json();
       }
