@@ -2,7 +2,7 @@
 
 Visualize your 日本語 progress in Duolingo everyday. Powered with Python, Poetry, GitHub Actions, and GitHub Pages (HTML, CSS, JS, Bootstrap).
 
-Currently, the automation is done and fully tested, but the website to visualize the progress has not yet been made.
+Currently, the automation is done and fully tested, and the website is live on GitHub Pages. Please see the link in the repository to take a look!
 
 ## Motivation
 
@@ -29,7 +29,7 @@ This right and recommended usage of this is 'you should never have to run this s
 - You have to use your real credentials, or else the API will not let you in. Feel free to check the source code if you supect anything!
 - Put more secrets: `GIT_AUTHOR_EMAIL`, and `GIT_AUTHOR_NAME` (equivalent when you're setting up Git: `git config --global user.email ...`).
 - For the first time, you should clear the `data/duolingo-progress.json` file manually, leaving only `[]` (an empty array) in that file.
-- Wait for the cron, and then the script will run properly without you having to do anything! Please check the repository to see the update.
+- Wait for the cron, and then the script will run properly without you having to do anything! Please check the repository to see the update. You probably have to do a dry-run manually to initially populate the data so it can show the initial graph.
 
 Please note that sometimes the cron scheduler may delay because of some unforeseen circumstances at GitHub's side. That's why I provided the `workflow_dispatch` option, so it could be run, even when the cron scheduler fails to run.
 
@@ -66,10 +66,16 @@ Ensure to run these scripts to keep the code quality consistent:
 poetry run black src
 poetry run isort src
 poetry run mypy
-poetry run pytest --cov=src tests --verbose
+poetry run pytest --verbose --cov=src tests
 ```
 
 Please also write tests if you want to add a new feature!
+
+## Credits
+
+Aside from the names and projects written above, I would also like to thank:
+
+- [Icons8.com](https://icons8.com/icon/59388/hiragana-hi) for providing the favorite icon.
 
 ## License
 

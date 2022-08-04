@@ -6,8 +6,8 @@ on:
   schedule:
     # Timezone is in UTC, intentionally set like this to prevent queueing with many other
     # cron schedules. GitHub itself does not recommended using this cron setting if you want a guarantee that the job
-    # is really run on that perfect schedule.
-    - cron: "15 10 * * *"
+    # is really run on that perfect schedule. This time is 20:15 GMT+7.
+    - cron: "15 13 * * *"
 
 jobs:
   run:
@@ -52,9 +52,13 @@ jobs:
           author_email: ${{ secrets.GIT_AUTHOR_EMAIL }}
           message: ${{ env.COMMIT_MESSAGE }}
 
-      # As long as the website is not yet done, we do not deploy this
-      # to GitHub Pages yet.
-      # - name: Deploy to GitHub Pages
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: .
+      - name: Build website
+        run: |
+          mkdir build
+          cp web/* build
+          cp data/duolingo-progress.json build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
