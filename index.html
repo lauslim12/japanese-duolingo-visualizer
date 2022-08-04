@@ -188,7 +188,7 @@
       /**
        * Fetches the 'database' - a JSON file consisting of Duolingo progress.
        *
-       * @returns {Data[]} Data consisting of Duolingo information.
+       * @returns {Promise<Data[]>} Data consisting of Duolingo information.
        */
       async function getDataFromJSON() {
         const url = `${window.location.protocol}//${window.location.hostname}`;
@@ -465,7 +465,7 @@
        * processes.
        */
       async function bootstrap() {
-        const data = getDataFromJSON();
+        const data = await getDataFromJSON();
         renderExperienceGraph(data);
         renderStreakGraph(data);
         renderWordsGraph(data);
