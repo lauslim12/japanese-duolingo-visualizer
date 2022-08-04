@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#eccc68" />
+    <meta name="msapplication-navbutton-color" content="#eccc68" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#eccc68" />
+    <meta
+      name="description"
+      content="Duolingo's Japanese language learning visualizer"
+    />
+
+    <!-- CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Title -->
+    <title>Japanese Duolingo Visualizer</title>
+  </head>
+
+  <body>
+    <main class="col-md-12 mx-auto p-3 p-md-4">
+      <header>
+        <h1 class="display-5 fs-1 fw-bold text-center">
+          Japanese Duolingo Visualizer
+        </h1>
+        <h2 class="display-6 fs-2 text-center text-muted">
+          日本語のDuolingo視覚化
+        </h2>
+        <h3 class="display-6 fs-5 text-center text-muted" id="header-username">
+          User: ...
+        </h3>
+      </header>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg">
+            <mark>About</mark>
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Visualize your Duolingo (Japanese) progress everyday with
+            <kbd>Python</kbd> and <kbd>GitHub Actions</kbd>. Website is made
+            with simple and reasonable <kbd>HTML</kbd>, <kbd>CSS</kbd>,
+            <kbd>JavaScript</kbd>, and <kbd>Bootstrap</kbd>, hosted with
+            <kbd>GitHub Pages</kbd> as a static site. Dependencies included
+            within this project (for the website) are <kbd>Chart.js</kbd> and
+            <kbd>Chart.js Plugin Annotation</kbd> to make intuitive and
+            user-friendly graphs. Speaking of <kbd>Python</kbd>, I used
+            <kbd>Requests</kbd> to perform HTTP requests and
+            <kbd>Pytest</kbd> for unit-tests. For further details, please check
+            the <kbd>GitHub</kbd> repository located at the end of this page.
+          </p>
+        </div>
+      </section>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg"><mark>Experience Graph</mark></p>
+        </div>
+
+        <div>
+          <p>Graph below draws your daily experience points from Duolingo.</p>
+        </div>
+
+        <article class="vh-100 position-relative">
+          <canvas aria-label="Experience Graph" id="experienceGraph">
+            <p>
+              This is an alternative text. This essentially shows a graph of
+              your experience progress.
+            </p>
+          </canvas>
+        </article>
+      </section>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg"><mark>Streak Graph</mark></p>
+        </div>
+
+        <div>
+          <p>Graph below draws your daily streak progress from Duolingo.</p>
+        </div>
+
+        <article class="vh-100 position-relative">
+          <canvas aria-label="Streak Graph" id="streakGraph">
+            <p>
+              This is an alternative text. This essentially shows a graph of
+              your streak progress.
+            </p>
+          </canvas>
+        </article>
+      </section>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg"><mark>Words Graph</mark></p>
+        </div>
+
+        <div>
+          <p>Graph below draws your learned words progress from Duolingo.</p>
+        </div>
+
+        <article class="vh-100 position-relative">
+          <canvas aria-label="Words Graph" id="wordsGraph">
+            <p>
+              This is an alternative text. This essentially shows a graph of
+              your learned words progress.
+            </p>
+          </canvas>
+        </article>
+      </section>
+
+      <footer>
+        <nav class="d-flex justify-content-center">
+          <code style="font-size: 10px" class="fw-lighter text-center">
+            Made with &hearts;, basic web technologies, and automation &bull;
+            for further details, check the
+            <a
+              class="link-primary"
+              href="https://github.com/lauslim12/japanese-duolingo-visualizer"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub!
+            </a>
+          </code>
+        </nav>
+      </footer>
+    </main>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Chart.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"
+      integrity="sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Chart.js Annonations -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.0/dist/chartjs-plugin-annotation.min.js"
+      integrity="sha256-SvW8Yj0ZmdQ5mIQ3MNbLIySteN4LwcVnUT/Xq+Qw3v4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Personal Script -->
+    <script defer type="text/javascript">
+      /**
+       * Who doesn't love intellisense? I'll define the JSON schema of the `duolingo-progress.json` here so you can
+       * enjoy the intellisense.
+       *
+       * @typedef Data
+       * @type {object}
+       * @property {string} date - Date where this data is gathered.
+       * @property {{ xp_goal: string, xp_today: string }} experience - Total experience.
+       * @property {number} number_of_learned_words - Number of words that one have already learned.
+       * @property {{ site_streak: string, streak_extended_today: boolean }} streak_information - Information about Duolingo streak.
+       * @property {string} time - Time where this data is gathered.
+       */
+
+      /**
+       * Fetches the 'database' - a JSON file consisting of Duolingo progress.
+       *
+       * @returns {Data[]} Data consisting of Duolingo information.
+       */
+      async function getDataFromJSON() {
+        const url = `${window.location.protocol}//${window.location.hostname}`;
+        const response = await fetch(`${url}/duolingo-progress.json`);
+
+        return response.json();
+      }
+
+      /**
+       * Renders the experience graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderExperienceGraph(data) {
+        const element = document.getElementById("experienceGraph");
+        if (!element) return;
+
+        return new Chart(element, {
+          type: "line",
+          data: {
+            labels: data.map((value) => value.date),
+            datasets: [
+              {
+                backgroundColor: "rgba(46, 204, 113, 0.5)",
+                borderColor: "rgba(46, 204, 113, 1.0)",
+                borderWidth: 2,
+                data: data.map((value) => value.experience.xp_today),
+                fill: true,
+                label: "XP Gained",
+                pointBackgroundColor: "rgba(52, 152, 219, 1.0)",
+                pointRadius: 5,
+                pointStyle: "star",
+                tension: 0,
+              },
+              {
+                backgroundColor: "rgba(230, 126, 34, 0.3)",
+                borderColor: "rgba(211, 84, 0, 1.0)",
+                borderWidth: 1,
+                data: data.map((value) => value.experience.xp_goal),
+                fill: true,
+                label: "XP Goal",
+                pointBackgroundColor: "rgba(241, 196, 15, 1.0)",
+                pointRadius: 5,
+                pointStyle: "star",
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+              annotation: {
+                annotations: {
+                  average: {
+                    type: "line",
+                    borderColor: "rgba(0, 0, 0, 1)",
+                    borderDash: [6, 6],
+                    borderDashOffset: 0,
+                    borderWidth: 2,
+                    label: {
+                      display: true,
+                      content: `Average: ${(
+                        data.reduce(
+                          (previous, current) =>
+                            previous + current.experience.xp_today,
+                          0
+                        ) / data.length
+                      ).toFixed(2)} XP`,
+                      position: "center",
+                    },
+                    scaleID: "y",
+                    value:
+                      data.reduce(
+                        (previous, current) =>
+                          previous + current.experience.xp_today,
+                        0
+                      ) / data.length,
+                  },
+                  goal: {
+                    type: "line",
+                    borderColor: "rgba(232, 67, 147, 1.0)",
+                    borderRadius: 10,
+                    borderWidth: 2,
+                    label: {
+                      backgroundColor: "rgba(232, 67, 147, 1.0)",
+                      display: true,
+                      content: `Goal: ${
+                        data.reduce(
+                          (previous, current) =>
+                            previous + current.experience.xp_goal,
+                          0
+                        ) / data.length
+                      } XP`,
+                      position: "start",
+                    },
+                    scaleID: "y",
+                    value:
+                      data.reduce(
+                        (previous, current) =>
+                          previous + current.experience.xp_goal,
+                        0
+                      ) / data.length,
+                  },
+                  lower: {
+                    type: "line",
+                    borderColor: "rgba(232, 67, 147, 1.0)",
+                    borderRadius: 10,
+                    borderWidth: 2,
+                    label: {
+                      backgroundColor: "rgba(232, 67, 147, 1.0)",
+                      display: true,
+                      content: `Min: ${Math.min(
+                        ...data.map((value) => value.experience.xp_today)
+                      )} XP`,
+                      position: "start",
+                    },
+                    scaleID: "y",
+                    value: Math.min(
+                      ...data.map((value) => value.experience.xp_today)
+                    ),
+                  },
+                  upper: {
+                    type: "line",
+                    borderColor: "rgba(253, 121, 168, 1.0)",
+                    borderRadius: 10,
+                    borderWidth: 2,
+                    label: {
+                      backgroundColor: "rgba(232, 67, 147, 1.0)",
+                      display: true,
+                      content: `Max: ${Math.max(
+                        ...data.map((value) => value.experience.xp_today)
+                      )} XP`,
+                      position: "start",
+                    },
+                    scaleID: "y",
+                    value: Math.max(
+                      ...data.map((value) => value.experience.xp_today)
+                    ),
+                  },
+                },
+              },
+              title: {
+                display: true,
+                text: "Experience Points (XP) Graph",
+              },
+              tooltip: {
+                intersect: false,
+              },
+              subtitle: {
+                display: true,
+                text: "Daily generation of XPs compared with your daily goal.",
+              },
+            },
+          },
+        });
+      }
+
+      /**
+       * Renders the streak graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderStreakGraph(data) {
+        const element = document.getElementById("streakGraph");
+        if (!element) return;
+
+        return new Chart(element, {
+          type: "line",
+          data: {
+            labels: data.map((value) => value.date),
+            datasets: [
+              {
+                backgroundColor: "rgba(83, 82, 237, 0.5)",
+                borderColor: "rgba(255, 107, 129, 1.0)",
+                borderWidth: 2,
+                data: data.map((value) => value.streak_information.site_streak),
+                fill: true,
+                label: "Number of Streak",
+                pointBackgroundColor: "rgba(255, 127, 80, 1.0)",
+                pointRadius: 5,
+                pointStyle: "rectRot",
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+              title: {
+                display: true,
+                text: "Streak Graph",
+              },
+              tooltip: {
+                intersect: false,
+              },
+              subtitle: {
+                display: true,
+                text: "Showcases your streak information per day.",
+              },
+            },
+          },
+        });
+      }
+
+      /**
+       * Renderes the words graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderWordsGraph(data) {
+        const element = document.getElementById("wordsGraph");
+        if (!element) return;
+
+        return new Chart(element, {
+          type: "line",
+          data: {
+            labels: data.map((value) => value.date),
+            datasets: [
+              {
+                backgroundColor: "rgba(231, 76, 60, 0.5)",
+                borderColor: "rgba(41, 128, 185, 1.0)",
+                borderWidth: 2,
+                data: data.map((value) => value.number_of_learned_words),
+                fill: true,
+                label: "Number of Words",
+                pointBackgroundColor: "rgba(52, 152, 219, 1.0)",
+                pointRadius: 5,
+                pointStyle: "circle",
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+              title: {
+                display: true,
+                text: "Words Graph",
+              },
+              tooltip: {
+                intersect: false,
+              },
+              subtitle: {
+                display: true,
+                text: "Showcases your number of words learned per day.",
+              },
+            },
+          },
+        });
+      }
+
+      /**
+       * Renders a personalized username at the header. This is intentional to give a sense
+       * of ownership.
+       */
+      function renderHeader() {
+        const element = document.getElementById("header-username");
+        if (!element) return;
+
+        const username = window.location.host.split(".")[0];
+        element.textContent = `User: @${username}`;
+
+        return null;
+      }
+
+      /**
+       * Bootstraps the whole DOM and renders the graphs for you. These functions are
+       * not pure and side effects are to be expected: network JSON request and several DOM rendering
+       * processes.
+       */
+      async function bootstrap() {
+        const data = getDataFromJSON();
+        renderExperienceGraph(data);
+        renderStreakGraph(data);
+        renderWordsGraph(data);
+        renderHeader();
+
+        return null;
+      }
+
+      /**
+       * Runner.
+       */
+      bootstrap()
+        .then(() => {
+          console.log("Website has finished rendering your Duolingo data.");
+        })
+        .catch((err) => {
+          console.error("An error ocurred. Please refresh the page!");
+          console.error(err);
+        });
+    </script>
+  </body>
+</html>
