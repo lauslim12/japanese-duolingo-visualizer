@@ -3,15 +3,16 @@ Custom API Client for Duolingo. This is necessary to access your own statistics 
 
 Essentially, there are three endpoints that will be used during the lifecycle of this API helper, which are:
 - `https://www.duolingo.com/login` -- to log in to the API.
-- `https://www.duolingo.com/users/<USERNAME>` -- to access the currently logged in user's data.
-- `https://www.duolingo.com/2017-06-30/users/<UID>` -- to access the currently logged in user's streak information and today's points / experience gained.
+- `https://www.duolingo.com/users/<USERNAME>` -- to access the currently logged in user's data and streak information.
+- `https://www.duolingo.com/2017-06-30/users/<UID>/xp_summaries?startDate=1970-01-01` -- to access the currently logged in user's experience gain information.
 
-Please use this code responsibly and do not spam Duolingo's servers.
+Please use this code responsibly and do not spam Duolingo's servers by using it like you're a bot or something.
+
+You'll get rate-limited, make their software engineers jobs' harder, and it's not a good thing.
 """
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
-from typing import Any, Literal, NoReturn, Optional, Tuple, Union
+from typing import Any, NoReturn, Optional, Union
 
 import requests
 
@@ -55,7 +56,7 @@ class Duolingo:
     password: Optional[str]
     jwt: Optional[str]
     session = requests.Session()
-    daily_progress: dict[str, Any]
+    daily_experience_progress: dict[str, Any]
     user_data: dict[str, Any]
     user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
 
@@ -136,8 +137,8 @@ class Duolingo:
 
         # Populate our `user_data` and `daily_progress` class attribute via API requests.
         self.user_data = self.request(f"{self.BASE_URL}/users/{self.username}").json()
-        self.daily_progress = self.request(
-            f"{self.BASE_URL}/2017-06-30/users/{self.user_data['id']}"
+        self.daily_experience_progress = self.request(
+            f"{self.BASE_URL}/2017-06-30/users/{self.user_data['id']}/xp_summaries?startDate=1970-01-01"
         ).json()
 
         # Return our JWT.
@@ -146,6 +147,42 @@ class Duolingo:
     def get_words(self) -> list[str]:
         """
         Gets all words one has learned. This process is done by querying the `user_data` class attribute.
+
+        Expected JSON response about the language data (not real data):
+
+        ```json
+        {
+            "language_data": {
+                "ja": {
+                    "skills": [
+                        {
+                            "title": "Travel",
+                            "learned": true,
+                            "words": [
+                                "\u304f\u3046\u3053\u3046",
+                                "\u3061\u304b\u3066\u3064",
+                                "\u3058\u3083\u306a\u3044\u3067\u3059",
+                                "\u304d\u3063\u3077",
+                                "\u3061\u305a",
+                                "\u30d1\u30b9\u30dd\u30fc\u30c8",
+                                "\u30b9\u30de\u30db",
+                                "\u306e",
+                                "\u304b\u3070\u3093",
+                                "\u7530\u4e2d"
+                            ],
+                            "short": "Travel",
+                            "name": "Travel",
+                            "language": "ja",
+                            "progress_percent": 100.0,
+                            "mastered": true
+                        },
+                    ]
+                }
+            }
+        }
+        ```
+
+        There's actually a lot more of data in there, but I omitted them for brevity reasons.
         """
         words = []
         for topic in self.user_data["language_data"]["ja"]["skills"]:
@@ -154,37 +191,61 @@ class Duolingo:
 
         return list(set(words))
 
-    def get_daily_experience_progress(self) -> dict[str, str]:
+    def get_daily_experience_progress(self) -> dict[str, int]:
         """
-        Gets daily experience progress. This process is done by querying the `daily_progress` class attribute.
+        Gets daily experience progress. This process is done by querying the `daily_experience_progress` class attribute.
+
+        Expected JSON response from `daily_experience_progress` (not real data):
+
+        ```json
+        {
+            "summaries": [
+                {
+                    "date": 1659657600,
+                    "numSessions": 1,
+                    "gainedXp": 100,
+                    "frozen": false,
+                    "repaired": false,
+                    "streakExtended": true,
+                    "userId": 1,
+                    "dailyGoalXp": 50,
+                    "totalSessionTime": 1
+                },
+                {
+                    "date": 1659571200,
+                    "numSessions": 1,
+                    "gainedXp": 200,
+                    "frozen": false,
+                    "repaired": false,
+                    "streakExtended": true,
+                    "userId": 1,
+                    "dailyGoalXp": 50,
+                    "totalSessionTime": 1
+                }
+            ]
+        }
+        ```
+
+        As a note, `summaries` at position `0` will always show the latest time.
         """
-        # `xpGains` lists the lessons completed on the last day where lessons were done.
-        # We use the `streakData.updatedTimestamp`` to get the last "midnight", and get lessons after that.
-        reported_timestamp = self.daily_progress["streakData"]["updatedTimestamp"]
-        reported_midnight = datetime.fromtimestamp(reported_timestamp)
-        midnight = datetime.fromordinal(datetime.today().date().toordinal())
-
-        # Sometimes the update is marked into the future. When this is the case
-        # we fall back on the system time for midnight.
-        time_discrepancy = min(midnight - reported_midnight, timedelta(0))
-        update_cutoff = round((reported_midnight + time_discrepancy).timestamp())
-        lessons = [
-            lesson
-            for lesson in self.daily_progress["xpGains"]
-            if lesson["time"] > update_cutoff
-        ]
-
         return {
-            "xp_goal": self.daily_progress["xpGoal"],
-            "xp_today": sum(x["xp"] for x in lessons),
+            "xp_goal": self.daily_experience_progress["summaries"][0]["dailyGoalXp"],
+            "xp_today": self.daily_experience_progress["summaries"][0]["gainedXp"],
         }
 
-    def get_streak_info(self) -> dict[str, str]:
+    def get_streak_info(self) -> dict[str, int]:
         """
         Gets current information about our daily streak from Duolingo. This process is done by querying the `user_data`
         class attribute.
+
+        Expected JSON data (not real data):
+
+        ```json
+        {
+            "site_streak": 10
+        }
+        ```
         """
         return {
             "site_streak": self.user_data["site_streak"],
-            "streak_extended_today": self.user_data["streak_extended_today"],
         }

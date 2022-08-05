@@ -30,7 +30,7 @@ def main() -> None:
         username=environ.get("DUOLINGO_USERNAME"),
         password=environ.get("DUOLINGO_PASSWORD"),
         jwt=environ.get("DUOLINGO_JWT"),
-        daily_progress={},
+        daily_experience_progress={},
         user_data={},
     )
 
