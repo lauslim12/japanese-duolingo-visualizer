@@ -37,45 +37,32 @@ def duolingo():
                 }
             },
             "site_streak": 5,
-            "streak_extended_today": True,
         },
-        daily_progress={
-            "streakData": {
-                "updatedTimestamp": 1659330000,
-            },
-            "xpGains": [
+        daily_experience_progress={
+            "summaries": [
                 {
-                    "eventType": "TEST",
-                    "xp": 20,
-                    "skillId": None,
-                    "time": 1659004150,
+                    "date": 1659657600,
+                    "numSessions": 1,
+                    "gainedXp": 150,
+                    "frozen": False,
+                    "repaired": False,
+                    "streakExtended": True,
+                    "userId": 1,
+                    "dailyGoalXp": 50,
+                    "totalSessionTime": 1,
                 },
                 {
-                    "eventType": "PRACTICE",
-                    "xp": 30,
-                    "skillId": None,
-                    "time": 1659356238,
+                    "date": 1659571200,
+                    "numSessions": 1,
+                    "gainedXp": 200,
+                    "frozen": False,
+                    "repaired": False,
+                    "streakExtended": True,
+                    "userId": 1,
+                    "dailyGoalXp": 50,
+                    "totalSessionTime": 1,
                 },
-                {
-                    "eventType": "LESSON",
-                    "xp": 30,
-                    "skillId": None,
-                    "time": 1659351896,
-                },
-                {
-                    "eventType": "LESSON",
-                    "xp": 20,
-                    "skillId": None,
-                    "time": 1659352087,
-                },
-                {
-                    "eventType": "LESSON",
-                    "xp": 70,
-                    "skillId": None,
-                    "time": 1659352255,
-                },
-            ],
-            "xpGoal": 50,
+            ]
         },
     )
 
@@ -109,7 +96,7 @@ class TestDuolingo:
     def test_login(self, duolingo: Duolingo, requests_mock: requests_mock.Mocker):
         login_url = f"{duolingo.BASE_URL}/login"
         data_url = f"{duolingo.BASE_URL}/users/{duolingo.username}"
-        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}"
+        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}/xp_summaries?startDate=1970-01-01"
         expected_jwt = "token"
 
         # 1. Mock the login session (failure). For context: our class and our `login` function
@@ -153,8 +140,6 @@ class TestDuolingo:
 
     def test_get_streak(self, duolingo: Duolingo):
         expected_site_streak = 5
-        expected_streak_extended = True
 
         actual_streak_info = duolingo.get_streak_info()
         assert actual_streak_info["site_streak"] == expected_site_streak
-        assert actual_streak_info["streak_extended_today"] == expected_streak_extended
