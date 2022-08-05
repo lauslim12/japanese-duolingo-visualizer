@@ -1,41 +1,110 @@
 [
   {
+    "date": "2022/07/28",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 754
+    },
+    "number_of_learned_words": 10,
+    "streak_information": {
+      "site_streak": 1
+    },
+    "time": "23:59:00"
+  },
+  {
+    "date": "2022/07/29",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 1173
+    },
+    "number_of_learned_words": 25,
+    "streak_information": {
+      "site_streak": 2
+    },
+    "time": "23:59:00"
+  },
+  {
+    "date": "2022/07/30",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 544
+    },
+    "number_of_learned_words": 35,
+    "streak_information": {
+      "site_streak": 3
+    },
+    "time": "23:59:00"
+  },
+  {
+    "date": "2022/07/31",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 926
+    },
+    "number_of_learned_words": 50,
+    "streak_information": {
+      "site_streak": 4
+    },
+    "time": "23:59:00"
+  },
+  {
+    "date": "2022/08/01",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 1246
+    },
+    "number_of_learned_words": 75,
+    "streak_information": {
+      "site_streak": 5
+    },
+    "time": "23:59:00"
+  },
+  {
     "date": "2022/08/02",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 524
+      "xp_today": 645
     },
     "number_of_learned_words": 87,
     "streak_information": {
-      "site_streak": 6,
-      "streak_extended_today": true
+      "site_streak": 6
     },
-    "time": "10:38:04"
+    "time": "23:59:00"
   },
   {
     "date": "2022/08/03",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 721
+      "xp_today": 906
     },
     "number_of_learned_words": 94,
     "streak_information": {
-      "site_streak": 7,
-      "streak_extended_today": true
+      "site_streak": 7
     },
-    "time": "10:34:36"
+    "time": "23:59:00"
   },
   {
     "date": "2022/08/04",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 736
+      "xp_today": 916
     },
     "number_of_learned_words": 103,
     "streak_information": {
-      "site_streak": 8,
-      "streak_extended_today": true
+      "site_streak": 8
     },
-    "time": "16:05:40"
+    "time": "23:59:00"
+  },
+  {
+    "date": "2022/08/05",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 1610
+    },
+    "number_of_learned_words": 143,
+    "streak_information": {
+      "site_streak": 9
+    },
+    "time": "13:53:25"
   }
 ]
