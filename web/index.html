@@ -89,6 +89,26 @@
       <section class="my-4">
         <div class="d-flex justify-content">
           <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg"><mark>Time Graph</mark></p>
+        </div>
+
+        <div>
+          <p>Graph below draws your hours spent per day in Duolingo.</p>
+        </div>
+
+        <article class="vh-100 position-relative">
+          <canvas aria-label="Time Graph" id="timeGraph">
+            <p>
+              This is an alternative text. This essentially shows a graph of
+              your time spent daily in Duolingo.
+            </p>
+          </canvas>
+        </article>
+      </section>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
           <p class="fw-bold lead shadow-lg"><mark>Streak Graph</mark></p>
         </div>
 
@@ -181,6 +201,7 @@
        * @property {string} date - Date where this data is gathered.
        * @property {{ xp_goal: string, xp_today: string }} experience - Total experience.
        * @property {number} number_of_learned_words - Number of words that one have already learned.
+       * @property {{ session_time: number }} session_information - Information about your session for a single day.
        * @property {{ site_streak: string }} streak_information - Information about Duolingo streak.
        * @property {string} time - Time where this data is gathered.
        */
@@ -206,7 +227,7 @@
        */
       function renderExperienceGraph(data) {
         const element = document.getElementById("experienceGraph");
-        if (!element) return;
+        if (!element) return null;
 
         return new Chart(element, {
           type: "line",
@@ -350,13 +371,13 @@
       }
 
       /**
-       * Renders the streak graph.
+       * Renders the time graph.
        *
        * @param {Data[]} data - Parsed data.
        */
-      function renderStreakGraph(data) {
-        const element = document.getElementById("streakGraph");
-        if (!element) return;
+      function renderTimeGraph(data) {
+        const element = document.getElementById("timeGraph");
+        if (!element) return null;
 
         return new Chart(element, {
           type: "line",
@@ -364,13 +385,94 @@
             labels: data.map((value) => value.date),
             datasets: [
               {
-                backgroundColor: "rgba(83, 82, 237, 0.5)",
-                borderColor: "rgba(255, 107, 129, 1.0)",
+                backgroundColor: "rgb(255, 248, 10, 0.5)",
+                borderColor: "rgb(254, 177, 57, 1.0)",
+                borderWidth: 2,
+                data: data.map((value) =>
+                  (value.session_information.session_time / 3600).toFixed(2)
+                ),
+                fill: true,
+                label: "Session Time (Hours)",
+                pointBackgroundColor: "rgb(41, 52, 98, 1.0)",
+                pointRadius: 5,
+                pointStyle: "circle",
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+              annotation: {
+                annotations: {
+                  average: {
+                    type: "line",
+                    borderColor: "rgba(0, 0, 0, 1)",
+                    borderDash: [6, 6],
+                    borderDashOffset: 0,
+                    borderWidth: 2,
+                    label: {
+                      display: true,
+                      content: `Average: ${(
+                        data.reduce(
+                          (previous, current) =>
+                            previous +
+                            current.session_information.session_time / 3600,
+                          0
+                        ) / data.length
+                      ).toFixed(2)} hour(s)`,
+                      position: "center",
+                    },
+                    scaleID: "y",
+                    value:
+                      data.reduce(
+                        (previous, current) =>
+                          previous +
+                          current.session_information.session_time / 3600,
+                        0
+                      ) / data.length,
+                  },
+                },
+              },
+              title: {
+                display: true,
+                text: "Time Graph",
+              },
+              tooltip: {
+                intersect: false,
+              },
+              subtitle: {
+                display: true,
+                text: "Showcases your daily time spent (in hours) in Duolingo.",
+              },
+            },
+          },
+        });
+      }
+
+      /**
+       * Renders the streak graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderStreakGraph(data) {
+        const element = document.getElementById("streakGraph");
+        if (!element) return null;
+
+        return new Chart(element, {
+          type: "line",
+          data: {
+            labels: data.map((value) => value.date),
+            datasets: [
+              {
+                backgroundColor: "rgb(0, 215, 255, 0.5)",
+                borderColor: "rgb(0, 150, 255, 1.0)",
                 borderWidth: 2,
                 data: data.map((value) => value.streak_information.site_streak),
                 fill: true,
                 label: "Number of Streak",
-                pointBackgroundColor: "rgba(255, 127, 80, 1.0)",
+                pointBackgroundColor: "rgb(88, 0, 255, 1.0)",
                 pointRadius: 5,
                 pointStyle: "rectRot",
                 tension: 0,
@@ -398,13 +500,13 @@
       }
 
       /**
-       * Renderes the words graph.
+       * Renders the words graph.
        *
        * @param {Data[]} data - Parsed data.
        */
       function renderWordsGraph(data) {
         const element = document.getElementById("wordsGraph");
-        if (!element) return;
+        if (!element) return null;
 
         return new Chart(element, {
           type: "line",
@@ -412,13 +514,13 @@
             labels: data.map((value) => value.date),
             datasets: [
               {
-                backgroundColor: "rgba(231, 76, 60, 0.5)",
-                borderColor: "rgba(41, 128, 185, 1.0)",
+                backgroundColor: "rgb(246, 114, 128, 0.5)",
+                borderColor: "rgb(192, 108, 132, 1.0)",
                 borderWidth: 2,
                 data: data.map((value) => value.number_of_learned_words),
                 fill: true,
                 label: "Number of Words",
-                pointBackgroundColor: "rgba(52, 152, 219, 1.0)",
+                pointBackgroundColor: "rgb(108, 91, 123, 1.0)",
                 pointRadius: 5,
                 pointStyle: "circle",
                 tension: 0,
@@ -462,11 +564,16 @@
       /**
        * Bootstraps the whole DOM and renders the graphs for you. These functions are
        * not pure and side effects are to be expected: network JSON request and several DOM rendering
-       * processes.
+       * processes. We make sure that `data` exists to prevent unwanted errors.
        */
       async function bootstrap() {
         const data = await getDataFromJSON();
+        if (!data) return null;
+
+        // Delegate to other functions after we are sure that `data` variable
+        // exists properly.
         renderExperienceGraph(data);
+        renderTimeGraph(data);
         renderStreakGraph(data);
         renderWordsGraph(data);
         renderHeader();
