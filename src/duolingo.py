@@ -20,10 +20,16 @@ import requests
 @dataclass
 class Duolingo:
     """
-    REST API Client for Duolingo API. Please use responsibly and do not spam their servers.
+    REST API Client for Duolingo API. Please use responsibly and do not spam their servers. When initializing
+    this class, please use `kwargs`-style arguments (key-value) rather than just inputting it per parameter. This
+    is to ensure an explicit initialization instead of implicit initialization.
     """
 
-    # Special exceptions to be exported.
+    ##
+    # Special exceptions relevant to this class to be exported and used by an external party.
+    # This is important, as we want to define our own exceptions instead of using the
+    # already made ones.
+    ##
     class CaptchaException(Exception):
         """
         Special exception for captcha responses. If this happens, it means that you
@@ -47,19 +53,40 @@ class Duolingo:
         Exception that will be thrown if the API returns a `401 Unauthorized`.
         """
 
-    # Base URL of Duolingo's API.
+    ##
+    # Constants, unchanging state of this class.
+    ##
     BASE_URL = "https://www.duolingo.com"
+    """Base URL of Duolingo's API."""
 
-    # Class members to be initialized in the `__init__` method. Remember, this is a `@dataclass`. For usage, it is recommended
-    # that you treat this like inserting `**kwargs`-style arguments.
+    ##
+    # Class members to be initialized in the `__init__` method. Remember, this is a `@dataclass`. For usage, it is
+    # recommended that you treat this like inserting `**kwargs`-style arguments.
+    ##
     username: str
-    password: Optional[str]
-    jwt: Optional[str]
-    session = requests.Session()
-    daily_experience_progress: dict[str, Any]
-    user_data: dict[str, Any]
-    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+    """Your Duolingo's username."""
 
+    password: Optional[str]
+    """Your Duolingo's password. Can be superseded by your Duolingo's JSON Web Token if it exists."""
+
+    jwt: Optional[str]
+    """Your Duolingo's JSON Web Token. The main token used to authenticate your requests to the API."""
+
+    session = requests.Session()
+    """Session of this class instance. Using sessions will be helpful to preserve network footprints."""
+
+    daily_experience_progress: dict[str, Any]
+    """Your Duolingo's daily experience progress."""
+
+    user_data: dict[str, Any]
+    """Your Duolingo's user data."""
+
+    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+    """A user agent to be used to make requests to the API."""
+
+    ##
+    # Methods of this class.
+    ##
     def request(
         self,
         url: str,
@@ -231,6 +258,31 @@ class Duolingo:
         return {
             "xp_goal": self.daily_experience_progress["summaries"][0]["dailyGoalXp"],
             "xp_today": self.daily_experience_progress["summaries"][0]["gainedXp"],
+        }
+
+    def get_session_time(self) -> dict[str, int]:
+        """
+        Gets the session time (how long a user has used Duolingo today) in seconds. We return
+        that value in seconds.
+
+        Expected JSON data (not real data):
+
+        ```json
+        {
+            "summaries": [
+                {
+                    "totalSessionTime": 500
+                }
+            ]
+        }
+        ```
+
+        As a note, same as above, `summaries` at position `0` will always show the latest time.
+        """
+        return {
+            "session_time": self.daily_experience_progress["summaries"][0][
+                "totalSessionTime"
+            ]
         }
 
     def get_streak_info(self) -> dict[str, int]:

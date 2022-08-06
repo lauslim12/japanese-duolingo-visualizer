@@ -49,7 +49,7 @@ def duolingo():
                     "streakExtended": True,
                     "userId": 1,
                     "dailyGoalXp": 50,
-                    "totalSessionTime": 1,
+                    "totalSessionTime": 5400,
                 },
                 {
                     "date": 1659571200,
@@ -137,6 +137,12 @@ class TestDuolingo:
         actual_daily_experience_progress = duolingo.get_daily_experience_progress()
         assert actual_daily_experience_progress["xp_goal"] == expected_xp_goal
         assert actual_daily_experience_progress["xp_today"] == expected_xp_today
+
+    def test_get_session_time(self, duolingo: Duolingo):
+        expected_session_time = 5400
+
+        actual_session_time = duolingo.get_session_time()
+        assert actual_session_time["session_time"] == expected_session_time
 
     def test_get_streak(self, duolingo: Duolingo):
         expected_site_streak = 5
