@@ -260,6 +260,31 @@ class Duolingo:
             "xp_today": self.daily_experience_progress["summaries"][0]["gainedXp"],
         }
 
+    def get_session_time(self) -> dict[str, int]:
+        """
+        Gets the session time (how long a user has used Duolingo today) in seconds. We return
+        that value in seconds.
+
+        Expected JSON data (not real data):
+
+        ```json
+        {
+            "summaries": [
+                {
+                    "totalSessionTime": 500
+                }
+            ]
+        }
+        ```
+
+        As a note, same as above, `summaries` at position `0` will always show the latest time.
+        """
+        return {
+            "session_time": self.daily_experience_progress["summaries"][0][
+                "totalSessionTime"
+            ]
+        }
+
     def get_streak_info(self) -> dict[str, int]:
         """
         Gets current information about our daily streak from Duolingo. This process is done by querying the `user_data`
