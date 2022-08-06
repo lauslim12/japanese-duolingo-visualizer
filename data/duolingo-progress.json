@@ -106,5 +106,17 @@
       "site_streak": 9
     },
     "time": "13:53:25"
+  },
+  {
+    "date": "2022/08/06",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 996
+    },
+    "number_of_learned_words": 143,
+    "streak_information": {
+      "site_streak": 10
+    },
+    "time": "13:37:00"
   }
 ]
