@@ -96,13 +96,14 @@ def main() -> None:
         # Shape our data.
         progress = {
             "date": datetime.now().strftime("%Y/%m/%d"),
-            "time": datetime.now().strftime("%H:%M:%S"),
             "experience": lingo.get_daily_experience_progress(),
-            "session_information": lingo.get_session_time(),
-            "streak_information": lingo.get_streak_info(),
             # This is large and can cause the JSON to bloat, as everyday I always learn new words.
+            # For now, this is commented.
             # "learned_words": lingo.get_words(),
             "number_of_learned_words": len(lingo.get_words()),
+            "session_information": lingo.get_session_info(),
+            "streak_information": lingo.get_streak_info(),
+            "time": datetime.now().strftime("%H:%M:%S"),
         }
 
         # Print a message.
@@ -141,6 +142,7 @@ def main() -> None:
         print(f"[JDV] {error.__class__.__name__}: {error}")
     except Exception as error:
         print(f"[JDV] Unexpected Exception: {error.__class__.__name__}: {error}")
+        print(format_exc())
     finally:
         print("[JDV] Japanese Duolingo Visualizer script has finished running.")
 
