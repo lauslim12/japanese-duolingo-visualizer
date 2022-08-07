@@ -8,7 +8,7 @@ Currently, the automation is done and fully tested, and the website is live on G
 
 Everyday, I practice 日本語 on Duolingo.
 
-One feature that I find the lack of it disturbing in Duolingo is a feature to visualize a graph/plot to trace your language learning progression. As with other skills, language requires you to constantly train and practice everyday to ensure that your skills are always at the bleeding edge. Essentially, by having that feature, we could trace our language learning progression everyday, which I believe is good for several reasons. Gaining a constant amount of Duolingo's experience points everyday would allow you to give an idea about how continuous your learning progression is. We trace three points in this tool: experience, streak information, and number of words learned during the usage of the application. All of these will be plotted to a chart to help you visualize your progress.
+One feature that I find the lack of it disturbing in Duolingo is a feature to visualize a graph/plot to trace your language learning progression. As with other skills, language requires you to constantly train and practice everyday to ensure that your skills are always at the bleeding edge. Essentially, by having that feature, we could trace our language learning progression everyday, which I believe is good for several reasons. Gaining a constant amount of Duolingo's experience points everyday would allow you to give an idea about how continuous your learning progression is. We trace several points to be visualized during the usage of the application. All of these metrics will be plotted to a chart to help you visualize your progress.
 
 Mainly, this project is inspired by:
 
@@ -17,6 +17,20 @@ Mainly, this project is inspired by:
 - [Kartik Talwar's Unofficial Duolingo API](https://github.com/KartikTalwar/Duolingo)
 
 Thank you for the inspiration!
+
+## Visualizations
+
+Metrics that are visualized in this website:
+
+- Experience points gain
+- Time spent in Duolingo
+- Number of sessions (lessons, events, or tests) taken
+- Streak information
+- Number of words learned
+
+Please note that all of these metrics will be updated daily and strives to show an accurate representation of your progress.
+
+Experience points gain, time spent in Duolingo, and number of sessions will be synchronized with the API (your real data) with each run, so you would have no worries about the accuracy of your progress.
 
 ## Usage (Automatic)
 

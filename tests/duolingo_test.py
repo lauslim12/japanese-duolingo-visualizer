@@ -42,7 +42,7 @@ def duolingo():
             "summaries": [
                 {
                     "date": 1659657600,
-                    "numSessions": 1,
+                    "numSessions": 10,
                     "gainedXp": 150,
                     "frozen": False,
                     "repaired": False,
@@ -138,11 +138,13 @@ class TestDuolingo:
         assert actual_daily_experience_progress["xp_goal"] == expected_xp_goal
         assert actual_daily_experience_progress["xp_today"] == expected_xp_today
 
-    def test_get_session_time(self, duolingo: Duolingo):
+    def test_get_session_information(self, duolingo: Duolingo):
         expected_session_time = 5400
+        expected_number_of_sessions = 10
 
-        actual_session_time = duolingo.get_session_time()
-        assert actual_session_time["session_time"] == expected_session_time
+        actual_session_info = duolingo.get_session_info()
+        assert actual_session_info["number_of_sessions"] == expected_number_of_sessions
+        assert actual_session_info["session_time"] == expected_session_time
 
     def test_get_streak(self, duolingo: Duolingo):
         expected_site_streak = 5

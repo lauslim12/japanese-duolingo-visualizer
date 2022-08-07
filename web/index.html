@@ -109,6 +109,29 @@
       <section class="my-4">
         <div class="d-flex justify-content">
           <span class="fw-bold lead pe-2">#</span>
+          <p class="fw-bold lead shadow-lg"><mark>Sessions Graph</mark></p>
+        </div>
+
+        <div>
+          <p>
+            Graph below draws your number of sessions (lessons or events) taken
+            per day in Duolingo.
+          </p>
+        </div>
+
+        <article class="vh-100 position-relative">
+          <canvas aria-label="Sessions Graph" id="sessionsGraph">
+            <p>
+              This is an alternative text. This essentially shows a graph of
+              your number of sessions taken per day in Duolingo.
+            </p>
+          </canvas>
+        </article>
+      </section>
+
+      <section class="my-4">
+        <div class="d-flex justify-content">
+          <span class="fw-bold lead pe-2">#</span>
           <p class="fw-bold lead shadow-lg"><mark>Streak Graph</mark></p>
         </div>
 
@@ -201,7 +224,7 @@
        * @property {string} date - Date where this data is gathered.
        * @property {{ xp_goal: string, xp_today: string }} experience - Total experience.
        * @property {number} number_of_learned_words - Number of words that one have already learned.
-       * @property {{ session_time: number }} session_information - Information about your session for a single day.
+       * @property {{ number_of_sessions: number, session_time: number }} session_information - Information about your session for a single day.
        * @property {{ site_streak: string }} streak_information - Information about Duolingo streak.
        * @property {string} time - Time where this data is gathered.
        */
@@ -452,6 +475,87 @@
       }
 
       /**
+       * Renders the sessions graph.
+       *
+       * @param {Data[]} data - Parsed data.
+       */
+      function renderSessionsGraph(data) {
+        const element = document.getElementById("sessionsGraph");
+        if (!element) return null;
+
+        return new Chart(element, {
+          type: "line",
+          data: {
+            labels: data.map((value) => value.date),
+            datasets: [
+              {
+                backgroundColor: "rgb(125, 157, 156, 0.5)",
+                borderColor: "rgb(239, 91, 12, 1.0)",
+                borderWidth: 2,
+                data: data.map(
+                  (value) => value.session_information.number_of_sessions
+                ),
+                fill: true,
+                label: "Number of Sessions",
+                pointBackgroundColor: "rgb(242, 223, 58, 1.0)",
+                pointRadius: 5,
+                pointStyle: "circle",
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+              annotation: {
+                annotations: {
+                  average: {
+                    type: "line",
+                    borderColor: "rgba(0, 0, 0, 1)",
+                    borderDash: [6, 6],
+                    borderDashOffset: 0,
+                    borderWidth: 2,
+                    label: {
+                      display: true,
+                      content: `Average: ${(
+                        data.reduce(
+                          (previous, current) =>
+                            previous +
+                            current.session_information.number_of_sessions,
+                          0
+                        ) / data.length
+                      ).toFixed(2)} session(s)`,
+                      position: "center",
+                    },
+                    scaleID: "y",
+                    value:
+                      data.reduce(
+                        (previous, current) =>
+                          previous +
+                          current.session_information.number_of_sessions,
+                        0
+                      ) / data.length,
+                  },
+                },
+              },
+              title: {
+                display: true,
+                text: "Sessions Graph",
+              },
+              tooltip: {
+                intersect: false,
+              },
+              subtitle: {
+                display: true,
+                text: "Showcases your number of daily sessions taken in Duolingo.",
+              },
+            },
+          },
+        });
+      }
+
+      /**
        * Renders the streak graph.
        *
        * @param {Data[]} data - Parsed data.
@@ -570,10 +674,11 @@
         const data = await getDataFromJSON();
         if (!data) return null;
 
-        // Delegate to other functions after we are sure that `data` variable
-        // exists properly.
+        // Delegate to other functions after we are sure that `data` variable exists properly and would not
+        // throw any obscure errors.
         renderExperienceGraph(data);
         renderTimeGraph(data);
+        renderSessionsGraph(data);
         renderStreakGraph(data);
         renderWordsGraph(data);
         renderHeader();
