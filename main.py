@@ -1,10 +1,61 @@
 """Main runner, expected to be run as a command line program."""
 
+from copy import deepcopy
 from datetime import datetime
 from os import environ, path
+from traceback import format_exc
+from typing import Any, Tuple
 
 from src.duolingo import Duolingo
 from src.store import Store
+
+
+def synchronize_xp_and_time(
+    json_data: list[dict[str, Any]], daily_progression: list[dict[str, Any]]
+) -> Tuple[list[dict[str, Any]], bool]:
+    """
+    Synchronizes own data with Duolingo's API for data we cannot have any disparities/differences with. The
+    time complexity of this function is O(N^2).
+
+    Keep in mind that `progression["time"]` is in UNIX timestamp, so it has to be converted into your usual
+    `YYYY-MM-DD` format so it uniforms with our own data.
+    """
+    new_json_data = deepcopy(json_data)
+    changed = False
+
+    for i, data in enumerate(json_data):
+        for progression in daily_progression["summaries"]:
+            progression_time = datetime.fromtimestamp(progression["date"]).strftime(
+                "%Y/%m/%d"
+            )
+
+            if data["date"] == progression_time:
+                # If found differences in `xp_today`.
+                if data["experience"]["xp_today"] != progression["gainedXp"]:
+                    new_json_data[i]["experience"]["xp_today"] = progression["gainedXp"]
+                    changed = True
+
+                # If found differences in `session_time`.
+                if (
+                    data["session_information"]["session_time"]
+                    != progression["totalSessionTime"]
+                ):
+                    new_json_data[i]["session_information"][
+                        "session_time"
+                    ] = progression["totalSessionTime"]
+                    changed = True
+
+                # If found differences in `number_of_sessions`.
+                if (
+                    data["session_information"]["number_of_sessions"]
+                    != progression["numSessions"]
+                ):
+                    new_json_data[i]["session_information"][
+                        "number_of_sessions"
+                    ] = progression["numSessions"]
+                    changed = True
+
+    return new_json_data, changed
 
 
 def main() -> None:
@@ -59,10 +110,22 @@ def main() -> None:
             "[JDV] Japanese Duolingo Visualizer script has successfully fetched the necessary information!"
         )
 
-        # Save them to JSON.
+        # Prepare a file to take and store our data from/to.
         store = Store(progress, path.join("data", "duolingo-progress.json"), [])
         store.get_from_json_file()
         store.process_json_data()
+
+        # Synchronize our data, especially XP and session time.
+        new_data, changed = synchronize_xp_and_time(
+            store.json_content, lingo.daily_experience_progress
+        )
+        if changed:
+            print(
+                "[JDV] Japanese Duolingo Visualizer script has synchronized your data."
+            )
+
+        # Stores our data to a file.
+        store.json_content = new_data
         store.store_to_json_file()
 
         # Print success message.
