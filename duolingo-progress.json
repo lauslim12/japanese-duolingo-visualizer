@@ -670,5 +670,21 @@
       "site_streak": 42
     },
     "time": "14:03:08"
+  },
+  {
+    "date": "2022/09/08",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 181
+    },
+    "number_of_learned_words": 288,
+    "session_information": {
+      "number_of_sessions": 5,
+      "session_time": 839
+    },
+    "streak_information": {
+      "site_streak": 43
+    },
+    "time": "13:45:24"
   }
 ]
