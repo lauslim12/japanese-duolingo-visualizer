@@ -1587,16 +1587,32 @@
     "date": "2022/11/04",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 957
+      "xp_today": 1061
     },
     "number_of_learned_words": 386,
     "session_information": {
-      "number_of_sessions": 34,
-      "session_time": 4684
+      "number_of_sessions": 38,
+      "session_time": 5831
     },
     "streak_information": {
       "site_streak": 100
     },
     "time": "13:50:39"
+  },
+  {
+    "date": "2022/11/05",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 727
+    },
+    "number_of_learned_words": 386,
+    "session_information": {
+      "number_of_sessions": 24,
+      "session_time": 2987
+    },
+    "streak_information": {
+      "site_streak": 101
+    },
+    "time": "13:38:56"
   }
 ]
