@@ -1939,16 +1939,32 @@
     "date": "2022/11/26",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 66
+      "xp_today": 90
     },
     "number_of_learned_words": 426,
     "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 344
+      "number_of_sessions": 7,
+      "session_time": 458
     },
     "streak_information": {
       "site_streak": 122
     },
     "time": "20:32:14"
+  },
+  {
+    "date": "2022/11/27",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 350
+    },
+    "number_of_learned_words": 426,
+    "session_information": {
+      "number_of_sessions": 6,
+      "session_time": 809
+    },
+    "streak_information": {
+      "site_streak": 123
+    },
+    "time": "20:32:32"
   }
 ]
