@@ -1982,5 +1982,21 @@
       "site_streak": 124
     },
     "time": "20:37:26"
+  },
+  {
+    "date": "2022/11/29",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 913
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 19,
+      "session_time": 1574
+    },
+    "streak_information": {
+      "site_streak": 125
+    },
+    "time": "20:37:48"
   }
 ]
