@@ -1998,5 +1998,21 @@
       "site_streak": 125
     },
     "time": "20:37:48"
+  },
+  {
+    "date": "2022/11/30",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 1239
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 25,
+      "session_time": 2567
+    },
+    "streak_information": {
+      "site_streak": 126
+    },
+    "time": "20:40:08"
   }
 ]
