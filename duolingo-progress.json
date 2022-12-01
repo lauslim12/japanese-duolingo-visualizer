@@ -2014,5 +2014,21 @@
       "site_streak": 126
     },
     "time": "20:40:08"
+  },
+  {
+    "date": "2022/12/01",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 486
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 9,
+      "session_time": 694
+    },
+    "streak_information": {
+      "site_streak": 127
+    },
+    "time": "20:43:31"
   }
 ]
