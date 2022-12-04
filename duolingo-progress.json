@@ -2051,16 +2051,32 @@
     "date": "2022/12/03",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 28
+      "xp_today": 290
     },
     "number_of_learned_words": 436,
     "session_information": {
-      "number_of_sessions": 3,
-      "session_time": 126
+      "number_of_sessions": 13,
+      "session_time": 1080
     },
     "streak_information": {
       "site_streak": 129
     },
     "time": "20:29:40"
+  },
+  {
+    "date": "2022/12/04",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 337
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 10,
+      "session_time": 1231
+    },
+    "streak_information": {
+      "site_streak": 130
+    },
+    "time": "20:30:01"
   }
 ]
