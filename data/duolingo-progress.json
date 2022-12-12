@@ -2174,5 +2174,21 @@
       "site_streak": 137
     },
     "time": "20:30:31"
+  },
+  {
+    "date": "2022/12/12",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 364
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 16,
+      "session_time": 1528
+    },
+    "streak_information": {
+      "site_streak": 138
+    },
+    "time": "20:33:45"
   }
 ]
