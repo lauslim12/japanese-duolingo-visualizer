@@ -2160,6 +2160,22 @@
     "time": "20:32:39"
   },
   {
+    "date": "2022/12/10",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 824
+    },
+    "number_of_learned_words": 436,
+    "session_information": {
+      "number_of_sessions": 12,
+      "session_time": 851
+    },
+    "streak_information": {
+      "site_streak": 136
+    },
+    "time": "20:45:00"
+  },
+  {
     "date": "2022/12/11",
     "experience": {
       "xp_goal": 50,
@@ -2206,5 +2222,21 @@
       "site_streak": 139
     },
     "time": "20:33:23"
+  },
+  {
+    "date": "2022/12/14",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 762
+    },
+    "number_of_learned_words": 446,
+    "session_information": {
+      "number_of_sessions": 13,
+      "session_time": 1078
+    },
+    "streak_information": {
+      "site_streak": 140
+    },
+    "time": "20:33:07"
   }
 ]
