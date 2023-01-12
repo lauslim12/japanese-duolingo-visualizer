@@ -38,7 +38,7 @@ jobs:
         run: poetry env use "3.9"
 
       - name: Install all dependencies
-        run: poetry install --no-dev --no-interaction
+        run: poetry install --no-interaction --only main
 
       - name: Execute Python script
         run: poetry run python3 main.py
