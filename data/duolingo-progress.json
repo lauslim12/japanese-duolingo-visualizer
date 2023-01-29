@@ -2958,5 +2958,21 @@
       "site_streak": 185
     },
     "time": "20:28:56"
+  },
+  {
+    "date": "2023/01/29",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 251
+    },
+    "number_of_learned_words": 515,
+    "session_information": {
+      "number_of_sessions": 14,
+      "session_time": 864
+    },
+    "streak_information": {
+      "site_streak": 186
+    },
+    "time": "20:28:22"
   }
 ]
