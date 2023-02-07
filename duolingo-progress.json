@@ -3091,16 +3091,32 @@
     "date": "2023/02/06",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 53
+      "xp_today": 661
     },
     "number_of_learned_words": 525,
     "session_information": {
-      "number_of_sessions": 2,
-      "session_time": 230
+      "number_of_sessions": 17,
+      "session_time": 1958
     },
     "streak_information": {
       "site_streak": 194
     },
     "time": "20:37:59"
+  },
+  {
+    "date": "2023/02/07",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 280
+    },
+    "number_of_learned_words": 525,
+    "session_information": {
+      "number_of_sessions": 9,
+      "session_time": 859
+    },
+    "streak_information": {
+      "site_streak": 195
+    },
+    "time": "20:31:45"
   }
 ]
