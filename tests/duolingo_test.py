@@ -122,6 +122,7 @@ class TestDuolingo:
         # Ensures everything works correctly.
         actual_jwt = duolingo.login()
         assert expected_jwt == actual_jwt
+        assert duolingo.login_method == "Password"
 
     def test_get_words(self, duolingo: Duolingo):
         expected_words = ["水", "独学", "ナルト", "楓", "進歩", "勉強", "四月", "口", "力", "先生"]
