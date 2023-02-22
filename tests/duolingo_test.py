@@ -124,6 +124,25 @@ class TestDuolingo:
         assert expected_jwt == actual_jwt
         assert duolingo.login_method == "Password"
 
+    def test_login_method(
+        self, duolingo: Duolingo, requests_mock: requests_mock.Mocker
+    ):
+        login_url = f"{duolingo.BASE_URL}/login"
+        data_url = f"{duolingo.BASE_URL}/users/{duolingo.username}"
+        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}/xp_summaries?startDate=1970-01-01"
+
+        # At the beginning, we already have the JWT, so we'll log in with JWT, and we have
+        # to prepare for the side-effect, which is API calls after the log in.
+        # TODO: I should separate the methods: one for log in, and another one for gathering the user data.
+        duolingo.jwt = "I already have a JWT"
+        requests_mock.post(login_url, headers={"jwt": duolingo.jwt})
+        requests_mock.get(data_url, text='{"id": 1}')
+        requests_mock.get(daily_url, text='{"sample": "success json"}')
+        duolingo.login()
+
+        # Ensure that everything is as expected.
+        assert duolingo.login_method == "JWT"
+
     def test_get_words(self, duolingo: Duolingo):
         expected_words = ["水", "独学", "ナルト", "楓", "進歩", "勉強", "四月", "口", "力", "先生"]
 
