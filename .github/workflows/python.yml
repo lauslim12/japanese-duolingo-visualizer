@@ -23,7 +23,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
           cache: "poetry"
 
       - name: Ensures Poetry uses the specified Python version
