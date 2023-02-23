@@ -93,6 +93,11 @@ def main() -> None:
             "[JDV] Japanese Duolingo Visualizer script has successfully logged in to your account."
         )
 
+        # Print a message with the login type.
+        print(
+            f"[JDV] Japanese Duolingo Visualizer script has logged in to your account with {lingo.login_method} method."
+        )
+
         # Shape our data.
         progress = {
             "date": datetime.now().strftime("%Y/%m/%d"),

@@ -12,7 +12,7 @@ You'll get rate-limited, make their software engineers jobs' harder, and it's no
 """
 
 from dataclasses import dataclass
-from typing import Any, NoReturn, Optional, Union
+from typing import Any, Literal, NoReturn, Optional, Union
 
 import requests
 
@@ -80,6 +80,9 @@ class Duolingo:
 
     user_data: dict[str, Any]
     """Your Duolingo's user data."""
+
+    login_method: Union[Literal["JWT"], Literal["Password"]] = "Password"
+    """Method of login used to authenticate yourself at the Duolingo API, by default was set to `Password`, capital letter at the front."""
 
     user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
     """A user agent to be used to make requests to the API."""
@@ -161,6 +164,9 @@ class Duolingo:
 
             # Inject our JWT for subsequent requests in the same session.
             self.jwt = response.headers["jwt"]
+        else:
+            # If we log in with JWT, we have to make sure that we set this flag.
+            self.login_method = "JWT"
 
         # Populate our `user_data` and `daily_progress` class attribute via API requests.
         self.user_data = self.request(f"{self.BASE_URL}/users/{self.username}").json()
