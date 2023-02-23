@@ -6,11 +6,16 @@ on:
 
 jobs:
   python:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Get Python version
+        run: |
+          PYTHON_VERSION=`sed -n '1p' .python-version`
+          echo "PYTHON_VERSION=${PYTHON_VERSION}" >> $GITHUB_ENV
 
       - name: Install Poetry
         run: curl -sSL https://install.python-poetry.org | python3 -
@@ -18,11 +23,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.9
+          python-version: ${{ env.PYTHON_VERSION }}
           cache: "poetry"
 
-      - name: Ensures Poetry uses Python 3.9.
-        run: poetry env use "3.9"
+      - name: Ensures Poetry uses the specified Python version
+        run: poetry env use $PYTHON_VERSION
+        env:
+          PYTHON_VERSION: ${{ env.PYTHON_VERSION }}
 
       - name: Install all dependencies
         run: poetry install
