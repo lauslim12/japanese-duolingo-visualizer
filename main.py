@@ -98,6 +98,9 @@ def main() -> None:
             f"[JDV] Japanese Duolingo Visualizer script has logged in to your account with {lingo.login_method} method."
         )
 
+        # Fetch the data.
+        lingo.fetch_data()
+
         # Shape our data.
         progress = {
             "date": datetime.now().strftime("%Y/%m/%d"),

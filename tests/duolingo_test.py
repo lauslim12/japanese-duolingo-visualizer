@@ -95,8 +95,6 @@ class TestDuolingo:
 
     def test_login(self, duolingo: Duolingo, requests_mock: requests_mock.Mocker):
         login_url = f"{duolingo.BASE_URL}/login"
-        data_url = f"{duolingo.BASE_URL}/users/{duolingo.username}"
-        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}/xp_summaries?startDate=1970-01-01"
         expected_jwt = "token"
 
         # 1. Mock the login session (failure). For context: our class and our `login` function
@@ -107,20 +105,11 @@ class TestDuolingo:
         with pytest.raises(duolingo.LoginException):
             duolingo.login()
 
-        # 2. Now we ensure that our function works properly. There is a bit of a side effect:
-        # The function mutates the `user_data`, and it will cause 'id' to be `None` in the next `daily_url`
-        # step. That's why we intentionally wrote the JSON response's `id` as `1` (we are making them the
-        # same as the initial constructor for ease of testing). For easier-to-understand version:
-        #
-        # - Log in.
-        # - Gets the user data, set the mock response's `id` attribute to `1` so it can be used in the next API call.
-        # - Gets the daily progress data (to get our progress, we need that `id` attribute!).
+        # 2. Now we ensure that our login works properly with the proper return values.
         requests_mock.post(login_url, text='{"jwt": "token"}', headers={"jwt": "token"})
-        requests_mock.get(data_url, text='{"id": 1}')
-        requests_mock.get(daily_url, text='{"sample": "success json"}')
+        actual_jwt = duolingo.login()
 
         # Ensures everything works correctly.
-        actual_jwt = duolingo.login()
         assert expected_jwt == actual_jwt
         assert duolingo.login_method == "Password"
 
@@ -128,20 +117,27 @@ class TestDuolingo:
         self, duolingo: Duolingo, requests_mock: requests_mock.Mocker
     ):
         login_url = f"{duolingo.BASE_URL}/login"
-        data_url = f"{duolingo.BASE_URL}/users/{duolingo.username}"
-        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}/xp_summaries?startDate=1970-01-01"
-
-        # At the beginning, we already have the JWT, so we'll log in with JWT, and we have
-        # to prepare for the side-effect, which is API calls after the log in.
-        # TODO: I should separate the methods: one for log in, and another one for gathering the user data.
         duolingo.jwt = "I already have a JWT"
+
+        # Login with existing JWT.
         requests_mock.post(login_url, headers={"jwt": duolingo.jwt})
-        requests_mock.get(data_url, text='{"id": 1}')
-        requests_mock.get(daily_url, text='{"sample": "success json"}')
         duolingo.login()
 
         # Ensure that everything is as expected.
         assert duolingo.login_method == "JWT"
+
+    def test_fetch_data(self, duolingo: Duolingo, requests_mock: requests_mock.Mocker):
+        data_url = f"{duolingo.BASE_URL}/users/{duolingo.username}"
+        daily_url = f"{duolingo.BASE_URL}/2017-06-30/users/{duolingo.user_data['id']}/xp_summaries?startDate=1970-01-01"
+
+        # Make API requests.
+        requests_mock.get(data_url, text='{"id": 1}')
+        requests_mock.get(daily_url, text='{"sample": "success json"}')
+        user_data, daily_experience_progress = duolingo.fetch_data()
+
+        # Ensure everything is as expected.
+        assert duolingo.user_data == user_data
+        assert duolingo.daily_experience_progress == daily_experience_progress
 
     def test_get_words(self, duolingo: Duolingo):
         expected_words = ["水", "独学", "ナルト", "楓", "進歩", "勉強", "四月", "口", "力", "先生"]
