@@ -93,7 +93,7 @@
         </div>
 
         <div>
-          <p>Graph below draws your hours spent per day in Duolingo.</p>
+          <p>Graph below draws your minutes spent per day in Duolingo.</p>
         </div>
 
         <article class="vh-100 position-relative">
@@ -402,6 +402,18 @@
         const element = document.getElementById("timeGraph");
         if (!element) return null;
 
+        // Some calculations are hard to read if it's inlined, so I decided to write
+        // them here, these variables are used when we want to make a line/average
+        // label.
+        const totalMinutes = (
+          data.reduce(
+            (previous, current) =>
+              previous + current.session_information.session_time / 60, // In minutes.
+            0
+          ) / data.length
+        ).toFixed(2);
+        const totalHours = Math.floor(totalMinutes / 60).toFixed(2);
+
         return new Chart(element, {
           type: "line",
           data: {
@@ -411,11 +423,12 @@
                 backgroundColor: "rgb(255, 248, 10, 0.5)",
                 borderColor: "rgb(254, 177, 57, 1.0)",
                 borderWidth: 2,
-                data: data.map((value) =>
-                  (value.session_information.session_time / 3600).toFixed(2)
+                data: data.map(
+                  (value) =>
+                    (value.session_information.session_time / 60).toFixed(2) // This is in minutes for easier calculation.
                 ),
                 fill: true,
-                label: "Session Time (Hours)",
+                label: "Session Time (Minutes)",
                 pointBackgroundColor: "rgb(41, 52, 98, 1.0)",
                 pointRadius: 5,
                 pointStyle: "circle",
@@ -437,24 +450,18 @@
                     borderWidth: 2,
                     label: {
                       display: true,
-                      content: `Average: ${(
-                        data.reduce(
-                          (previous, current) =>
-                            previous +
-                            current.session_information.session_time / 3600,
-                          0
-                        ) / data.length
-                      ).toFixed(2)} hour(s)`,
+                      content: `Average: ${totalHours} hour(s) ${totalMinutes} minute(s)`,
                       position: "center",
                     },
                     scaleID: "y",
-                    value:
+                    value: (
                       data.reduce(
                         (previous, current) =>
                           previous +
-                          current.session_information.session_time / 3600,
+                          current.session_information.session_time / 60, // This is in minutes for easier line calculation.
                         0
-                      ) / data.length,
+                      ) / data.length
+                    ).toFixed(2),
                   },
                 },
               },
@@ -464,10 +471,23 @@
               },
               tooltip: {
                 intersect: false,
+                callbacks: {
+                  // Display a useful, human-friendly format in 'Hours/Minutes'.
+                  afterLabel: function (context) {
+                    const parsedHour =
+                      Number.parseInt(context.formattedValue, 10) / 60;
+                    const shownHours = Math.floor(parsedHour);
+                    const shownMinutes = Math.round(
+                      (parsedHour - shownHours) * 60
+                    );
+
+                    return `Session Time (Hours/Minutes): ${shownHours} hour(s) ${shownMinutes} minute(s)`;
+                  },
+                },
               },
               subtitle: {
                 display: true,
-                text: "Showcases your daily time spent (in hours) in Duolingo.",
+                text: "Showcases your daily time spent (in minutes) in Duolingo.",
               },
             },
           },
