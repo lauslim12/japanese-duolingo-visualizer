@@ -168,14 +168,20 @@ class Duolingo:
             # If we log in with JWT, we have to make sure that we set this flag.
             self.login_method = "JWT"
 
-        # Populate our `user_data` and `daily_progress` class attribute via API requests.
+        # Return our JWT.
+        return self.jwt
+
+    def fetch_data(self) -> tuple[dict[str, Any], dict[str, Any]]:
+        """
+        Fetches the user's data from the Duolingo's API. This should be called right after one has logged in. Method
+        will perform two API calls.
+        """
         self.user_data = self.request(f"{self.BASE_URL}/users/{self.username}").json()
         self.daily_experience_progress = self.request(
             f"{self.BASE_URL}/2017-06-30/users/{self.user_data['id']}/xp_summaries?startDate=1970-01-01"
         ).json()
 
-        # Return our JWT.
-        return self.jwt
+        return self.user_data, self.daily_experience_progress
 
     def get_words(self) -> list[str]:
         """
