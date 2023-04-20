@@ -4243,16 +4243,32 @@
     "date": "2023/04/19",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 978
+      "xp_today": 1072
     },
     "number_of_learned_words": 554,
     "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1309
+      "number_of_sessions": 15,
+      "session_time": 1458
     },
     "streak_information": {
       "site_streak": 266
     },
     "time": "20:28:34"
+  },
+  {
+    "date": "2023/04/20",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 432
+    },
+    "number_of_learned_words": 554,
+    "session_information": {
+      "number_of_sessions": 7,
+      "session_time": 538
+    },
+    "streak_information": {
+      "site_streak": 267
+    },
+    "time": "20:32:10"
   }
 ]
