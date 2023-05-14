@@ -4627,16 +4627,32 @@
     "date": "2023/05/13",
     "experience": {
       "xp_goal": 50,
-      "xp_today": 1050
+      "xp_today": 1090
     },
     "number_of_learned_words": 563,
     "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 2299
+      "number_of_sessions": 21,
+      "session_time": 2348
     },
     "streak_information": {
       "site_streak": 290
     },
     "time": "20:24:18"
+  },
+  {
+    "date": "2023/05/14",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 1072
+    },
+    "number_of_learned_words": 563,
+    "session_information": {
+      "number_of_sessions": 23,
+      "session_time": 2436
+    },
+    "streak_information": {
+      "site_streak": 291
+    },
+    "time": "20:24:13"
   }
 ]
