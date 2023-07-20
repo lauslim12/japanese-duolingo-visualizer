@@ -32,6 +32,43 @@ Please note that all of these metrics will be updated and synchronized daily and
 
 Experience points gain, time spent in Duolingo, and number of sessions will be synchronized with the API (your real data) with each run, so you would have no worries about the accuracy of your progress.
 
+## System Architecture
+
+This system is composed of three components: `Fetcher`, `Visualizer`, and `Automation`. The following graph shows the representation of the system architecture and its components as a whole.
+
+```mermaid
+---
+title: "Duolingo Visualizer System Architecture"
+---
+flowchart TD
+    DuolingoAPI[Duolingo API]
+    DuolingoDatabase[("Duolingo Database")]
+    FetcherScript[Python Fetcher]
+    FetcherDatabase[("JSON File / GitHub Repository")]
+    VisualizerSite[Static Website]
+    AutomationRunner[GitHub Action Runner]
+    AutomationPages[GitHub Pages]
+
+    subgraph Duolingo
+        DuolingoDatabase --> |"Get data"| DuolingoAPI
+    end
+
+    subgraph Fetcher
+        DuolingoAPI --> |"Fetch data from Duolingo API"| FetcherScript
+        FetcherScript --> |"Store and commit to the data-store"| FetcherDatabase
+    end
+
+    subgraph Visualizer
+        FetcherDatabase --> |"Use data"| VisualizerSite
+        VisualizerSite --> |"Deploy to"| AutomationPages
+    end
+
+    subgraph Automation
+        AutomationRunner --> |"Run and sync data everyday"| FetcherScript
+        AutomationRunner --> |"Build and deploy everyday"| VisualizerSite
+    end
+```
+
 ## Usage (Automatic)
 
 This right and recommended usage of this is 'you should never have to run this script manually, except in some rare circumstances'. The way to use this repository is as follows:
@@ -70,6 +107,31 @@ export DUOLINGO_JWT=...
 # Run script.
 poetry run python3 main.py
 ```
+
+For development, if you wish to develop the visualizer, you have to mock the data in the `web/index.html`, more specifically, the `getDataFromJSON()` function. You have to hard-code (change the `response.json()`) and change it to something like the following:
+
+```json
+[
+  {
+    "date": "2022/07/28",
+    "experience": {
+      "xp_goal": 50,
+      "xp_today": 754
+    },
+    "number_of_learned_words": 10,
+    "session_information": {
+      "number_of_sessions": 27,
+      "session_time": 4792
+    },
+    "streak_information": {
+      "site_streak": 1
+    },
+    "time": "23:59:00"
+  }
+]
+```
+
+You may have to add more than one data to make sure that it is rendering well enough. Developing the other components should be more straightforward (Python code and GitHub Actions as the infrastructure).
 
 ## Notes
 
