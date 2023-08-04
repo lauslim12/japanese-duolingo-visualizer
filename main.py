@@ -72,11 +72,11 @@ def main() -> None:
         )
 
         # Prepare a file to take and store our data from/to.
-        store = Store(path.join("data", "duolingo-progress-new.json"), [])
+        store = Store(path.join("data", "duolingo-progress.json"), [])
         store.get_from_json_file()
 
         # Append the latest entry to the current database, and then sync it with the existing summaries.
-        store.content.append(entry)
+        store.content.append(entry.model_dump())
 
         # Synchronize our data.
         database = [DatabaseEntry(**data) for data in store.content]
