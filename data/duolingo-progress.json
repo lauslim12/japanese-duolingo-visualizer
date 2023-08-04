@@ -1,14 +1,15 @@
 [
   {
     "date": "2022/07/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 754
-    },
-    "number_of_learned_words": 10,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 4792
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 754
+      },
+      "session_information": {
+        "number_of_sessions": 27,
+        "session_time": 4792
+      }
     },
     "streak_information": {
       "site_streak": 1
@@ -17,14 +18,15 @@
   },
   {
     "date": "2022/07/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1173
-    },
-    "number_of_learned_words": 25,
-    "session_information": {
-      "number_of_sessions": 50,
-      "session_time": 12791
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1173
+      },
+      "session_information": {
+        "number_of_sessions": 50,
+        "session_time": 12791
+      }
     },
     "streak_information": {
       "site_streak": 2
@@ -33,14 +35,15 @@
   },
   {
     "date": "2022/07/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 544
-    },
-    "number_of_learned_words": 35,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 3908
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 544
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 3908
+      }
     },
     "streak_information": {
       "site_streak": 3
@@ -49,14 +52,15 @@
   },
   {
     "date": "2022/07/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 926
-    },
-    "number_of_learned_words": 50,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 5710
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 926
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 5710
+      }
     },
     "streak_information": {
       "site_streak": 4
@@ -65,14 +69,15 @@
   },
   {
     "date": "2022/08/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1246
-    },
-    "number_of_learned_words": 75,
-    "session_information": {
-      "number_of_sessions": 37,
-      "session_time": 6444
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1246
+      },
+      "session_information": {
+        "number_of_sessions": 37,
+        "session_time": 6444
+      }
     },
     "streak_information": {
       "site_streak": 5
@@ -81,14 +86,15 @@
   },
   {
     "date": "2022/08/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 645
-    },
-    "number_of_learned_words": 87,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 3436
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 645
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 3436
+      }
     },
     "streak_information": {
       "site_streak": 6
@@ -97,14 +103,15 @@
   },
   {
     "date": "2022/08/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 906
-    },
-    "number_of_learned_words": 94,
-    "session_information": {
-      "number_of_sessions": 28,
-      "session_time": 4493
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 906
+      },
+      "session_information": {
+        "number_of_sessions": 28,
+        "session_time": 4493
+      }
     },
     "streak_information": {
       "site_streak": 7
@@ -113,14 +120,15 @@
   },
   {
     "date": "2022/08/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 916
-    },
-    "number_of_learned_words": 103,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2647
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 916
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2647
+      }
     },
     "streak_information": {
       "site_streak": 8
@@ -129,14 +137,15 @@
   },
   {
     "date": "2022/08/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1610
-    },
-    "number_of_learned_words": 143,
-    "session_information": {
-      "number_of_sessions": 44,
-      "session_time": 5850
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1610
+      },
+      "session_information": {
+        "number_of_sessions": 44,
+        "session_time": 5850
+      }
     },
     "streak_information": {
       "site_streak": 9
@@ -145,14 +154,15 @@
   },
   {
     "date": "2022/08/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 996
-    },
-    "number_of_learned_words": 143,
-    "session_information": {
-      "number_of_sessions": 26,
-      "session_time": 2467
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 996
+      },
+      "session_information": {
+        "number_of_sessions": 26,
+        "session_time": 2467
+      }
     },
     "streak_information": {
       "site_streak": 10
@@ -161,14 +171,15 @@
   },
   {
     "date": "2022/08/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 452
-    },
-    "number_of_learned_words": 143,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 788
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 452
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 788
+      }
     },
     "streak_information": {
       "site_streak": 11
@@ -177,14 +188,15 @@
   },
   {
     "date": "2022/08/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1234
-    },
-    "number_of_learned_words": 160,
-    "session_information": {
-      "number_of_sessions": 43,
-      "session_time": 5623
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1234
+      },
+      "session_information": {
+        "number_of_sessions": 43,
+        "session_time": 5623
+      }
     },
     "streak_information": {
       "site_streak": 12
@@ -193,14 +205,15 @@
   },
   {
     "date": "2022/08/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 932
-    },
-    "number_of_learned_words": 179,
-    "session_information": {
-      "number_of_sessions": 28,
-      "session_time": 4625
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 932
+      },
+      "session_information": {
+        "number_of_sessions": 28,
+        "session_time": 4625
+      }
     },
     "streak_information": {
       "site_streak": 13
@@ -209,14 +222,15 @@
   },
   {
     "date": "2022/08/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 812
-    },
-    "number_of_learned_words": 179,
-    "session_information": {
-      "number_of_sessions": 24,
-      "session_time": 4007
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 812
+      },
+      "session_information": {
+        "number_of_sessions": 24,
+        "session_time": 4007
+      }
     },
     "streak_information": {
       "site_streak": 14
@@ -225,14 +239,15 @@
   },
   {
     "date": "2022/08/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 456
-    },
-    "number_of_learned_words": 189,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 3045
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 456
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 3045
+      }
     },
     "streak_information": {
       "site_streak": 15
@@ -241,14 +256,15 @@
   },
   {
     "date": "2022/08/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 973
-    },
-    "number_of_learned_words": 199,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 6901
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 973
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 6901
+      }
     },
     "streak_information": {
       "site_streak": 16
@@ -257,14 +273,15 @@
   },
   {
     "date": "2022/08/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 599
-    },
-    "number_of_learned_words": 199,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 9764
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 599
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 9764
+      }
     },
     "streak_information": {
       "site_streak": 17
@@ -273,14 +290,15 @@
   },
   {
     "date": "2022/08/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 907
-    },
-    "number_of_learned_words": 209,
-    "session_information": {
-      "number_of_sessions": 28,
-      "session_time": 7008
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 907
+      },
+      "session_information": {
+        "number_of_sessions": 28,
+        "session_time": 7008
+      }
     },
     "streak_information": {
       "site_streak": 18
@@ -289,14 +307,15 @@
   },
   {
     "date": "2022/08/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1198
-    },
-    "number_of_learned_words": 219,
-    "session_information": {
-      "number_of_sessions": 37,
-      "session_time": 7785
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1198
+      },
+      "session_information": {
+        "number_of_sessions": 37,
+        "session_time": 7785
+      }
     },
     "streak_information": {
       "site_streak": 19
@@ -305,14 +324,15 @@
   },
   {
     "date": "2022/08/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 794
-    },
-    "number_of_learned_words": 219,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 3567
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 794
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 3567
+      }
     },
     "streak_information": {
       "site_streak": 20
@@ -321,14 +341,15 @@
   },
   {
     "date": "2022/08/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 841
-    },
-    "number_of_learned_words": 219,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 4824
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 841
+      },
+      "session_information": {
+        "number_of_sessions": 27,
+        "session_time": 4824
+      }
     },
     "streak_information": {
       "site_streak": 21
@@ -337,14 +358,15 @@
   },
   {
     "date": "2022/08/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1265
-    },
-    "number_of_learned_words": 229,
-    "session_information": {
-      "number_of_sessions": 37,
-      "session_time": 4822
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1265
+      },
+      "session_information": {
+        "number_of_sessions": 37,
+        "session_time": 4822
+      }
     },
     "streak_information": {
       "site_streak": 22
@@ -353,14 +375,15 @@
   },
   {
     "date": "2022/08/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1073
-    },
-    "number_of_learned_words": 248,
-    "session_information": {
-      "number_of_sessions": 37,
-      "session_time": 4903
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1073
+      },
+      "session_information": {
+        "number_of_sessions": 37,
+        "session_time": 4903
+      }
     },
     "streak_information": {
       "site_streak": 23
@@ -369,14 +392,15 @@
   },
   {
     "date": "2022/08/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 854
-    },
-    "number_of_learned_words": 248,
-    "session_information": {
-      "number_of_sessions": 31,
-      "session_time": 3721
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 854
+      },
+      "session_information": {
+        "number_of_sessions": 31,
+        "session_time": 3721
+      }
     },
     "streak_information": {
       "site_streak": 24
@@ -385,14 +409,15 @@
   },
   {
     "date": "2022/08/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 262
-    },
-    "number_of_learned_words": 248,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 2343
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 262
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 2343
+      }
     },
     "streak_information": {
       "site_streak": 25
@@ -401,14 +426,15 @@
   },
   {
     "date": "2022/08/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1097
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 32,
-      "session_time": 4940
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1097
+      },
+      "session_information": {
+        "number_of_sessions": 32,
+        "session_time": 4940
+      }
     },
     "streak_information": {
       "site_streak": 26
@@ -417,14 +443,15 @@
   },
   {
     "date": "2022/08/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 491
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1347
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 491
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1347
+      }
     },
     "streak_information": {
       "site_streak": 27
@@ -433,14 +460,15 @@
   },
   {
     "date": "2022/08/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1403
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 38,
-      "session_time": 4881
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1403
+      },
+      "session_information": {
+        "number_of_sessions": 38,
+        "session_time": 4881
+      }
     },
     "streak_information": {
       "site_streak": 28
@@ -449,14 +477,15 @@
   },
   {
     "date": "2022/08/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 814
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 5033
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 814
+      },
+      "session_information": {
+        "number_of_sessions": 27,
+        "session_time": 5033
+      }
     },
     "streak_information": {
       "site_streak": 29
@@ -465,14 +494,15 @@
   },
   {
     "date": "2022/08/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1074
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 33,
-      "session_time": 5929
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1074
+      },
+      "session_information": {
+        "number_of_sessions": 33,
+        "session_time": 5929
+      }
     },
     "streak_information": {
       "site_streak": 30
@@ -481,14 +511,15 @@
   },
   {
     "date": "2022/08/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1147
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 29,
-      "session_time": 5746
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1147
+      },
+      "session_information": {
+        "number_of_sessions": 29,
+        "session_time": 5746
+      }
     },
     "streak_information": {
       "site_streak": 31
@@ -497,14 +528,15 @@
   },
   {
     "date": "2022/08/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 768
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 23,
-      "session_time": 4440
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 768
+      },
+      "session_information": {
+        "number_of_sessions": 23,
+        "session_time": 4440
+      }
     },
     "streak_information": {
       "site_streak": 32
@@ -513,14 +545,15 @@
   },
   {
     "date": "2022/08/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 437
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1295
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 437
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1295
+      }
     },
     "streak_information": {
       "site_streak": 33
@@ -529,14 +562,15 @@
   },
   {
     "date": "2022/08/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 570
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1655
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 570
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1655
+      }
     },
     "streak_information": {
       "site_streak": 34
@@ -545,14 +579,15 @@
   },
   {
     "date": "2022/08/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 416
-    },
-    "number_of_learned_words": 258,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 2094
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 416
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 2094
+      }
     },
     "streak_information": {
       "site_streak": 35
@@ -561,14 +596,15 @@
   },
   {
     "date": "2022/09/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 326
-    },
-    "number_of_learned_words": 268,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1428
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 326
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1428
+      }
     },
     "streak_information": {
       "site_streak": 36
@@ -577,14 +613,15 @@
   },
   {
     "date": "2022/09/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 436
-    },
-    "number_of_learned_words": 268,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1348
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 436
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1348
+      }
     },
     "streak_information": {
       "site_streak": 37
@@ -593,14 +630,15 @@
   },
   {
     "date": "2022/09/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 520
-    },
-    "number_of_learned_words": 268,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 3344
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 520
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 3344
+      }
     },
     "streak_information": {
       "site_streak": 38
@@ -609,14 +647,15 @@
   },
   {
     "date": "2022/09/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1718
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 46,
-      "session_time": 7722
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1718
+      },
+      "session_information": {
+        "number_of_sessions": 46,
+        "session_time": 7722
+      }
     },
     "streak_information": {
       "site_streak": 39
@@ -625,14 +664,15 @@
   },
   {
     "date": "2022/09/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 556
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2334
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 556
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2334
+      }
     },
     "streak_information": {
       "site_streak": 40
@@ -641,14 +681,15 @@
   },
   {
     "date": "2022/09/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 653
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 2736
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 653
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 2736
+      }
     },
     "streak_information": {
       "site_streak": 41
@@ -657,14 +698,15 @@
   },
   {
     "date": "2022/09/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 646
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 3930
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 646
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 3930
+      }
     },
     "streak_information": {
       "site_streak": 42
@@ -673,14 +715,15 @@
   },
   {
     "date": "2022/09/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 181
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 839
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 181
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 839
+      }
     },
     "streak_information": {
       "site_streak": 43
@@ -689,14 +732,15 @@
   },
   {
     "date": "2022/09/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 162
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 922
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 162
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 922
+      }
     },
     "streak_information": {
       "site_streak": 44
@@ -705,14 +749,15 @@
   },
   {
     "date": "2022/09/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 230
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1193
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 230
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1193
+      }
     },
     "streak_information": {
       "site_streak": 45
@@ -721,14 +766,15 @@
   },
   {
     "date": "2022/09/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 764
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 19,
-      "session_time": 3223
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 764
+      },
+      "session_information": {
+        "number_of_sessions": 19,
+        "session_time": 3223
+      }
     },
     "streak_information": {
       "site_streak": 46
@@ -737,14 +783,15 @@
   },
   {
     "date": "2022/09/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 372
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1625
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 372
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1625
+      }
     },
     "streak_information": {
       "site_streak": 47
@@ -753,14 +800,15 @@
   },
   {
     "date": "2022/09/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 204
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 644
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 204
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 644
+      }
     },
     "streak_information": {
       "site_streak": 48
@@ -769,14 +817,15 @@
   },
   {
     "date": "2022/09/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 557
-    },
-    "number_of_learned_words": 288,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 2261
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 557
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 2261
+      }
     },
     "streak_information": {
       "site_streak": 49
@@ -785,14 +834,15 @@
   },
   {
     "date": "2022/09/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 404
-    },
-    "number_of_learned_words": 298,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1765
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 404
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1765
+      }
     },
     "streak_information": {
       "site_streak": 50
@@ -801,14 +851,15 @@
   },
   {
     "date": "2022/09/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 808
-    },
-    "number_of_learned_words": 298,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 3483
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 808
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 3483
+      }
     },
     "streak_information": {
       "site_streak": 51
@@ -817,14 +868,15 @@
   },
   {
     "date": "2022/09/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 711
-    },
-    "number_of_learned_words": 298,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2165
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 711
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2165
+      }
     },
     "streak_information": {
       "site_streak": 52
@@ -833,14 +885,15 @@
   },
   {
     "date": "2022/09/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 384
-    },
-    "number_of_learned_words": 308,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 2442
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 384
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 2442
+      }
     },
     "streak_information": {
       "site_streak": 53
@@ -849,14 +902,15 @@
   },
   {
     "date": "2022/09/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 447
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 2261
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 447
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 2261
+      }
     },
     "streak_information": {
       "site_streak": 54
@@ -865,14 +919,15 @@
   },
   {
     "date": "2022/09/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 347
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1699
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 347
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1699
+      }
     },
     "streak_information": {
       "site_streak": 55
@@ -881,14 +936,15 @@
   },
   {
     "date": "2022/09/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 270
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 2310
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 270
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 2310
+      }
     },
     "streak_information": {
       "site_streak": 56
@@ -897,14 +953,15 @@
   },
   {
     "date": "2022/09/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 368
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1509
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 368
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1509
+      }
     },
     "streak_information": {
       "site_streak": 57
@@ -913,14 +970,15 @@
   },
   {
     "date": "2022/09/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 598
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 2015
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 598
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 2015
+      }
     },
     "streak_information": {
       "site_streak": 58
@@ -929,14 +987,15 @@
   },
   {
     "date": "2022/09/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 115
-    },
-    "number_of_learned_words": 318,
-    "session_information": {
-      "number_of_sessions": 3,
-      "session_time": 325
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 115
+      },
+      "session_information": {
+        "number_of_sessions": 3,
+        "session_time": 325
+      }
     },
     "streak_information": {
       "site_streak": 59
@@ -945,14 +1004,15 @@
   },
   {
     "date": "2022/09/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1067
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 31,
-      "session_time": 5774
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1067
+      },
+      "session_information": {
+        "number_of_sessions": 31,
+        "session_time": 5774
+      }
     },
     "streak_information": {
       "site_streak": 60
@@ -961,14 +1021,15 @@
   },
   {
     "date": "2022/09/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 642
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 3281
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 642
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 3281
+      }
     },
     "streak_information": {
       "site_streak": 61
@@ -977,14 +1038,15 @@
   },
   {
     "date": "2022/09/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 813
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 3781
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 813
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 3781
+      }
     },
     "streak_information": {
       "site_streak": 62
@@ -993,14 +1055,15 @@
   },
   {
     "date": "2022/09/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 808
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2741
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 808
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2741
+      }
     },
     "streak_information": {
       "site_streak": 63
@@ -1009,14 +1072,15 @@
   },
   {
     "date": "2022/09/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 634
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2785
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 634
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2785
+      }
     },
     "streak_information": {
       "site_streak": 64
@@ -1025,14 +1089,15 @@
   },
   {
     "date": "2022/09/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 629
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1888
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 629
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1888
+      }
     },
     "streak_information": {
       "site_streak": 65
@@ -1041,14 +1106,15 @@
   },
   {
     "date": "2022/10/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 197
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1069
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 197
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1069
+      }
     },
     "streak_information": {
       "site_streak": 66
@@ -1057,14 +1123,15 @@
   },
   {
     "date": "2022/10/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 196
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 380
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 196
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 380
+      }
     },
     "streak_information": {
       "site_streak": 67
@@ -1073,14 +1140,15 @@
   },
   {
     "date": "2022/10/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 287
-    },
-    "number_of_learned_words": 328,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1114
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 287
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1114
+      }
     },
     "streak_information": {
       "site_streak": 68
@@ -1089,14 +1157,15 @@
   },
   {
     "date": "2022/10/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 206
-    },
-    "number_of_learned_words": 338,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 707
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 206
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 707
+      }
     },
     "streak_information": {
       "site_streak": 69
@@ -1105,14 +1174,15 @@
   },
   {
     "date": "2022/10/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 244
-    },
-    "number_of_learned_words": 338,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 803
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 244
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 803
+      }
     },
     "streak_information": {
       "site_streak": 70
@@ -1121,14 +1191,15 @@
   },
   {
     "date": "2022/10/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 338,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 401
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 401
+      }
     },
     "streak_information": {
       "site_streak": 71
@@ -1137,14 +1208,15 @@
   },
   {
     "date": "2022/10/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 215
-    },
-    "number_of_learned_words": 338,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 913
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 215
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 913
+      }
     },
     "streak_information": {
       "site_streak": 72
@@ -1153,14 +1225,15 @@
   },
   {
     "date": "2022/10/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 304
-    },
-    "number_of_learned_words": 338,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 980
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 304
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 980
+      }
     },
     "streak_information": {
       "site_streak": 73
@@ -1169,14 +1242,15 @@
   },
   {
     "date": "2022/10/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 288
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1383
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 288
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1383
+      }
     },
     "streak_information": {
       "site_streak": 74
@@ -1185,14 +1259,15 @@
   },
   {
     "date": "2022/10/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 295
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1079
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 295
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1079
+      }
     },
     "streak_information": {
       "site_streak": 75
@@ -1201,14 +1276,15 @@
   },
   {
     "date": "2022/10/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 426
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 2193
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 426
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 2193
+      }
     },
     "streak_information": {
       "site_streak": 76
@@ -1217,14 +1293,15 @@
   },
   {
     "date": "2022/10/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 630
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 19,
-      "session_time": 2627
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 630
+      },
+      "session_information": {
+        "number_of_sessions": 19,
+        "session_time": 2627
+      }
     },
     "streak_information": {
       "site_streak": 77
@@ -1233,14 +1310,15 @@
   },
   {
     "date": "2022/10/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 838
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 3187
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 838
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 3187
+      }
     },
     "streak_information": {
       "site_streak": 78
@@ -1249,14 +1327,15 @@
   },
   {
     "date": "2022/10/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 301
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1146
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 301
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1146
+      }
     },
     "streak_information": {
       "site_streak": 79
@@ -1265,14 +1344,15 @@
   },
   {
     "date": "2022/10/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1077
-    },
-    "number_of_learned_words": 348,
-    "session_information": {
-      "number_of_sessions": 24,
-      "session_time": 2799
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1077
+      },
+      "session_information": {
+        "number_of_sessions": 24,
+        "session_time": 2799
+      }
     },
     "streak_information": {
       "site_streak": 80
@@ -1281,14 +1361,15 @@
   },
   {
     "date": "2022/10/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 406
-    },
-    "number_of_learned_words": 358,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1147
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 406
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1147
+      }
     },
     "streak_information": {
       "site_streak": 81
@@ -1297,14 +1378,15 @@
   },
   {
     "date": "2022/10/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 294
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1198
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 294
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1198
+      }
     },
     "streak_information": {
       "site_streak": 82
@@ -1313,14 +1395,15 @@
   },
   {
     "date": "2022/10/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 215
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 704
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 215
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 704
+      }
     },
     "streak_information": {
       "site_streak": 83
@@ -1329,14 +1412,15 @@
   },
   {
     "date": "2022/10/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 210
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 531
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 210
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 531
+      }
     },
     "streak_information": {
       "site_streak": 84
@@ -1345,14 +1429,15 @@
   },
   {
     "date": "2022/10/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 227
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 853
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 227
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 853
+      }
     },
     "streak_information": {
       "site_streak": 85
@@ -1361,14 +1446,15 @@
   },
   {
     "date": "2022/10/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 264
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 917
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 264
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 917
+      }
     },
     "streak_information": {
       "site_streak": 86
@@ -1377,14 +1463,15 @@
   },
   {
     "date": "2022/10/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 914
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 3029
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 914
+      },
+      "session_information": {
+        "number_of_sessions": 27,
+        "session_time": 3029
+      }
     },
     "streak_information": {
       "site_streak": 87
@@ -1393,14 +1480,15 @@
   },
   {
     "date": "2022/10/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 372
-    },
-    "number_of_learned_words": 368,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1019
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 372
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1019
+      }
     },
     "streak_information": {
       "site_streak": 88
@@ -1409,14 +1497,15 @@
   },
   {
     "date": "2022/10/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 521
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 2040
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 521
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 2040
+      }
     },
     "streak_information": {
       "site_streak": 89
@@ -1425,14 +1514,15 @@
   },
   {
     "date": "2022/10/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 290
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1449
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 290
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1449
+      }
     },
     "streak_information": {
       "site_streak": 90
@@ -1441,14 +1531,15 @@
   },
   {
     "date": "2022/10/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 550
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1493
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 550
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1493
+      }
     },
     "streak_information": {
       "site_streak": 91
@@ -1457,14 +1548,15 @@
   },
   {
     "date": "2022/10/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 357
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1293
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 357
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1293
+      }
     },
     "streak_information": {
       "site_streak": 92
@@ -1473,14 +1565,15 @@
   },
   {
     "date": "2022/10/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 330
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 770
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 330
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 770
+      }
     },
     "streak_information": {
       "site_streak": 93
@@ -1489,14 +1582,15 @@
   },
   {
     "date": "2022/10/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 104
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 961
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 104
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 961
+      }
     },
     "streak_information": {
       "site_streak": 94
@@ -1505,14 +1599,15 @@
   },
   {
     "date": "2022/10/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 63
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 927
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 63
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 927
+      }
     },
     "streak_information": {
       "site_streak": 95
@@ -1521,14 +1616,15 @@
   },
   {
     "date": "2022/10/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 120
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 3,
-      "session_time": 359
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 120
+      },
+      "session_information": {
+        "number_of_sessions": 3,
+        "session_time": 359
+      }
     },
     "streak_information": {
       "site_streak": 96
@@ -1537,14 +1633,15 @@
   },
   {
     "date": "2022/11/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 145
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 507
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 145
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 507
+      }
     },
     "streak_information": {
       "site_streak": 97
@@ -1553,14 +1650,15 @@
   },
   {
     "date": "2022/11/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 388
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1739
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 388
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1739
+      }
     },
     "streak_information": {
       "site_streak": 98
@@ -1569,14 +1667,15 @@
   },
   {
     "date": "2022/11/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 356
-    },
-    "number_of_learned_words": 376,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1108
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 356
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1108
+      }
     },
     "streak_information": {
       "site_streak": 99
@@ -1585,14 +1684,15 @@
   },
   {
     "date": "2022/11/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1061
-    },
-    "number_of_learned_words": 386,
-    "session_information": {
-      "number_of_sessions": 38,
-      "session_time": 5831
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1061
+      },
+      "session_information": {
+        "number_of_sessions": 38,
+        "session_time": 5831
+      }
     },
     "streak_information": {
       "site_streak": 100
@@ -1601,14 +1701,15 @@
   },
   {
     "date": "2022/11/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 727
-    },
-    "number_of_learned_words": 386,
-    "session_information": {
-      "number_of_sessions": 24,
-      "session_time": 2987
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 727
+      },
+      "session_information": {
+        "number_of_sessions": 24,
+        "session_time": 2987
+      }
     },
     "streak_information": {
       "site_streak": 101
@@ -1617,14 +1718,15 @@
   },
   {
     "date": "2022/11/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 630
-    },
-    "number_of_learned_words": 386,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 1800
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 630
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 1800
+      }
     },
     "streak_information": {
       "site_streak": 102
@@ -1633,14 +1735,15 @@
   },
   {
     "date": "2022/11/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 258
-    },
-    "number_of_learned_words": 396,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 1102
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 258
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 1102
+      }
     },
     "streak_information": {
       "site_streak": 103
@@ -1649,14 +1752,15 @@
   },
   {
     "date": "2022/11/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 903
-    },
-    "number_of_learned_words": 396,
-    "session_information": {
-      "number_of_sessions": 30,
-      "session_time": 3991
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 903
+      },
+      "session_information": {
+        "number_of_sessions": 30,
+        "session_time": 3991
+      }
     },
     "streak_information": {
       "site_streak": 104
@@ -1665,14 +1769,15 @@
   },
   {
     "date": "2022/11/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1075
-    },
-    "number_of_learned_words": 406,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 3323
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1075
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 3323
+      }
     },
     "streak_information": {
       "site_streak": 105
@@ -1681,14 +1786,15 @@
   },
   {
     "date": "2022/11/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 901
-    },
-    "number_of_learned_words": 406,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 3278
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 901
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 3278
+      }
     },
     "streak_information": {
       "site_streak": 106
@@ -1697,14 +1803,15 @@
   },
   {
     "date": "2022/11/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 438
-    },
-    "number_of_learned_words": 416,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 1890
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 438
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 1890
+      }
     },
     "streak_information": {
       "site_streak": 107
@@ -1713,14 +1820,15 @@
   },
   {
     "date": "2022/11/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 232
-    },
-    "number_of_learned_words": 416,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 1195
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 232
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 1195
+      }
     },
     "streak_information": {
       "site_streak": 108
@@ -1729,14 +1837,15 @@
   },
   {
     "date": "2022/11/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 217
-    },
-    "number_of_learned_words": 416,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1440
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 217
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1440
+      }
     },
     "streak_information": {
       "site_streak": 109
@@ -1745,14 +1854,15 @@
   },
   {
     "date": "2022/11/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1002
-    },
-    "number_of_learned_words": 416,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 3696
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1002
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 3696
+      }
     },
     "streak_information": {
       "site_streak": 110
@@ -1761,14 +1871,15 @@
   },
   {
     "date": "2022/11/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 504
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1972
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 504
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1972
+      }
     },
     "streak_information": {
       "site_streak": 111
@@ -1777,14 +1888,15 @@
   },
   {
     "date": "2022/11/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 581
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 22,
-      "session_time": 2517
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 581
+      },
+      "session_information": {
+        "number_of_sessions": 22,
+        "session_time": 2517
+      }
     },
     "streak_information": {
       "site_streak": 112
@@ -1793,14 +1905,15 @@
   },
   {
     "date": "2022/11/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 240
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 570
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 240
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 570
+      }
     },
     "streak_information": {
       "site_streak": 113
@@ -1809,14 +1922,15 @@
   },
   {
     "date": "2022/11/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 292
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1081
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 292
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1081
+      }
     },
     "streak_information": {
       "site_streak": 114
@@ -1825,14 +1939,15 @@
   },
   {
     "date": "2022/11/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 216
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 667
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 216
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 667
+      }
     },
     "streak_information": {
       "site_streak": 115
@@ -1841,14 +1956,15 @@
   },
   {
     "date": "2022/11/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 418
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 1703
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 418
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 1703
+      }
     },
     "streak_information": {
       "site_streak": 116
@@ -1857,14 +1973,15 @@
   },
   {
     "date": "2022/11/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 459
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1186
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 459
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1186
+      }
     },
     "streak_information": {
       "site_streak": 117
@@ -1873,14 +1990,15 @@
   },
   {
     "date": "2022/11/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 672
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 2083
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 672
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 2083
+      }
     },
     "streak_information": {
       "site_streak": 118
@@ -1889,14 +2007,15 @@
   },
   {
     "date": "2022/11/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 461
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1420
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 461
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1420
+      }
     },
     "streak_information": {
       "site_streak": 119
@@ -1905,14 +2024,15 @@
   },
   {
     "date": "2022/11/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 587
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 1984
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 587
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 1984
+      }
     },
     "streak_information": {
       "site_streak": 120
@@ -1921,14 +2041,15 @@
   },
   {
     "date": "2022/11/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 390
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 1001
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 390
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 1001
+      }
     },
     "streak_information": {
       "site_streak": 121
@@ -1937,14 +2058,15 @@
   },
   {
     "date": "2022/11/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 90
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 458
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 90
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 458
+      }
     },
     "streak_information": {
       "site_streak": 122
@@ -1953,14 +2075,15 @@
   },
   {
     "date": "2022/11/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 350
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 809
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 350
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 809
+      }
     },
     "streak_information": {
       "site_streak": 123
@@ -1969,14 +2092,15 @@
   },
   {
     "date": "2022/11/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 236
-    },
-    "number_of_learned_words": 426,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1568
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 236
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1568
+      }
     },
     "streak_information": {
       "site_streak": 124
@@ -1985,14 +2109,15 @@
   },
   {
     "date": "2022/11/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 913
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 19,
-      "session_time": 1574
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 913
+      },
+      "session_information": {
+        "number_of_sessions": 19,
+        "session_time": 1574
+      }
     },
     "streak_information": {
       "site_streak": 125
@@ -2001,14 +2126,15 @@
   },
   {
     "date": "2022/11/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1239
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 2567
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1239
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 2567
+      }
     },
     "streak_information": {
       "site_streak": 126
@@ -2017,14 +2143,15 @@
   },
   {
     "date": "2022/12/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 486
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 694
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 486
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 694
+      }
     },
     "streak_information": {
       "site_streak": 127
@@ -2033,14 +2160,15 @@
   },
   {
     "date": "2022/12/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 260
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 845
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 260
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 845
+      }
     },
     "streak_information": {
       "site_streak": 128
@@ -2049,14 +2177,15 @@
   },
   {
     "date": "2022/12/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 290
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1080
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 290
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1080
+      }
     },
     "streak_information": {
       "site_streak": 129
@@ -2065,14 +2194,15 @@
   },
   {
     "date": "2022/12/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 337
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1231
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 337
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1231
+      }
     },
     "streak_information": {
       "site_streak": 130
@@ -2081,14 +2211,15 @@
   },
   {
     "date": "2022/12/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 217
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 653
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 217
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 653
+      }
     },
     "streak_information": {
       "site_streak": 131
@@ -2097,14 +2228,15 @@
   },
   {
     "date": "2022/12/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 400
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1851
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 400
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1851
+      }
     },
     "streak_information": {
       "site_streak": 132
@@ -2113,14 +2245,15 @@
   },
   {
     "date": "2022/12/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 550
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1763
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 550
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1763
+      }
     },
     "streak_information": {
       "site_streak": 133
@@ -2129,14 +2262,15 @@
   },
   {
     "date": "2022/12/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 497
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1334
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 497
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1334
+      }
     },
     "streak_information": {
       "site_streak": 134
@@ -2145,14 +2279,15 @@
   },
   {
     "date": "2022/12/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 738
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1865
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 738
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1865
+      }
     },
     "streak_information": {
       "site_streak": 135
@@ -2161,14 +2296,15 @@
   },
   {
     "date": "2022/12/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 824
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 851
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 824
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 851
+      }
     },
     "streak_information": {
       "site_streak": 136
@@ -2177,14 +2313,15 @@
   },
   {
     "date": "2022/12/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 420
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1233
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 420
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1233
+      }
     },
     "streak_information": {
       "site_streak": 137
@@ -2193,14 +2330,15 @@
   },
   {
     "date": "2022/12/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 364
-    },
-    "number_of_learned_words": 436,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 1528
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 364
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 1528
+      }
     },
     "streak_information": {
       "site_streak": 138
@@ -2209,14 +2347,15 @@
   },
   {
     "date": "2022/12/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 984
-    },
-    "number_of_learned_words": 446,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 1886
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 984
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 1886
+      }
     },
     "streak_information": {
       "site_streak": 139
@@ -2225,14 +2364,15 @@
   },
   {
     "date": "2022/12/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 762
-    },
-    "number_of_learned_words": 446,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1078
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 762
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1078
+      }
     },
     "streak_information": {
       "site_streak": 140
@@ -2241,14 +2381,15 @@
   },
   {
     "date": "2022/12/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 896
-    },
-    "number_of_learned_words": 446,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 2164
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 896
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 2164
+      }
     },
     "streak_information": {
       "site_streak": 141
@@ -2257,14 +2398,15 @@
   },
   {
     "date": "2022/12/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 546
-    },
-    "number_of_learned_words": 446,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 935
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 546
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 935
+      }
     },
     "streak_information": {
       "site_streak": 142
@@ -2273,14 +2415,15 @@
   },
   {
     "date": "2022/12/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 386
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1312
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 386
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1312
+      }
     },
     "streak_information": {
       "site_streak": 143
@@ -2289,14 +2432,15 @@
   },
   {
     "date": "2022/12/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 243
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1211
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 243
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1211
+      }
     },
     "streak_information": {
       "site_streak": 144
@@ -2305,14 +2449,15 @@
   },
   {
     "date": "2022/12/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 442
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 707
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 442
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 707
+      }
     },
     "streak_information": {
       "site_streak": 145
@@ -2321,14 +2466,15 @@
   },
   {
     "date": "2022/12/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 540
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1163
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 540
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1163
+      }
     },
     "streak_information": {
       "site_streak": 146
@@ -2337,14 +2483,15 @@
   },
   {
     "date": "2022/12/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 314
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 1376
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 314
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 1376
+      }
     },
     "streak_information": {
       "site_streak": 147
@@ -2353,14 +2500,15 @@
   },
   {
     "date": "2022/12/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 240
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 556
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 240
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 556
+      }
     },
     "streak_information": {
       "site_streak": 148
@@ -2369,14 +2517,15 @@
   },
   {
     "date": "2022/12/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 321
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 321
+      }
     },
     "streak_information": {
       "site_streak": 149
@@ -2385,14 +2534,15 @@
   },
   {
     "date": "2022/12/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 470
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 2015
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 470
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 2015
+      }
     },
     "streak_information": {
       "site_streak": 150
@@ -2401,14 +2551,15 @@
   },
   {
     "date": "2022/12/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1124
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 33,
-      "session_time": 3118
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1124
+      },
+      "session_information": {
+        "number_of_sessions": 33,
+        "session_time": 3118
+      }
     },
     "streak_information": {
       "site_streak": 151
@@ -2417,14 +2568,15 @@
   },
   {
     "date": "2022/12/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 288
-    },
-    "number_of_learned_words": 455,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 590
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 288
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 590
+      }
     },
     "streak_information": {
       "site_streak": 152
@@ -2433,14 +2585,15 @@
   },
   {
     "date": "2022/12/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1246
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 23,
-      "session_time": 2132
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1246
+      },
+      "session_information": {
+        "number_of_sessions": 23,
+        "session_time": 2132
+      }
     },
     "streak_information": {
       "site_streak": 153
@@ -2449,14 +2602,15 @@
   },
   {
     "date": "2022/12/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 662
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 1870
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 662
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 1870
+      }
     },
     "streak_information": {
       "site_streak": 154
@@ -2465,14 +2619,15 @@
   },
   {
     "date": "2022/12/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 270
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 815
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 270
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 815
+      }
     },
     "streak_information": {
       "site_streak": 155
@@ -2481,14 +2636,15 @@
   },
   {
     "date": "2022/12/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 284
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 284
+      }
     },
     "streak_information": {
       "site_streak": 156
@@ -2497,14 +2653,15 @@
   },
   {
     "date": "2022/12/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 484
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 557
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 484
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 557
+      }
     },
     "streak_information": {
       "site_streak": 157
@@ -2513,14 +2670,15 @@
   },
   {
     "date": "2023/01/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 360
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 895
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 360
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 895
+      }
     },
     "streak_information": {
       "site_streak": 158
@@ -2529,14 +2687,15 @@
   },
   {
     "date": "2023/01/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 290
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 688
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 290
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 688
+      }
     },
     "streak_information": {
       "site_streak": 159
@@ -2545,14 +2704,15 @@
   },
   {
     "date": "2023/01/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 318
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 847
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 318
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 847
+      }
     },
     "streak_information": {
       "site_streak": 160
@@ -2561,14 +2721,15 @@
   },
   {
     "date": "2023/01/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 647
-    },
-    "number_of_learned_words": 465,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1460
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 647
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1460
+      }
     },
     "streak_information": {
       "site_streak": 161
@@ -2577,14 +2738,15 @@
   },
   {
     "date": "2023/01/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 592
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 965
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 592
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 965
+      }
     },
     "streak_information": {
       "site_streak": 162
@@ -2593,14 +2755,15 @@
   },
   {
     "date": "2023/01/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 609
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1194
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 609
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1194
+      }
     },
     "streak_information": {
       "site_streak": 163
@@ -2609,14 +2772,15 @@
   },
   {
     "date": "2023/01/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 560
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 942
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 560
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 942
+      }
     },
     "streak_information": {
       "site_streak": 164
@@ -2625,14 +2789,15 @@
   },
   {
     "date": "2023/01/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 448
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 815
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 448
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 815
+      }
     },
     "streak_information": {
       "site_streak": 165
@@ -2641,14 +2806,15 @@
   },
   {
     "date": "2023/01/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1101
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 3052
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1101
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 3052
+      }
     },
     "streak_information": {
       "site_streak": 166
@@ -2657,14 +2823,15 @@
   },
   {
     "date": "2023/01/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 466
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 2738
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 466
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 2738
+      }
     },
     "streak_information": {
       "site_streak": 167
@@ -2673,14 +2840,15 @@
   },
   {
     "date": "2023/01/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 818
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 24,
-      "session_time": 3424
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 818
+      },
+      "session_information": {
+        "number_of_sessions": 24,
+        "session_time": 3424
+      }
     },
     "streak_information": {
       "site_streak": 168
@@ -2689,14 +2857,15 @@
   },
   {
     "date": "2023/01/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 710
-    },
-    "number_of_learned_words": 475,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 2564
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 710
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 2564
+      }
     },
     "streak_information": {
       "site_streak": 169
@@ -2705,14 +2874,15 @@
   },
   {
     "date": "2023/01/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 362
-    },
-    "number_of_learned_words": 485,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 897
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 362
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 897
+      }
     },
     "streak_information": {
       "site_streak": 170
@@ -2721,14 +2891,15 @@
   },
   {
     "date": "2023/01/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 391
-    },
-    "number_of_learned_words": 485,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 2118
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 391
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 2118
+      }
     },
     "streak_information": {
       "site_streak": 171
@@ -2737,14 +2908,15 @@
   },
   {
     "date": "2023/01/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 586
-    },
-    "number_of_learned_words": 495,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 2352
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 586
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 2352
+      }
     },
     "streak_information": {
       "site_streak": 172
@@ -2753,14 +2925,15 @@
   },
   {
     "date": "2023/01/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 777
-    },
-    "number_of_learned_words": 495,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 3808
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 777
+      },
+      "session_information": {
+        "number_of_sessions": 27,
+        "session_time": 3808
+      }
     },
     "streak_information": {
       "site_streak": 173
@@ -2769,14 +2942,15 @@
   },
   {
     "date": "2023/01/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 816
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2013
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 816
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2013
+      }
     },
     "streak_information": {
       "site_streak": 174
@@ -2785,14 +2959,15 @@
   },
   {
     "date": "2023/01/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 320
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 307
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 320
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 307
+      }
     },
     "streak_information": {
       "site_streak": 175
@@ -2801,14 +2976,15 @@
   },
   {
     "date": "2023/01/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 304
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 778
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 304
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 778
+      }
     },
     "streak_information": {
       "site_streak": 176
@@ -2817,14 +2993,15 @@
   },
   {
     "date": "2023/01/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 346
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1333
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 346
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1333
+      }
     },
     "streak_information": {
       "site_streak": 177
@@ -2833,14 +3010,15 @@
   },
   {
     "date": "2023/01/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 405
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1630
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 405
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1630
+      }
     },
     "streak_information": {
       "site_streak": 178
@@ -2849,14 +3027,15 @@
   },
   {
     "date": "2023/01/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 440
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 910
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 440
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 910
+      }
     },
     "streak_information": {
       "site_streak": 179
@@ -2865,14 +3044,15 @@
   },
   {
     "date": "2023/01/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 215
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 1052
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 215
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 1052
+      }
     },
     "streak_information": {
       "site_streak": 180
@@ -2881,14 +3061,15 @@
   },
   {
     "date": "2023/01/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1995
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1995
+      }
     },
     "streak_information": {
       "site_streak": 181
@@ -2897,14 +3078,15 @@
   },
   {
     "date": "2023/01/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 375
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 375
+      }
     },
     "streak_information": {
       "site_streak": 182
@@ -2913,14 +3095,15 @@
   },
   {
     "date": "2023/01/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 206
-    },
-    "number_of_learned_words": 505,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 469
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 206
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 469
+      }
     },
     "streak_information": {
       "site_streak": 183
@@ -2929,14 +3112,15 @@
   },
   {
     "date": "2023/01/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 590
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2346
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 590
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2346
+      }
     },
     "streak_information": {
       "site_streak": 184
@@ -2945,14 +3129,15 @@
   },
   {
     "date": "2023/01/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 555
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 2629
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 555
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 2629
+      }
     },
     "streak_information": {
       "site_streak": 185
@@ -2961,14 +3146,15 @@
   },
   {
     "date": "2023/01/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 251
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 864
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 251
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 864
+      }
     },
     "streak_information": {
       "site_streak": 186
@@ -2977,14 +3163,15 @@
   },
   {
     "date": "2023/01/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 430
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 1020
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 430
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 1020
+      }
     },
     "streak_information": {
       "site_streak": 187
@@ -2993,14 +3180,15 @@
   },
   {
     "date": "2023/01/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 589
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 19,
-      "session_time": 2003
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 589
+      },
+      "session_information": {
+        "number_of_sessions": 19,
+        "session_time": 2003
+      }
     },
     "streak_information": {
       "site_streak": 188
@@ -3009,14 +3197,15 @@
   },
   {
     "date": "2023/02/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 174
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 649
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 174
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 649
+      }
     },
     "streak_information": {
       "site_streak": 189
@@ -3025,14 +3214,15 @@
   },
   {
     "date": "2023/02/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 238
-    },
-    "number_of_learned_words": 515,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 782
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 238
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 782
+      }
     },
     "streak_information": {
       "site_streak": 190
@@ -3041,14 +3231,15 @@
   },
   {
     "date": "2023/02/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 390
-    },
-    "number_of_learned_words": 525,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 650
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 390
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 650
+      }
     },
     "streak_information": {
       "site_streak": 191
@@ -3057,14 +3248,15 @@
   },
   {
     "date": "2023/02/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 282
-    },
-    "number_of_learned_words": 525,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 874
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 282
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 874
+      }
     },
     "streak_information": {
       "site_streak": 192
@@ -3073,14 +3265,15 @@
   },
   {
     "date": "2023/02/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 581
-    },
-    "number_of_learned_words": 525,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 930
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 581
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 930
+      }
     },
     "streak_information": {
       "site_streak": 193
@@ -3089,14 +3282,15 @@
   },
   {
     "date": "2023/02/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 661
-    },
-    "number_of_learned_words": 525,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 1958
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 661
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 1958
+      }
     },
     "streak_information": {
       "site_streak": 194
@@ -3105,14 +3299,15 @@
   },
   {
     "date": "2023/02/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 280
-    },
-    "number_of_learned_words": 525,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 859
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 280
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 859
+      }
     },
     "streak_information": {
       "site_streak": 195
@@ -3121,14 +3316,15 @@
   },
   {
     "date": "2023/02/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1281
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 25,
-      "session_time": 2436
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1281
+      },
+      "session_information": {
+        "number_of_sessions": 25,
+        "session_time": 2436
+      }
     },
     "streak_information": {
       "site_streak": 196
@@ -3137,14 +3333,15 @@
   },
   {
     "date": "2023/02/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 846
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1386
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 846
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1386
+      }
     },
     "streak_information": {
       "site_streak": 197
@@ -3153,14 +3350,15 @@
   },
   {
     "date": "2023/02/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 242
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 771
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 242
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 771
+      }
     },
     "streak_information": {
       "site_streak": 198
@@ -3169,14 +3367,15 @@
   },
   {
     "date": "2023/02/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 260
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1445
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 260
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1445
+      }
     },
     "streak_information": {
       "site_streak": 199
@@ -3185,14 +3384,15 @@
   },
   {
     "date": "2023/02/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 296
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 753
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 296
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 753
+      }
     },
     "streak_information": {
       "site_streak": 200
@@ -3201,14 +3401,15 @@
   },
   {
     "date": "2023/02/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 202
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 804
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 202
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 804
+      }
     },
     "streak_information": {
       "site_streak": 201
@@ -3217,14 +3418,15 @@
   },
   {
     "date": "2023/02/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 354
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 794
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 354
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 794
+      }
     },
     "streak_information": {
       "site_streak": 202
@@ -3233,14 +3435,15 @@
   },
   {
     "date": "2023/02/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 221
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 870
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 221
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 870
+      }
     },
     "streak_information": {
       "site_streak": 203
@@ -3249,14 +3452,15 @@
   },
   {
     "date": "2023/02/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 256
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 732
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 256
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 732
+      }
     },
     "streak_information": {
       "site_streak": 204
@@ -3265,14 +3469,15 @@
   },
   {
     "date": "2023/02/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 210
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 550
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 210
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 550
+      }
     },
     "streak_information": {
       "site_streak": 205
@@ -3281,14 +3486,15 @@
   },
   {
     "date": "2023/02/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 217
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 695
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 217
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 695
+      }
     },
     "streak_information": {
       "site_streak": 206
@@ -3297,14 +3503,15 @@
   },
   {
     "date": "2023/02/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 498
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1763
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 498
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1763
+      }
     },
     "streak_information": {
       "site_streak": 207
@@ -3313,14 +3520,15 @@
   },
   {
     "date": "2023/02/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 468
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1330
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 468
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1330
+      }
     },
     "streak_information": {
       "site_streak": 208
@@ -3329,14 +3537,15 @@
   },
   {
     "date": "2023/02/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 616
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 779
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 616
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 779
+      }
     },
     "streak_information": {
       "site_streak": 209
@@ -3345,14 +3554,15 @@
   },
   {
     "date": "2023/02/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 334
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 689
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 334
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 689
+      }
     },
     "streak_information": {
       "site_streak": 210
@@ -3361,14 +3571,15 @@
   },
   {
     "date": "2023/02/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 388
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1006
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 388
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1006
+      }
     },
     "streak_information": {
       "site_streak": 211
@@ -3377,14 +3588,15 @@
   },
   {
     "date": "2023/02/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 222
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 649
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 222
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 649
+      }
     },
     "streak_information": {
       "site_streak": 212
@@ -3393,14 +3605,15 @@
   },
   {
     "date": "2023/02/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 283
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 867
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 283
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 867
+      }
     },
     "streak_information": {
       "site_streak": 213
@@ -3409,14 +3622,15 @@
   },
   {
     "date": "2023/02/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 238
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 779
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 238
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 779
+      }
     },
     "streak_information": {
       "site_streak": 214
@@ -3425,14 +3639,15 @@
   },
   {
     "date": "2023/02/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 266
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1164
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 266
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1164
+      }
     },
     "streak_information": {
       "site_streak": 215
@@ -3441,14 +3656,15 @@
   },
   {
     "date": "2023/02/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 409
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 944
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 409
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 944
+      }
     },
     "streak_information": {
       "site_streak": 216
@@ -3457,14 +3673,15 @@
   },
   {
     "date": "2023/03/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 676
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 996
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 676
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 996
+      }
     },
     "streak_information": {
       "site_streak": 217
@@ -3473,14 +3690,15 @@
   },
   {
     "date": "2023/03/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 458
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 635
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 458
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 635
+      }
     },
     "streak_information": {
       "site_streak": 218
@@ -3489,14 +3707,15 @@
   },
   {
     "date": "2023/03/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 820
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 1207
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 820
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 1207
+      }
     },
     "streak_information": {
       "site_streak": 219
@@ -3505,14 +3724,15 @@
   },
   {
     "date": "2023/03/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 882
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 18,
-      "session_time": 1211
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 882
+      },
+      "session_information": {
+        "number_of_sessions": 18,
+        "session_time": 1211
+      }
     },
     "streak_information": {
       "site_streak": 220
@@ -3521,14 +3741,15 @@
   },
   {
     "date": "2023/03/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 264
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 636
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 264
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 636
+      }
     },
     "streak_information": {
       "site_streak": 221
@@ -3537,14 +3758,15 @@
   },
   {
     "date": "2023/03/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1534
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 1642
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1534
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 1642
+      }
     },
     "streak_information": {
       "site_streak": 222
@@ -3553,14 +3775,15 @@
   },
   {
     "date": "2023/03/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 364
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 843
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 364
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 843
+      }
     },
     "streak_information": {
       "site_streak": 223
@@ -3569,14 +3792,15 @@
   },
   {
     "date": "2023/03/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 260
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 556
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 260
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 556
+      }
     },
     "streak_information": {
       "site_streak": 224
@@ -3585,14 +3809,15 @@
   },
   {
     "date": "2023/03/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 218
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 483
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 218
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 483
+      }
     },
     "streak_information": {
       "site_streak": 225
@@ -3601,14 +3826,15 @@
   },
   {
     "date": "2023/03/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 192
-    },
-    "number_of_learned_words": 535,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 398
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 192
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 398
+      }
     },
     "streak_information": {
       "site_streak": 226
@@ -3617,14 +3843,15 @@
   },
   {
     "date": "2023/03/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 978
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 32,
-      "session_time": 2713
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 978
+      },
+      "session_information": {
+        "number_of_sessions": 32,
+        "session_time": 2713
+      }
     },
     "streak_information": {
       "site_streak": 227
@@ -3633,14 +3860,15 @@
   },
   {
     "date": "2023/03/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 506
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 626
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 506
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 626
+      }
     },
     "streak_information": {
       "site_streak": 228
@@ -3649,14 +3877,15 @@
   },
   {
     "date": "2023/03/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 440
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 889
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 440
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 889
+      }
     },
     "streak_information": {
       "site_streak": 229
@@ -3665,14 +3894,15 @@
   },
   {
     "date": "2023/03/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 586
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1522
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 586
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1522
+      }
     },
     "streak_information": {
       "site_streak": 230
@@ -3681,14 +3911,15 @@
   },
   {
     "date": "2023/03/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 288
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 562
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 288
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 562
+      }
     },
     "streak_information": {
       "site_streak": 231
@@ -3697,14 +3928,15 @@
   },
   {
     "date": "2023/03/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 408
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 927
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 408
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 927
+      }
     },
     "streak_information": {
       "site_streak": 232
@@ -3713,14 +3945,15 @@
   },
   {
     "date": "2023/03/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1046
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 1297
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1046
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 1297
+      }
     },
     "streak_information": {
       "site_streak": 233
@@ -3729,14 +3962,15 @@
   },
   {
     "date": "2023/03/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 222
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 566
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 222
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 566
+      }
     },
     "streak_information": {
       "site_streak": 234
@@ -3745,14 +3979,15 @@
   },
   {
     "date": "2023/03/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 320
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 992
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 320
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 992
+      }
     },
     "streak_information": {
       "site_streak": 235
@@ -3761,14 +3996,15 @@
   },
   {
     "date": "2023/03/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 220
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 1052
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 220
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 1052
+      }
     },
     "streak_information": {
       "site_streak": 236
@@ -3777,14 +4013,15 @@
   },
   {
     "date": "2023/03/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1382
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 24,
-      "session_time": 1897
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1382
+      },
+      "session_information": {
+        "number_of_sessions": 24,
+        "session_time": 1897
+      }
     },
     "streak_information": {
       "site_streak": 237
@@ -3793,14 +4030,15 @@
   },
   {
     "date": "2023/03/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1084
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1302
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1084
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1302
+      }
     },
     "streak_information": {
       "site_streak": 238
@@ -3809,14 +4047,15 @@
   },
   {
     "date": "2023/03/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 372
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 726
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 372
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 726
+      }
     },
     "streak_information": {
       "site_streak": 239
@@ -3825,14 +4064,15 @@
   },
   {
     "date": "2023/03/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 320
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 262
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 320
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 262
+      }
     },
     "streak_information": {
       "site_streak": 240
@@ -3841,14 +4081,15 @@
   },
   {
     "date": "2023/03/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 223
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 782
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 223
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 782
+      }
     },
     "streak_information": {
       "site_streak": 241
@@ -3857,14 +4098,15 @@
   },
   {
     "date": "2023/03/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 610
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 765
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 610
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 765
+      }
     },
     "streak_information": {
       "site_streak": 242
@@ -3873,14 +4115,15 @@
   },
   {
     "date": "2023/03/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 763
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1048
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 763
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1048
+      }
     },
     "streak_information": {
       "site_streak": 243
@@ -3889,14 +4132,15 @@
   },
   {
     "date": "2023/03/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 956
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 1871
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 956
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 1871
+      }
     },
     "streak_information": {
       "site_streak": 244
@@ -3905,14 +4149,15 @@
   },
   {
     "date": "2023/03/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 686
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 874
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 686
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 874
+      }
     },
     "streak_information": {
       "site_streak": 245
@@ -3921,14 +4166,15 @@
   },
   {
     "date": "2023/03/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 248
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 526
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 248
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 526
+      }
     },
     "streak_information": {
       "site_streak": 246
@@ -3937,14 +4183,15 @@
   },
   {
     "date": "2023/03/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 678
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 727
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 678
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 727
+      }
     },
     "streak_information": {
       "site_streak": 247
@@ -3953,14 +4200,15 @@
   },
   {
     "date": "2023/04/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 244
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 946
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 244
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 946
+      }
     },
     "streak_information": {
       "site_streak": 248
@@ -3969,14 +4217,15 @@
   },
   {
     "date": "2023/04/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 180
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 437
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 180
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 437
+      }
     },
     "streak_information": {
       "site_streak": 249
@@ -3985,14 +4234,15 @@
   },
   {
     "date": "2023/04/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 294
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 811
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 294
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 811
+      }
     },
     "streak_information": {
       "site_streak": 250
@@ -4001,14 +4251,15 @@
   },
   {
     "date": "2023/04/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 812
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 809
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 812
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 809
+      }
     },
     "streak_information": {
       "site_streak": 251
@@ -4017,14 +4268,15 @@
   },
   {
     "date": "2023/04/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 930
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1228
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 930
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1228
+      }
     },
     "streak_information": {
       "site_streak": 252
@@ -4033,14 +4285,15 @@
   },
   {
     "date": "2023/04/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 240
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 460
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 240
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 460
+      }
     },
     "streak_information": {
       "site_streak": 253
@@ -4049,14 +4302,15 @@
   },
   {
     "date": "2023/04/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 426
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 476
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 426
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 476
+      }
     },
     "streak_information": {
       "site_streak": 254
@@ -4065,14 +4319,15 @@
   },
   {
     "date": "2023/04/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 386
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 16,
-      "session_time": 983
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 386
+      },
+      "session_information": {
+        "number_of_sessions": 16,
+        "session_time": 983
+      }
     },
     "streak_information": {
       "site_streak": 255
@@ -4081,14 +4336,15 @@
   },
   {
     "date": "2023/04/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 228
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 548
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 228
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 548
+      }
     },
     "streak_information": {
       "site_streak": 256
@@ -4097,14 +4353,15 @@
   },
   {
     "date": "2023/04/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 344
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 805
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 344
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 805
+      }
     },
     "streak_information": {
       "site_streak": 257
@@ -4113,14 +4370,15 @@
   },
   {
     "date": "2023/04/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 345
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 345
+      }
     },
     "streak_information": {
       "site_streak": 258
@@ -4129,14 +4387,15 @@
   },
   {
     "date": "2023/04/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 726
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 814
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 726
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 814
+      }
     },
     "streak_information": {
       "site_streak": 259
@@ -4145,14 +4404,15 @@
   },
   {
     "date": "2023/04/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 214
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 493
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 214
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 493
+      }
     },
     "streak_information": {
       "site_streak": 260
@@ -4161,14 +4421,15 @@
   },
   {
     "date": "2023/04/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 192
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 569
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 192
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 569
+      }
     },
     "streak_information": {
       "site_streak": 261
@@ -4177,14 +4438,15 @@
   },
   {
     "date": "2023/04/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 636
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1008
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 636
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1008
+      }
     },
     "streak_information": {
       "site_streak": 262
@@ -4193,14 +4455,15 @@
   },
   {
     "date": "2023/04/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 316
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 881
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 316
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 881
+      }
     },
     "streak_information": {
       "site_streak": 263
@@ -4209,14 +4472,15 @@
   },
   {
     "date": "2023/04/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 328
-    },
-    "number_of_learned_words": 544,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 1182
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 328
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 1182
+      }
     },
     "streak_information": {
       "site_streak": 264
@@ -4225,14 +4489,15 @@
   },
   {
     "date": "2023/04/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 800
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1302
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 800
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1302
+      }
     },
     "streak_information": {
       "site_streak": 265
@@ -4241,14 +4506,15 @@
   },
   {
     "date": "2023/04/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1072
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1458
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1072
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1458
+      }
     },
     "streak_information": {
       "site_streak": 266
@@ -4257,14 +4523,15 @@
   },
   {
     "date": "2023/04/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 432
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 538
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 432
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 538
+      }
     },
     "streak_information": {
       "site_streak": 267
@@ -4273,14 +4540,15 @@
   },
   {
     "date": "2023/04/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 344
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 931
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 344
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 931
+      }
     },
     "streak_information": {
       "site_streak": 268
@@ -4289,14 +4557,15 @@
   },
   {
     "date": "2023/04/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 452
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 14,
-      "session_time": 1034
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 452
+      },
+      "session_information": {
+        "number_of_sessions": 14,
+        "session_time": 1034
+      }
     },
     "streak_information": {
       "site_streak": 269
@@ -4305,14 +4574,15 @@
   },
   {
     "date": "2023/04/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 268
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 585
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 268
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 585
+      }
     },
     "streak_information": {
       "site_streak": 270
@@ -4321,14 +4591,15 @@
   },
   {
     "date": "2023/04/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 345
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 661
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 345
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 661
+      }
     },
     "streak_information": {
       "site_streak": 271
@@ -4337,14 +4608,15 @@
   },
   {
     "date": "2023/04/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 268
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 822
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 268
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 822
+      }
     },
     "streak_information": {
       "site_streak": 272
@@ -4353,14 +4625,15 @@
   },
   {
     "date": "2023/04/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 447
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1407
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 447
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1407
+      }
     },
     "streak_information": {
       "site_streak": 273
@@ -4369,14 +4642,15 @@
   },
   {
     "date": "2023/04/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 658
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 880
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 658
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 880
+      }
     },
     "streak_information": {
       "site_streak": 274
@@ -4385,14 +4659,15 @@
   },
   {
     "date": "2023/04/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 236
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 659
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 236
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 659
+      }
     },
     "streak_information": {
       "site_streak": 275
@@ -4401,14 +4676,15 @@
   },
   {
     "date": "2023/04/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 244
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 804
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 244
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 804
+      }
     },
     "streak_information": {
       "site_streak": 276
@@ -4417,14 +4693,15 @@
   },
   {
     "date": "2023/04/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 224
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 617
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 224
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 617
+      }
     },
     "streak_information": {
       "site_streak": 277
@@ -4433,14 +4710,15 @@
   },
   {
     "date": "2023/05/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 220
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 421
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 220
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 421
+      }
     },
     "streak_information": {
       "site_streak": 278
@@ -4449,14 +4727,15 @@
   },
   {
     "date": "2023/05/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 656
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 737
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 656
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 737
+      }
     },
     "streak_information": {
       "site_streak": 279
@@ -4465,14 +4744,15 @@
   },
   {
     "date": "2023/05/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 462
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1243
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 462
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1243
+      }
     },
     "streak_information": {
       "site_streak": 280
@@ -4481,14 +4761,15 @@
   },
   {
     "date": "2023/05/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 210
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 575
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 210
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 575
+      }
     },
     "streak_information": {
       "site_streak": 281
@@ -4497,14 +4778,15 @@
   },
   {
     "date": "2023/05/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 220
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 629
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 220
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 629
+      }
     },
     "streak_information": {
       "site_streak": 282
@@ -4513,14 +4795,15 @@
   },
   {
     "date": "2023/05/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 203
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 724
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 203
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 724
+      }
     },
     "streak_information": {
       "site_streak": 283
@@ -4529,14 +4812,15 @@
   },
   {
     "date": "2023/05/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 646
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 644
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 646
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 644
+      }
     },
     "streak_information": {
       "site_streak": 284
@@ -4545,14 +4829,15 @@
   },
   {
     "date": "2023/05/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 238
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 654
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 238
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 654
+      }
     },
     "streak_information": {
       "site_streak": 285
@@ -4561,14 +4846,15 @@
   },
   {
     "date": "2023/05/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 502
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 947
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 502
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 947
+      }
     },
     "streak_information": {
       "site_streak": 286
@@ -4577,14 +4863,15 @@
   },
   {
     "date": "2023/05/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 344
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 980
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 344
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 980
+      }
     },
     "streak_information": {
       "site_streak": 287
@@ -4593,14 +4880,15 @@
   },
   {
     "date": "2023/05/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 554,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 291
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 291
+      }
     },
     "streak_information": {
       "site_streak": 288
@@ -4609,14 +4897,15 @@
   },
   {
     "date": "2023/05/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 689
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 1525
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 689
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 1525
+      }
     },
     "streak_information": {
       "site_streak": 289
@@ -4625,14 +4914,15 @@
   },
   {
     "date": "2023/05/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1090
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 21,
-      "session_time": 2348
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1090
+      },
+      "session_information": {
+        "number_of_sessions": 21,
+        "session_time": 2348
+      }
     },
     "streak_information": {
       "site_streak": 290
@@ -4641,14 +4931,15 @@
   },
   {
     "date": "2023/05/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1072
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 23,
-      "session_time": 2436
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1072
+      },
+      "session_information": {
+        "number_of_sessions": 23,
+        "session_time": 2436
+      }
     },
     "streak_information": {
       "site_streak": 291
@@ -4657,14 +4948,15 @@
   },
   {
     "date": "2023/05/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 696
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1710
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 696
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1710
+      }
     },
     "streak_information": {
       "site_streak": 292
@@ -4673,14 +4965,15 @@
   },
   {
     "date": "2023/05/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 962
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1543
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 962
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1543
+      }
     },
     "streak_information": {
       "site_streak": 293
@@ -4689,14 +4982,15 @@
   },
   {
     "date": "2023/05/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 914
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 17,
-      "session_time": 2688
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 914
+      },
+      "session_information": {
+        "number_of_sessions": 17,
+        "session_time": 2688
+      }
     },
     "streak_information": {
       "site_streak": 294
@@ -4705,14 +4999,15 @@
   },
   {
     "date": "2023/05/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 420
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 678
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 420
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 678
+      }
     },
     "streak_information": {
       "site_streak": 295
@@ -4721,14 +5016,15 @@
   },
   {
     "date": "2023/05/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 242
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 354
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 242
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 354
+      }
     },
     "streak_information": {
       "site_streak": 296
@@ -4737,14 +5033,15 @@
   },
   {
     "date": "2023/05/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 292
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 633
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 292
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 633
+      }
     },
     "streak_information": {
       "site_streak": 297
@@ -4753,14 +5050,15 @@
   },
   {
     "date": "2023/05/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 255
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 563
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 255
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 563
+      }
     },
     "streak_information": {
       "site_streak": 298
@@ -4769,14 +5067,15 @@
   },
   {
     "date": "2023/05/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 426
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1256
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 426
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1256
+      }
     },
     "streak_information": {
       "site_streak": 299
@@ -4785,14 +5084,15 @@
   },
   {
     "date": "2023/05/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 528
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1097
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 528
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1097
+      }
     },
     "streak_information": {
       "site_streak": 300
@@ -4801,14 +5101,15 @@
   },
   {
     "date": "2023/05/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 618
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 881
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 618
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 881
+      }
     },
     "streak_information": {
       "site_streak": 301
@@ -4817,14 +5118,15 @@
   },
   {
     "date": "2023/05/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 215
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 474
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 215
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 474
+      }
     },
     "streak_information": {
       "site_streak": 302
@@ -4833,14 +5135,15 @@
   },
   {
     "date": "2023/05/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 250
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 381
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 250
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 381
+      }
     },
     "streak_information": {
       "site_streak": 303
@@ -4849,14 +5152,15 @@
   },
   {
     "date": "2023/05/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 469
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 961
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 469
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 961
+      }
     },
     "streak_information": {
       "site_streak": 304
@@ -4865,14 +5169,15 @@
   },
   {
     "date": "2023/05/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 330
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 512
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 330
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 512
+      }
     },
     "streak_information": {
       "site_streak": 305
@@ -4881,14 +5186,15 @@
   },
   {
     "date": "2023/05/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 255
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 496
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 255
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 496
+      }
     },
     "streak_information": {
       "site_streak": 306
@@ -4897,14 +5203,15 @@
   },
   {
     "date": "2023/05/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 600
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 713
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 600
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 713
+      }
     },
     "streak_information": {
       "site_streak": 307
@@ -4913,14 +5220,15 @@
   },
   {
     "date": "2023/05/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 360
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 1007
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 360
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 1007
+      }
     },
     "streak_information": {
       "site_streak": 308
@@ -4929,14 +5237,15 @@
   },
   {
     "date": "2023/06/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 570
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 739
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 570
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 739
+      }
     },
     "streak_information": {
       "site_streak": 309
@@ -4945,14 +5254,15 @@
   },
   {
     "date": "2023/06/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 338
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 442
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 338
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 442
+      }
     },
     "streak_information": {
       "site_streak": 310
@@ -4961,14 +5271,15 @@
   },
   {
     "date": "2023/06/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 314
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 660
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 314
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 660
+      }
     },
     "streak_information": {
       "site_streak": 311
@@ -4977,14 +5288,15 @@
   },
   {
     "date": "2023/06/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 297
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 606
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 297
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 606
+      }
     },
     "streak_information": {
       "site_streak": 312
@@ -4993,14 +5305,15 @@
   },
   {
     "date": "2023/06/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 214
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 418
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 214
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 418
+      }
     },
     "streak_information": {
       "site_streak": 313
@@ -5009,14 +5322,15 @@
   },
   {
     "date": "2023/06/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 412
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 535
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 412
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 535
+      }
     },
     "streak_information": {
       "site_streak": 314
@@ -5025,14 +5339,15 @@
   },
   {
     "date": "2023/06/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 244
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 344
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 244
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 344
+      }
     },
     "streak_information": {
       "site_streak": 315
@@ -5041,14 +5356,15 @@
   },
   {
     "date": "2023/06/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 494
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 474
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 494
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 474
+      }
     },
     "streak_information": {
       "site_streak": 316
@@ -5057,14 +5373,15 @@
   },
   {
     "date": "2023/06/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 252
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 432
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 252
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 432
+      }
     },
     "streak_information": {
       "site_streak": 317
@@ -5073,14 +5390,15 @@
   },
   {
     "date": "2023/06/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 259
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 376
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 259
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 376
+      }
     },
     "streak_information": {
       "site_streak": 318
@@ -5089,14 +5407,15 @@
   },
   {
     "date": "2023/06/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 375
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 375
+      }
     },
     "streak_information": {
       "site_streak": 319
@@ -5105,14 +5424,15 @@
   },
   {
     "date": "2023/06/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 469
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 1081
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 469
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 1081
+      }
     },
     "streak_information": {
       "site_streak": 320
@@ -5121,14 +5441,15 @@
   },
   {
     "date": "2023/06/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 482
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 354
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 482
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 354
+      }
     },
     "streak_information": {
       "site_streak": 321
@@ -5137,14 +5458,15 @@
   },
   {
     "date": "2023/06/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 335
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 335
+      }
     },
     "streak_information": {
       "site_streak": 322
@@ -5153,14 +5475,15 @@
   },
   {
     "date": "2023/06/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 280
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 306
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 280
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 306
+      }
     },
     "streak_information": {
       "site_streak": 323
@@ -5169,14 +5492,15 @@
   },
   {
     "date": "2023/06/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 225
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 225
+      }
     },
     "streak_information": {
       "site_streak": 324
@@ -5185,14 +5509,15 @@
   },
   {
     "date": "2023/06/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 679
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 13,
-      "session_time": 622
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 679
+      },
+      "session_information": {
+        "number_of_sessions": 13,
+        "session_time": 622
+      }
     },
     "streak_information": {
       "site_streak": 325
@@ -5201,14 +5526,15 @@
   },
   {
     "date": "2023/06/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 216
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 586
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 216
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 586
+      }
     },
     "streak_information": {
       "site_streak": 326
@@ -5217,14 +5543,15 @@
   },
   {
     "date": "2023/06/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 594
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 1217
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 594
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 1217
+      }
     },
     "streak_information": {
       "site_streak": 327
@@ -5233,14 +5560,15 @@
   },
   {
     "date": "2023/06/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 364
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 786
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 364
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 786
+      }
     },
     "streak_information": {
       "site_streak": 328
@@ -5249,14 +5577,15 @@
   },
   {
     "date": "2023/06/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 330
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 523
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 330
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 523
+      }
     },
     "streak_information": {
       "site_streak": 329
@@ -5265,14 +5594,15 @@
   },
   {
     "date": "2023/06/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 468
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 933
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 468
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 933
+      }
     },
     "streak_information": {
       "site_streak": 330
@@ -5281,14 +5611,15 @@
   },
   {
     "date": "2023/06/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 600
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1124
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 600
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1124
+      }
     },
     "streak_information": {
       "site_streak": 331
@@ -5297,14 +5628,15 @@
   },
   {
     "date": "2023/06/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 616
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 12,
-      "session_time": 585
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 616
+      },
+      "session_information": {
+        "number_of_sessions": 12,
+        "session_time": 585
+      }
     },
     "streak_information": {
       "site_streak": 332
@@ -5313,14 +5645,15 @@
   },
   {
     "date": "2023/06/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 364
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 638
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 364
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 638
+      }
     },
     "streak_information": {
       "site_streak": 333
@@ -5329,14 +5662,15 @@
   },
   {
     "date": "2023/06/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 214
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 293
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 214
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 293
+      }
     },
     "streak_information": {
       "site_streak": 334
@@ -5345,14 +5679,15 @@
   },
   {
     "date": "2023/06/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 406
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 339
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 406
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 339
+      }
     },
     "streak_information": {
       "site_streak": 335
@@ -5361,14 +5696,15 @@
   },
   {
     "date": "2023/06/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 257
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 257
+      }
     },
     "streak_information": {
       "site_streak": 336
@@ -5377,14 +5713,15 @@
   },
   {
     "date": "2023/06/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 344
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 344
+      }
     },
     "streak_information": {
       "site_streak": 337
@@ -5393,14 +5730,15 @@
   },
   {
     "date": "2023/06/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 234
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 691
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 234
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 691
+      }
     },
     "streak_information": {
       "site_streak": 338
@@ -5409,14 +5747,15 @@
   },
   {
     "date": "2023/07/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 166
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 885
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 166
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 885
+      }
     },
     "streak_information": {
       "site_streak": 339
@@ -5425,14 +5764,15 @@
   },
   {
     "date": "2023/07/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 239
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 239
+      }
     },
     "streak_information": {
       "site_streak": 340
@@ -5441,14 +5781,15 @@
   },
   {
     "date": "2023/07/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 371
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 792
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 371
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 792
+      }
     },
     "streak_information": {
       "site_streak": 341
@@ -5457,14 +5798,15 @@
   },
   {
     "date": "2023/07/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 308
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 881
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 308
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 881
+      }
     },
     "streak_information": {
       "site_streak": 342
@@ -5473,14 +5815,15 @@
   },
   {
     "date": "2023/07/05",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 119
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 423
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 119
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 423
+      }
     },
     "streak_information": {
       "site_streak": 343
@@ -5489,14 +5832,15 @@
   },
   {
     "date": "2023/07/06",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 417
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 1166
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 417
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 1166
+      }
     },
     "streak_information": {
       "site_streak": 344
@@ -5505,14 +5849,15 @@
   },
   {
     "date": "2023/07/07",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 184
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 418
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 184
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 418
+      }
     },
     "streak_information": {
       "site_streak": 345
@@ -5521,14 +5866,15 @@
   },
   {
     "date": "2023/07/08",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 1001
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 1062
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 1001
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 1062
+      }
     },
     "streak_information": {
       "site_streak": 346
@@ -5537,14 +5883,15 @@
   },
   {
     "date": "2023/07/09",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 526
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 549
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 526
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 549
+      }
     },
     "streak_information": {
       "site_streak": 347
@@ -5553,14 +5900,15 @@
   },
   {
     "date": "2023/07/10",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 176
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 411
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 176
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 411
+      }
     },
     "streak_information": {
       "site_streak": 348
@@ -5569,14 +5917,15 @@
   },
   {
     "date": "2023/07/11",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 157
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 710
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 157
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 710
+      }
     },
     "streak_information": {
       "site_streak": 349
@@ -5585,14 +5934,15 @@
   },
   {
     "date": "2023/07/12",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 444
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 833
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 444
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 833
+      }
     },
     "streak_information": {
       "site_streak": 350
@@ -5601,14 +5951,15 @@
   },
   {
     "date": "2023/07/13",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 186
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 823
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 186
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 823
+      }
     },
     "streak_information": {
       "site_streak": 351
@@ -5617,14 +5968,15 @@
   },
   {
     "date": "2023/07/14",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 167
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 611
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 167
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 611
+      }
     },
     "streak_information": {
       "site_streak": 352
@@ -5633,14 +5985,15 @@
   },
   {
     "date": "2023/07/15",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 465
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 10,
-      "session_time": 538
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 465
+      },
+      "session_information": {
+        "number_of_sessions": 10,
+        "session_time": 538
+      }
     },
     "streak_information": {
       "site_streak": 353
@@ -5649,14 +6002,15 @@
   },
   {
     "date": "2023/07/16",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 160
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 288
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 160
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 288
+      }
     },
     "streak_information": {
       "site_streak": 354
@@ -5665,14 +6019,15 @@
   },
   {
     "date": "2023/07/17",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 179
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 597
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 179
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 597
+      }
     },
     "streak_information": {
       "site_streak": 355
@@ -5681,14 +6036,15 @@
   },
   {
     "date": "2023/07/18",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 174
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 485
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 174
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 485
+      }
     },
     "streak_information": {
       "site_streak": 356
@@ -5697,14 +6053,15 @@
   },
   {
     "date": "2023/07/19",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 267
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 736
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 267
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 736
+      }
     },
     "streak_information": {
       "site_streak": 357
@@ -5713,14 +6070,15 @@
   },
   {
     "date": "2023/07/20",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 519
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 11,
-      "session_time": 1316
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 519
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 1316
+      }
     },
     "streak_information": {
       "site_streak": 358
@@ -5729,14 +6087,15 @@
   },
   {
     "date": "2023/07/21",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 220
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 600
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 220
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 600
+      }
     },
     "streak_information": {
       "site_streak": 359
@@ -5745,14 +6104,15 @@
   },
   {
     "date": "2023/07/22",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 648
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 15,
-      "session_time": 923
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 648
+      },
+      "session_information": {
+        "number_of_sessions": 15,
+        "session_time": 923
+      }
     },
     "streak_information": {
       "site_streak": 360
@@ -5761,14 +6121,15 @@
   },
   {
     "date": "2023/07/23",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 212
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 446
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 212
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 446
+      }
     },
     "streak_information": {
       "site_streak": 361
@@ -5777,14 +6138,15 @@
   },
   {
     "date": "2023/07/24",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 572
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 9,
-      "session_time": 953
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 572
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 953
+      }
     },
     "streak_information": {
       "site_streak": 362
@@ -5793,14 +6155,15 @@
   },
   {
     "date": "2023/07/25",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 200
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 579
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 579
+      }
     },
     "streak_information": {
       "site_streak": 363
@@ -5809,14 +6172,15 @@
   },
   {
     "date": "2023/07/26",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 258
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 406
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 258
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 406
+      }
     },
     "streak_information": {
       "site_streak": 364
@@ -5825,14 +6189,15 @@
   },
   {
     "date": "2023/07/27",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 301
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 526
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 301
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 526
+      }
     },
     "streak_information": {
       "site_streak": 365
@@ -5841,14 +6206,15 @@
   },
   {
     "date": "2023/07/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 568
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 7,
-      "session_time": 773
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 568
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 773
+      }
     },
     "streak_information": {
       "site_streak": 366
@@ -5857,14 +6223,15 @@
   },
   {
     "date": "2023/07/29",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 541
-    },
-    "number_of_learned_words": 563,
-    "session_information": {
-      "number_of_sessions": 20,
-      "session_time": 1282
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 541
+      },
+      "session_information": {
+        "number_of_sessions": 20,
+        "session_time": 1282
+      }
     },
     "streak_information": {
       "site_streak": 367
@@ -5873,14 +6240,15 @@
   },
   {
     "date": "2023/07/30",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 512
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 576
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 512
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 576
+      }
     },
     "streak_information": {
       "site_streak": 368
@@ -5889,14 +6257,15 @@
   },
   {
     "date": "2023/07/31",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 276
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 774
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 276
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 774
+      }
     },
     "streak_information": {
       "site_streak": 369
@@ -5905,14 +6274,15 @@
   },
   {
     "date": "2023/08/01",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 414
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 8,
-      "session_time": 649
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 414
+      },
+      "session_information": {
+        "number_of_sessions": 8,
+        "session_time": 649
+      }
     },
     "streak_information": {
       "site_streak": 370
@@ -5921,14 +6291,15 @@
   },
   {
     "date": "2023/08/02",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 195
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 5,
-      "session_time": 541
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 195
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 541
+      }
     },
     "streak_information": {
       "site_streak": 371
@@ -5937,14 +6308,15 @@
   },
   {
     "date": "2023/08/03",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 175
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 4,
-      "session_time": 471
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 175
+      },
+      "session_information": {
+        "number_of_sessions": 4,
+        "session_time": 471
+      }
     },
     "streak_information": {
       "site_streak": 372
@@ -5953,18 +6325,19 @@
   },
   {
     "date": "2023/08/04",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 238
-    },
-    "number_of_learned_words": 573,
-    "session_information": {
-      "number_of_sessions": 6,
-      "session_time": 697
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 238
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 697
+      }
     },
     "streak_information": {
       "site_streak": 373
     },
-    "time": "20:26:24"
+    "time": "23:31:07"
   }
 ]
