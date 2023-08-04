@@ -399,21 +399,38 @@ def sync_database_with_summaries(
     # Filter out `None` values that can possibly exist because of unsynced date and time in summaries.
     filtered_database = [item for item in new_database if item is not None]
 
-    # Fast way to compare two list of dictionaries.
+    # Fast way to compare two list of dictionaries. We check for `progression` and `streak_information`.
     # Ref: https://stackoverflow.com/a/73460831/13980107
-    current_database_as_set = set(
-        dumps(data.model_dump(), sort_keys=True) for data in database
+    current_progression_as_set = set(
+        dumps(data.progression.model_dump(), sort_keys=True) for data in database
     )
-    filtered_database_as_set = set(
-        dumps(data.model_dump(), sort_keys=True) for data in filtered_database
+    filtered_progression_as_set = set(
+        dumps(data.progression.model_dump(), sort_keys=True)
+        for data in filtered_database
+    )
+    current_streak_information_as_set = set(
+        dumps(data.streak_information.model_dump(), sort_keys=True) for data in database
+    )
+    filtered_streak_information_as_set = set(
+        dumps(data.streak_information.model_dump(), sort_keys=True)
+        for data in filtered_database
     )
 
     # Finds out if item in `current_database` isn't in `filtered_database`. See whether there's
     # any changes between the old and the new database.
-    out_of_sync_data = [
-        loads(x) for x in current_database_as_set.difference(filtered_database_as_set)
+    out_of_sync_progression = [
+        loads(x)
+        for x in current_progression_as_set.difference(filtered_progression_as_set)
     ]
-    changed = len(out_of_sync_data) > 0
+    out_of_sync_streak_information = [
+        loads(x)
+        for x in current_streak_information_as_set.difference(
+            filtered_streak_information_as_set
+        )
+    ]
+    changed = (
+        len(out_of_sync_progression) > 0 or len(out_of_sync_streak_information) > 0
+    )
 
     # Return the processed data, and return a flag to know whether there's any out of sync data.
     return filtered_database, changed

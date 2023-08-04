@@ -3,8 +3,6 @@
 from dataclasses import dataclass
 from json import JSONDecodeError, dump, load
 
-from .duolingo import DatabaseEntry
-
 
 @dataclass
 class Store:
@@ -16,7 +14,7 @@ class Store:
         """Exception that will be raised if unwanted things happen during the usage of this class."""
 
     filename: str
-    content: list[DatabaseEntry]
+    content: list[dict[str, any]]
 
     def get_from_json_file(self) -> None:
         """
