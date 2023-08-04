@@ -139,31 +139,30 @@ class TestDuolingo:
         assert duolingo.user_data == user_data
         assert duolingo.daily_experience_progress == daily_experience_progress
 
-    def test_get_words(self, duolingo: Duolingo):
-        expected_words = ["水", "独学", "ナルト", "楓", "進歩", "勉強", "四月", "口", "力", "先生"]
+    def test_get_summaries(self, duolingo: Duolingo):
+        expected_summary = [
+            {
+                "date": 1659657600,
+                "daily_goal_xp": 50,
+                "gained_xp": 150,
+                "num_sessions": 10,
+                "total_session_time": 5400,
+            },
+            {
+                "date": 1659571200,
+                "daily_goal_xp": 50,
+                "gained_xp": 200,
+                "num_sessions": 1,
+                "total_session_time": 1,
+            },
+        ]
 
-        actual_words = duolingo.get_words()
-        assert len(expected_words) == len(actual_words)
-        assert not set(expected_words) ^ set(actual_words)
+        actual = [summary.model_dump() for summary in duolingo.get_summaries()]
+        assert len(expected_summary) == len(actual)
+        assert expected_summary == actual
 
-    def test_get_daily_experience_points(self, duolingo: Duolingo):
-        expected_xp_goal = 50
-        expected_xp_today = 150
+    def test_get_user_data(self, duolingo: Duolingo):
+        expected_user_data = {"site_streak": 5}
 
-        actual_daily_experience_progress = duolingo.get_daily_experience_progress()
-        assert actual_daily_experience_progress["xp_goal"] == expected_xp_goal
-        assert actual_daily_experience_progress["xp_today"] == expected_xp_today
-
-    def test_get_session_information(self, duolingo: Duolingo):
-        expected_session_time = 5400
-        expected_number_of_sessions = 10
-
-        actual_session_info = duolingo.get_session_info()
-        assert actual_session_info["number_of_sessions"] == expected_number_of_sessions
-        assert actual_session_info["session_time"] == expected_session_time
-
-    def test_get_streak(self, duolingo: Duolingo):
-        expected_site_streak = 5
-
-        actual_streak_info = duolingo.get_streak_info()
-        assert actual_streak_info["site_streak"] == expected_site_streak
+        actual = duolingo.get_user_data().model_dump()
+        assert actual == expected_user_data

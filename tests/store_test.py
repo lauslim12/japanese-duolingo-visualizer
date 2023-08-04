@@ -9,7 +9,7 @@ from src.store import Store
 
 @pytest.fixture()
 def store():
-    return Store({}, "sample.json", [])
+    return Store("sample.json", [])
 
 
 @pytest.mark.usefixtures("store")
@@ -39,9 +39,3 @@ class TestStore:
             store.store_to_json_file()
 
         open_mock.assert_called_with(store.filename, "w", encoding="UTF-8")
-
-    def test_process_json_file(self, store: Store):
-        store.data = {"hello": "world"}
-        store.process_json_data()
-
-        assert store.json_content == [store.data]
