@@ -289,3 +289,145 @@ class Duolingo:
             raise self.BreakingAPIChange(
                 "API response does not conform to the schema. Perhaps the response from the server may have been changed."
             )
+
+
+class Experience(BaseModel):
+    """
+    Experience points for today and our goal.
+    """
+
+    xp_goal: int
+    xp_today: int
+
+
+class SessionInformation(BaseModel):
+    """
+    Today's session information.
+    """
+
+    number_of_sessions: int
+    session_time: int
+
+
+class StreakInformation(BaseModel):
+    """
+    Today's streak information.
+    """
+
+    site_streak: int
+
+
+class Progression(BaseModel):
+    """
+    An dictionary consisting of today's expererience and session information.
+    """
+
+    experience: Experience
+    session_information: SessionInformation
+
+
+class DatabaseEntry(BaseModel):
+    """
+    Database entry (a single object) that is a part of a list of database entries that is uploaded to the repository. This
+    is the authentic, Duolingo data.
+    """
+
+    date: str
+    progression: Progression
+    streak_information: StreakInformation
+    time: str
+
+
+class TimeAndStreakMapping(BaseModel):
+    time: str
+    streak: int
+
+
+def summary_to_progression(summary: Summary):
+    return Progression(
+        experience=Experience(
+            xp_goal=summary.daily_goal_xp, xp_today=summary.gained_xp
+        ),
+        session_information=SessionInformation(
+            number_of_sessions=summary.num_sessions,
+            session_time=summary.total_session_time,
+        ),
+    )
+
+
+def user_data_to_streak_information(user_data: UserDataResponse):
+    return StreakInformation(site_streak=user_data.site_streak)
+
+
+def sync_database_with_summary(summary: Summary, meta: dict[str, TimeAndStreakMapping]):
+    summary_date = datetime.fromtimestamp(summary.date).strftime("%Y/%m/%d")
+    time_and_streak = meta.get(summary_date)
+
+    # If the streak is not synchronized, just set it to 1. This is a scenario that
+    # is technically feasible if we skipped a streak and Duolingo sets the entry for
+    # that particular day with data even though it's zeroes, that data won't be in our database.
+    site_streak = 1 if time_and_streak is None else time_and_streak.streak
+
+    return DatabaseEntry(
+        date=summary_date,
+        progression=summary_to_progression(summary),
+        streak_information=StreakInformation(site_streak=site_streak),
+        time=time_and_streak.time,
+    )
+
+
+def sync_database_with_summaries(
+    summaries: list[Summary], database: list[DatabaseEntry]
+):
+    # Extract all database date and time. Make this into a key value pair so we
+    # can easily sync it with the existing database. Ideally we would like to keep the
+    # date and time, but modify the progression.
+    time_and_streak_record = {
+        data.date: TimeAndStreakMapping(
+            time=data.time, streak=data.streak_information.site_streak
+        )
+        for data in database
+    }
+
+    # Technically it's sorted in reverse-chronological order, but we want to do it in
+    # chronological order so we can keep the streak in sync.
+    new_database = [
+        sync_database_with_summary(summary, time_and_streak_record)
+        for summary in summaries[::-1]
+    ]
+
+    # Filter out `None` values that can possibly exist because of unsynced date and time in summaries.
+    filtered_database = [item for item in new_database if item is not None]
+
+    # Fast way to compare two list of dictionaries.
+    # Ref: https://stackoverflow.com/a/73460831/13980107
+    current_database_as_set = set(
+        dumps(data.model_dump(), sort_keys=True) for data in database
+    )
+    filtered_database_as_set = set(
+        dumps(data.model_dump(), sort_keys=True) for data in filtered_database
+    )
+
+    # Finds out if item in `current_database` isn't in `filtered_database`. See whether there's
+    # any changes between the old and the new database.
+    out_of_sync_data = [
+        loads(x) for x in current_database_as_set.difference(filtered_database_as_set)
+    ]
+    changed = len(out_of_sync_data) > 0
+
+    # Return the processed data, and return a flag to know whether there's any out of sync data.
+    return filtered_database, changed
+
+
+def progression_to_database_entry(
+    progression: Progression, streak_information: StreakInformation
+):
+    processed_date = datetime.now().strftime("%Y/%m/%d")
+    processed_time = datetime.now().strftime("%H:%M:%S")
+
+    return DatabaseEntry(
+        date=processed_date,
+        progression=progression,
+        streak_information=streak_information,
+        time=processed_time,
+    )
