@@ -202,9 +202,9 @@
        * @typedef Data
        * @type {object}
        * @property {string} date - Date where this data is gathered.
-       * @property {{ xp_goal: string, xp_today: string }} experience - Total experience.
-       * @property {number} number_of_learned_words - Number of words that one have already learned.
-       * @property {{ number_of_sessions: number, session_time: number }} session_information - Information about your session for a single day.
+       * @property {object} progression - Duolingo progression.
+       * @property {{ xp_goal: string, xp_today: string }} progression.experience - The experience progress of Duolingo.
+       * @property {{ number_of_sessions: number, session_time: number }} progression.session_information - Information about your session for a single day.
        * @property {{ site_streak: string }} streak_information - Information about Duolingo streak.
        * @property {string} time - Time where this data is gathered.
        */
@@ -241,7 +241,9 @@
                 backgroundColor: "rgba(46, 204, 113, 0.5)",
                 borderColor: "rgba(46, 204, 113, 1.0)",
                 borderWidth: 2,
-                data: data.map((value) => value.experience.xp_today),
+                data: data.map(
+                  (value) => value.progression.experience.xp_today
+                ),
                 fill: true,
                 label: "XP Gained",
                 pointBackgroundColor: "rgba(52, 152, 219, 1.0)",
@@ -253,7 +255,7 @@
                 backgroundColor: "rgba(230, 126, 34, 0.3)",
                 borderColor: "rgba(211, 84, 0, 1.0)",
                 borderWidth: 1,
-                data: data.map((value) => value.experience.xp_goal),
+                data: data.map((value) => value.progression.experience.xp_goal),
                 fill: true,
                 label: "XP Goal",
                 pointBackgroundColor: "rgba(241, 196, 15, 1.0)",
@@ -280,7 +282,7 @@
                       content: `Average: ${(
                         data.reduce(
                           (previous, current) =>
-                            previous + current.experience.xp_today,
+                            previous + current.progression.experience.xp_today,
                           0
                         ) / data.length
                       ).toFixed(2)} XP`,
@@ -290,7 +292,7 @@
                     value:
                       data.reduce(
                         (previous, current) =>
-                          previous + current.experience.xp_today,
+                          previous + current.progression.experience.xp_today,
                         0
                       ) / data.length,
                   },
@@ -305,7 +307,7 @@
                       content: `Goal: ${
                         data.reduce(
                           (previous, current) =>
-                            previous + current.experience.xp_goal,
+                            previous + current.progression.experience.xp_goal,
                           0
                         ) / data.length
                       } XP`,
@@ -315,7 +317,7 @@
                     value:
                       data.reduce(
                         (previous, current) =>
-                          previous + current.experience.xp_goal,
+                          previous + current.progression.experience.xp_goal,
                         0
                       ) / data.length,
                   },
@@ -328,13 +330,17 @@
                       backgroundColor: "rgba(232, 67, 147, 1.0)",
                       display: true,
                       content: `Min: ${Math.min(
-                        ...data.map((value) => value.experience.xp_today)
+                        ...data.map(
+                          (value) => value.progression.experience.xp_today
+                        )
                       )} XP`,
                       position: "start",
                     },
                     scaleID: "y",
                     value: Math.min(
-                      ...data.map((value) => value.experience.xp_today)
+                      ...data.map(
+                        (value) => value.progression.experience.xp_today
+                      )
                     ),
                   },
                   upper: {
@@ -346,13 +352,17 @@
                       backgroundColor: "rgba(232, 67, 147, 1.0)",
                       display: true,
                       content: `Max: ${Math.max(
-                        ...data.map((value) => value.experience.xp_today)
+                        ...data.map(
+                          (value) => value.progression.experience.xp_today
+                        )
                       )} XP`,
                       position: "start",
                     },
                     scaleID: "y",
                     value: Math.max(
-                      ...data.map((value) => value.experience.xp_today)
+                      ...data.map(
+                        (value) => value.progression.experience.xp_today
+                      )
                     ),
                   },
                 },
@@ -388,7 +398,8 @@
         const totalMinutes = (
           data.reduce(
             (previous, current) =>
-              previous + current.session_information.session_time / 60, // In minutes.
+              previous +
+              current.progression.session_information.session_time / 60, // In minutes.
             0
           ) / data.length
         ).toFixed(2);
@@ -405,7 +416,9 @@
                 borderWidth: 2,
                 data: data.map(
                   (value) =>
-                    (value.session_information.session_time / 60).toFixed(2) // This is in minutes for easier calculation.
+                    (
+                      value.progression.session_information.session_time / 60
+                    ).toFixed(2) // This is in minutes for easier calculation.
                 ),
                 fill: true,
                 label: "Session Time (Minutes)",
@@ -438,7 +451,8 @@
                       data.reduce(
                         (previous, current) =>
                           previous +
-                          current.session_information.session_time / 60, // This is in minutes for easier line calculation.
+                          current.progression.session_information.session_time /
+                            60, // This is in minutes for easier line calculation.
                         0
                       ) / data.length
                     ).toFixed(2),
@@ -493,7 +507,8 @@
                 borderColor: "rgb(239, 91, 12, 1.0)",
                 borderWidth: 2,
                 data: data.map(
-                  (value) => value.session_information.number_of_sessions
+                  (value) =>
+                    value.progression.session_information.number_of_sessions
                 ),
                 fill: true,
                 label: "Number of Sessions",
@@ -522,7 +537,8 @@
                         data.reduce(
                           (previous, current) =>
                             previous +
-                            current.session_information.number_of_sessions,
+                            current.progression.session_information
+                              .number_of_sessions,
                           0
                         ) / data.length
                       ).toFixed(2)} session(s)`,
@@ -533,7 +549,8 @@
                       data.reduce(
                         (previous, current) =>
                           previous +
-                          current.session_information.number_of_sessions,
+                          current.progression.session_information
+                            .number_of_sessions,
                         0
                       ) / data.length,
                   },
