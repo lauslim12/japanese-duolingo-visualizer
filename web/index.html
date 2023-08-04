@@ -149,26 +149,6 @@
         </article>
       </section>
 
-      <section class="my-4">
-        <div class="d-flex justify-content">
-          <span class="fw-bold lead pe-2">#</span>
-          <p class="fw-bold lead shadow-lg"><mark>Words Graph</mark></p>
-        </div>
-
-        <div>
-          <p>Graph below draws your learned words progress from Duolingo.</p>
-        </div>
-
-        <article class="vh-100 position-relative">
-          <canvas aria-label="Words Graph" id="wordsGraph">
-            <p>
-              This is an alternative text. This essentially shows a graph of
-              your learned words progress.
-            </p>
-          </canvas>
-        </article>
-      </section>
-
       <footer>
         <nav class="d-flex justify-content-center">
           <code style="font-size: 10px" class="fw-lighter text-center">
@@ -624,54 +604,6 @@
       }
 
       /**
-       * Renders the words graph.
-       *
-       * @param {Data[]} data - Parsed data.
-       */
-      function renderWordsGraph(data) {
-        const element = document.getElementById("wordsGraph");
-        if (!element) return null;
-
-        return new Chart(element, {
-          type: "line",
-          data: {
-            labels: data.map((value) => value.date),
-            datasets: [
-              {
-                backgroundColor: "rgb(246, 114, 128, 0.5)",
-                borderColor: "rgb(192, 108, 132, 1.0)",
-                borderWidth: 2,
-                data: data.map((value) => value.number_of_learned_words),
-                fill: true,
-                label: "Number of Words",
-                pointBackgroundColor: "rgb(108, 91, 123, 1.0)",
-                pointRadius: 5,
-                pointStyle: "circle",
-                tension: 0,
-              },
-            ],
-          },
-          options: {
-            maintainAspectRatio: false,
-            responsive: true,
-            plugins: {
-              title: {
-                display: true,
-                text: "Words Graph",
-              },
-              tooltip: {
-                intersect: false,
-              },
-              subtitle: {
-                display: true,
-                text: "Showcases your number of words learned per day.",
-              },
-            },
-          },
-        });
-      }
-
-      /**
        * Renders a personalized username at the header. This is intentional to give a sense
        * of ownership.
        */
@@ -700,7 +632,6 @@
         renderTimeGraph(data);
         renderSessionsGraph(data);
         renderStreakGraph(data);
-        renderWordsGraph(data);
         renderHeader();
 
         return null;
