@@ -12,9 +12,43 @@ You'll get rate-limited, make their software engineers jobs' harder, and it's no
 """
 
 from dataclasses import dataclass
+from datetime import datetime
+from json import loads, dumps
 from typing import Any, Literal, NoReturn, Optional, Union
 
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
+
 import requests
+
+
+class Summary(BaseModel):
+    """
+    API response of Duolingo's single summary entry.
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    date: int = Field(alias="date")
+    daily_goal_xp: int = Field(alias="dailyGoalXp")
+    gained_xp: int = Field(alias="gainedXp")
+    num_sessions: int = Field(alias="numSessions")
+    total_session_time: int = Field(alias="totalSessionTime")
+
+
+class SummaryResponse(BaseModel):
+    """
+    API response of Duolingo summaries.
+    """
+
+    summaries: list[Summary]
+
+
+class UserDataResponse(BaseModel):
+    """
+    API response of Duolingo streak count.
+    """
+
+    site_streak: int
 
 
 @dataclass
@@ -30,6 +64,11 @@ class Duolingo:
     # This is important, as we want to define our own exceptions instead of using the
     # already made ones.
     ##
+    class BreakingAPIChange(Exception):
+        """
+        Special exceptions if the format of the API suddenly change.
+        """
+
     class CaptchaException(Exception):
         """
         Special exception for captcha responses. If this happens, it means that you
@@ -171,7 +210,7 @@ class Duolingo:
         # Return our JWT.
         return self.jwt
 
-    def fetch_data(self) -> tuple[dict[str, Any], dict[str, Any]]:
+    def fetch_data(self):
         """
         Fetches the user's data from the Duolingo's API. This should be called right after one has logged in. Method
         will perform two API calls.
@@ -183,58 +222,13 @@ class Duolingo:
 
         return self.user_data, self.daily_experience_progress
 
-    def get_words(self) -> list[str]:
+    def get_summaries(self):
         """
-        Gets all words one has learned. This process is done by querying the `user_data` class attribute.
+        Gets the summary of the currently logged in user. We will get the data of the daily goal XP,
+        the gained XP for today, number of sessions/lessons that the user has taken for today, and how
+        long the user has been using Duolingo for today.
 
-        Expected JSON response about the language data (not real data):
-
-        ```json
-        {
-            "language_data": {
-                "ja": {
-                    "skills": [
-                        {
-                            "title": "Travel",
-                            "learned": true,
-                            "words": [
-                                "\u304f\u3046\u3053\u3046",
-                                "\u3061\u304b\u3066\u3064",
-                                "\u3058\u3083\u306a\u3044\u3067\u3059",
-                                "\u304d\u3063\u3077",
-                                "\u3061\u305a",
-                                "\u30d1\u30b9\u30dd\u30fc\u30c8",
-                                "\u30b9\u30de\u30db",
-                                "\u306e",
-                                "\u304b\u3070\u3093",
-                                "\u7530\u4e2d"
-                            ],
-                            "short": "Travel",
-                            "name": "Travel",
-                            "language": "ja",
-                            "progress_percent": 100.0,
-                            "mastered": true
-                        },
-                    ]
-                }
-            }
-        }
-        ```
-
-        There's actually a lot more of data in there, but I omitted them for brevity reasons.
-        """
-        words = []
-        for topic in self.user_data["language_data"]["ja"]["skills"]:
-            if topic["learned"]:
-                words += topic["words"]
-
-        return list(set(words))
-
-    def get_daily_experience_progress(self) -> dict[str, int]:
-        """
-        Gets daily experience progress. This process is done by querying the `daily_experience_progress` class attribute.
-
-        Expected JSON response from `daily_experience_progress` (not real data):
+        If the API schema change, then it will throw a validation error. Expected JSON data:
 
         ```json
         {
@@ -267,41 +261,15 @@ class Duolingo:
 
         As a note, `summaries` at position `0` will always show the latest time.
         """
-        return {
-            "xp_goal": self.daily_experience_progress["summaries"][0]["dailyGoalXp"],
-            "xp_today": self.daily_experience_progress["summaries"][0]["gainedXp"],
-        }
+        try:
+            response = SummaryResponse(**self.daily_experience_progress)
+            return response.summaries
+        except ValidationError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
 
-    def get_session_info(self) -> dict[str, int]:
-        """
-        Gets the session information (how long a user has used Duolingo today in seconds, and number of sessions taken). We
-        return those values as a dictionary.
-
-        Expected JSON data (not real data):
-
-        ```json
-        {
-            "summaries": [
-                {
-                    "numSessions": 10,
-                    "totalSessionTime": 500
-                }
-            ]
-        }
-        ```
-
-        As a note, same as above, `summaries` at position `0` will always show the latest time.
-        """
-        return {
-            "number_of_sessions": self.daily_experience_progress["summaries"][0][
-                "numSessions"
-            ],
-            "session_time": self.daily_experience_progress["summaries"][0][
-                "totalSessionTime"
-            ],
-        }
-
-    def get_streak_info(self) -> dict[str, int]:
+    def get_user_data(self):
         """
         Gets current information about our daily streak from Duolingo. This process is done by querying the `user_data`
         class attribute.
@@ -314,6 +282,10 @@ class Duolingo:
         }
         ```
         """
-        return {
-            "site_streak": self.user_data["site_streak"],
-        }
+        try:
+            response = UserDataResponse(**self.user_data)
+            return response
+        except ValidationError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
