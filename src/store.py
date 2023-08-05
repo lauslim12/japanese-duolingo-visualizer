@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass
 from json import JSONDecodeError, dump, load
+from typing import Any
 
 
 @dataclass
@@ -14,7 +15,7 @@ class Store:
         """Exception that will be raised if unwanted things happen during the usage of this class."""
 
     filename: str
-    content: list[dict[str, any]]
+    content: list[dict[str, Any]]
 
     def get_from_json_file(self) -> None:
         """

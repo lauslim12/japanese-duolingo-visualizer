@@ -210,7 +210,7 @@ class Duolingo:
         # Return our JWT.
         return self.jwt
 
-    def fetch_data(self):
+    def fetch_data(self) -> tuple[dict[str, Any], dict[str, Any]]:
         """
         Fetches the user's data from the Duolingo's API. This should be called right after one has logged in. Method
         will perform two API calls.
@@ -222,7 +222,7 @@ class Duolingo:
 
         return self.user_data, self.daily_experience_progress
 
-    def get_summaries(self):
+    def get_summaries(self) -> list[Summary]:
         """
         Gets the summary of the currently logged in user. We will get the data of the daily goal XP,
         the gained XP for today, number of sessions/lessons that the user has taken for today, and how
@@ -269,7 +269,7 @@ class Duolingo:
                 "API response does not conform to the schema. Perhaps the response from the server may have been changed."
             )
 
-    def get_user_data(self):
+    def get_user_data(self) -> UserDataResponse:
         """
         Gets current information about our daily streak from Duolingo. This process is done by querying the `user_data`
         class attribute.
@@ -343,7 +343,7 @@ class TimeAndStreakMapping(BaseModel):
     streak: int
 
 
-def summary_to_progression(summary: Summary):
+def summary_to_progression(summary: Summary) -> Progression:
     return Progression(
         experience=Experience(
             xp_goal=summary.daily_goal_xp, xp_today=summary.gained_xp
@@ -355,30 +355,31 @@ def summary_to_progression(summary: Summary):
     )
 
 
-def user_data_to_streak_information(user_data: UserDataResponse):
+def user_data_to_streak_information(user_data: UserDataResponse) -> StreakInformation:
     return StreakInformation(site_streak=user_data.site_streak)
 
 
-def sync_database_with_summary(summary: Summary, meta: dict[str, TimeAndStreakMapping]):
+def sync_database_with_summary(
+    summary: Summary, meta: dict[str, TimeAndStreakMapping]
+) -> DatabaseEntry:
     summary_date = datetime.fromtimestamp(summary.date).strftime("%Y/%m/%d")
-    time_and_streak = meta.get(summary_date)
 
-    # If the streak is not synchronized, just set it to 1. This is a scenario that
-    # is technically feasible if we skipped a streak and Duolingo sets the entry for
-    # that particular day with data even though it's zeroes, that data won't be in our database.
-    site_streak = 1 if time_and_streak is None else time_and_streak.streak
+    # If we skipped a day, it means we have broken the streak and Duolingo will not
+    # have the data in the summary, so it's safe to just return the normal data and this
+    # will not cause a runtime error.
+    time_and_streak = meta[summary_date]
 
     return DatabaseEntry(
         date=summary_date,
         progression=summary_to_progression(summary),
-        streak_information=StreakInformation(site_streak=site_streak),
+        streak_information=StreakInformation(site_streak=time_and_streak.streak),
         time=time_and_streak.time,
     )
 
 
 def sync_database_with_summaries(
     summaries: list[Summary], database: list[DatabaseEntry]
-):
+) -> tuple[list[DatabaseEntry], bool]:
     # Extract all database date and time. Make this into a key value pair so we
     # can easily sync it with the existing database. Ideally we would like to keep the
     # date and time, but modify the progression.
@@ -438,7 +439,7 @@ def sync_database_with_summaries(
 
 def progression_to_database_entry(
     progression: Progression, streak_information: StreakInformation
-):
+) -> DatabaseEntry:
     processed_date = datetime.now().strftime("%Y/%m/%d")
     processed_time = datetime.now().strftime("%H:%M:%S")
 
