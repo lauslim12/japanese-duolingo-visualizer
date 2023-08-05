@@ -35,14 +35,6 @@ class Summary(BaseModel):
     total_session_time: int = Field(alias="totalSessionTime")
 
 
-class SummaryResponse(BaseModel):
-    """
-    API response of Duolingo summaries.
-    """
-
-    summaries: list[Summary]
-
-
 class UserDataResponse(BaseModel):
     """
     API response of Duolingo streak count.
@@ -262,8 +254,13 @@ class Duolingo:
         As a note, `summaries` at position `0` will always show the latest time.
         """
         try:
-            response = SummaryResponse(**self.daily_experience_progress)
-            return response.summaries
+            return [
+                Summary(**data) for data in self.daily_experience_progress["summaries"]
+            ]
+        except KeyError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
         except ValidationError:
             raise self.BreakingAPIChange(
                 "API response does not conform to the schema. Perhaps the response from the server may have been changed."
