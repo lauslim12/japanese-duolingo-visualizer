@@ -12,9 +12,35 @@ You'll get rate-limited, make their software engineers jobs' harder, and it's no
 """
 
 from dataclasses import dataclass
+from datetime import datetime
+from json import loads, dumps
 from typing import Any, Literal, NoReturn, Optional, Union
 
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
+
 import requests
+
+
+class Summary(BaseModel):
+    """
+    API response of Duolingo's single summary entry.
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    date: int = Field(alias="date")
+    daily_goal_xp: int = Field(alias="dailyGoalXp")
+    gained_xp: int = Field(alias="gainedXp")
+    num_sessions: int = Field(alias="numSessions")
+    total_session_time: int = Field(alias="totalSessionTime")
+
+
+class UserDataResponse(BaseModel):
+    """
+    API response of Duolingo streak count.
+    """
+
+    site_streak: int
 
 
 @dataclass
@@ -30,6 +56,11 @@ class Duolingo:
     # This is important, as we want to define our own exceptions instead of using the
     # already made ones.
     ##
+    class BreakingAPIChange(Exception):
+        """
+        Special exceptions if the format of the API suddenly change.
+        """
+
     class CaptchaException(Exception):
         """
         Special exception for captcha responses. If this happens, it means that you
@@ -84,7 +115,7 @@ class Duolingo:
     login_method: Union[Literal["JWT"], Literal["Password"]] = "Password"
     """Method of login used to authenticate yourself at the Duolingo API, by default was set to `Password`, capital letter at the front."""
 
-    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
     """A user agent to be used to make requests to the API."""
 
     ##
@@ -183,58 +214,13 @@ class Duolingo:
 
         return self.user_data, self.daily_experience_progress
 
-    def get_words(self) -> list[str]:
+    def get_summaries(self) -> list[Summary]:
         """
-        Gets all words one has learned. This process is done by querying the `user_data` class attribute.
+        Gets the summary of the currently logged in user. We will get the data of the daily goal XP,
+        the gained XP for today, number of sessions/lessons that the user has taken for today, and how
+        long the user has been using Duolingo for today.
 
-        Expected JSON response about the language data (not real data):
-
-        ```json
-        {
-            "language_data": {
-                "ja": {
-                    "skills": [
-                        {
-                            "title": "Travel",
-                            "learned": true,
-                            "words": [
-                                "\u304f\u3046\u3053\u3046",
-                                "\u3061\u304b\u3066\u3064",
-                                "\u3058\u3083\u306a\u3044\u3067\u3059",
-                                "\u304d\u3063\u3077",
-                                "\u3061\u305a",
-                                "\u30d1\u30b9\u30dd\u30fc\u30c8",
-                                "\u30b9\u30de\u30db",
-                                "\u306e",
-                                "\u304b\u3070\u3093",
-                                "\u7530\u4e2d"
-                            ],
-                            "short": "Travel",
-                            "name": "Travel",
-                            "language": "ja",
-                            "progress_percent": 100.0,
-                            "mastered": true
-                        },
-                    ]
-                }
-            }
-        }
-        ```
-
-        There's actually a lot more of data in there, but I omitted them for brevity reasons.
-        """
-        words = []
-        for topic in self.user_data["language_data"]["ja"]["skills"]:
-            if topic["learned"]:
-                words += topic["words"]
-
-        return list(set(words))
-
-    def get_daily_experience_progress(self) -> dict[str, int]:
-        """
-        Gets daily experience progress. This process is done by querying the `daily_experience_progress` class attribute.
-
-        Expected JSON response from `daily_experience_progress` (not real data):
+        If the API schema change, then it will throw a validation error. Expected JSON data:
 
         ```json
         {
@@ -267,41 +253,20 @@ class Duolingo:
 
         As a note, `summaries` at position `0` will always show the latest time.
         """
-        return {
-            "xp_goal": self.daily_experience_progress["summaries"][0]["dailyGoalXp"],
-            "xp_today": self.daily_experience_progress["summaries"][0]["gainedXp"],
-        }
-
-    def get_session_info(self) -> dict[str, int]:
-        """
-        Gets the session information (how long a user has used Duolingo today in seconds, and number of sessions taken). We
-        return those values as a dictionary.
-
-        Expected JSON data (not real data):
-
-        ```json
-        {
-            "summaries": [
-                {
-                    "numSessions": 10,
-                    "totalSessionTime": 500
-                }
+        try:
+            return [
+                Summary(**data) for data in self.daily_experience_progress["summaries"]
             ]
-        }
-        ```
+        except KeyError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
+        except ValidationError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
 
-        As a note, same as above, `summaries` at position `0` will always show the latest time.
-        """
-        return {
-            "number_of_sessions": self.daily_experience_progress["summaries"][0][
-                "numSessions"
-            ],
-            "session_time": self.daily_experience_progress["summaries"][0][
-                "totalSessionTime"
-            ],
-        }
-
-    def get_streak_info(self) -> dict[str, int]:
+    def get_user_data(self) -> UserDataResponse:
         """
         Gets current information about our daily streak from Duolingo. This process is done by querying the `user_data`
         class attribute.
@@ -314,6 +279,170 @@ class Duolingo:
         }
         ```
         """
-        return {
-            "site_streak": self.user_data["site_streak"],
-        }
+        try:
+            response = UserDataResponse(**self.user_data)
+            return response
+        except ValidationError:
+            raise self.BreakingAPIChange(
+                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+            )
+
+
+class Experience(BaseModel):
+    """
+    Experience points for today and our goal.
+    """
+
+    xp_goal: int
+    xp_today: int
+
+
+class SessionInformation(BaseModel):
+    """
+    Today's session information.
+    """
+
+    number_of_sessions: int
+    session_time: int
+
+
+class StreakInformation(BaseModel):
+    """
+    Today's streak information.
+    """
+
+    site_streak: int
+
+
+class Progression(BaseModel):
+    """
+    An dictionary consisting of today's expererience and session information.
+    """
+
+    experience: Experience
+    session_information: SessionInformation
+
+
+class DatabaseEntry(BaseModel):
+    """
+    Database entry (a single object) that is a part of a list of database entries that is uploaded to the repository. This
+    is the authentic, Duolingo data.
+    """
+
+    date: str
+    progression: Progression
+    streak_information: StreakInformation
+    time: str
+
+
+class TimeAndStreakMapping(BaseModel):
+    time: str
+    streak: int
+
+
+def summary_to_progression(summary: Summary) -> Progression:
+    return Progression(
+        experience=Experience(
+            xp_goal=summary.daily_goal_xp, xp_today=summary.gained_xp
+        ),
+        session_information=SessionInformation(
+            number_of_sessions=summary.num_sessions,
+            session_time=summary.total_session_time,
+        ),
+    )
+
+
+def user_data_to_streak_information(user_data: UserDataResponse) -> StreakInformation:
+    return StreakInformation(site_streak=user_data.site_streak)
+
+
+def sync_database_with_summary(
+    summary: Summary, meta: dict[str, TimeAndStreakMapping]
+) -> DatabaseEntry:
+    summary_date = datetime.fromtimestamp(summary.date).strftime("%Y/%m/%d")
+
+    # If we skipped a day, it means we have broken the streak and Duolingo will not
+    # have the data in the summary, so it's safe to just return the normal data and this
+    # will not cause a runtime error.
+    time_and_streak = meta[summary_date]
+
+    return DatabaseEntry(
+        date=summary_date,
+        progression=summary_to_progression(summary),
+        streak_information=StreakInformation(site_streak=time_and_streak.streak),
+        time=time_and_streak.time,
+    )
+
+
+def sync_database_with_summaries(
+    summaries: list[Summary], database: list[DatabaseEntry]
+) -> tuple[list[DatabaseEntry], bool]:
+    # Extract all database date and time. Make this into a key value pair so we
+    # can easily sync it with the existing database. Ideally we would like to keep the
+    # date and time, but modify the progression.
+    time_and_streak_record = {
+        data.date: TimeAndStreakMapping(
+            time=data.time, streak=data.streak_information.site_streak
+        )
+        for data in database
+    }
+
+    # Technically it's sorted in reverse-chronological order, but we want to do it in
+    # chronological order so we can keep the streak in sync.
+    new_database = [
+        sync_database_with_summary(summary, time_and_streak_record)
+        for summary in summaries[::-1]
+    ]
+
+    # Filter out `None` values that can possibly exist because of unsynced date and time in summaries.
+    filtered_database = [item for item in new_database if item is not None]
+
+    # Fast way to compare two list of dictionaries. We check for `progression` and `streak_information`.
+    # Ref: https://stackoverflow.com/a/73460831/13980107
+    current_progression_as_set = set(
+        dumps(data.progression.model_dump(), sort_keys=True) for data in database
+    )
+    filtered_progression_as_set = set(
+        dumps(data.progression.model_dump(), sort_keys=True)
+        for data in filtered_database
+    )
+    current_streak_information_as_set = set(
+        dumps(data.streak_information.model_dump(), sort_keys=True) for data in database
+    )
+    filtered_streak_information_as_set = set(
+        dumps(data.streak_information.model_dump(), sort_keys=True)
+        for data in filtered_database
+    )
+
+    # Finds out if item in `current_database` isn't in `filtered_database`. See whether there's
+    # any changes between the old and the new database.
+    out_of_sync_progression = [
+        loads(x)
+        for x in current_progression_as_set.difference(filtered_progression_as_set)
+    ]
+    out_of_sync_streak_information = [
+        loads(x)
+        for x in current_streak_information_as_set.difference(
+            filtered_streak_information_as_set
+        )
+    ]
+    changed = (
+        len(out_of_sync_progression) > 0 or len(out_of_sync_streak_information) > 0
+    )
+
+    # Return the processed data, and return a flag to know whether there's any out of sync data.
+    return filtered_database, changed
+
+
+def progression_to_database_entry(
+    progression: Progression, streak_information: StreakInformation
+) -> DatabaseEntry:
+    processed_date = datetime.now().strftime("%Y/%m/%d")
+    processed_time = datetime.now().strftime("%H:%M:%S")
+
+    return DatabaseEntry(
+        date=processed_date,
+        progression=progression,
+        streak_information=streak_information,
+        time=processed_time,
+    )
