@@ -8226,5 +8226,22 @@
       "site_streak": 484
     },
     "time": "20:31:42"
+  },
+  {
+    "date": "2023/11/24",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 200
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 242
+      }
+    },
+    "streak_information": {
+      "site_streak": 485
+    },
+    "time": "20:27:18"
   }
 ]
