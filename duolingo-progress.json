@@ -8844,16 +8844,33 @@
     "progression": {
       "experience": {
         "xp_goal": 50,
-        "xp_today": 105
+        "xp_today": 215
       },
       "session_information": {
-        "number_of_sessions": 5,
-        "session_time": 328
+        "number_of_sessions": 10,
+        "session_time": 602
       }
     },
     "streak_information": {
       "site_streak": 521
     },
     "time": "20:24:23"
+  },
+  {
+    "date": "2023/12/31",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 221
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 370
+      }
+    },
+    "streak_information": {
+      "site_streak": 522
+    },
+    "time": "20:24:36"
   }
 ]
