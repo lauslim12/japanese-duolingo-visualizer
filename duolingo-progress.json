@@ -9065,16 +9065,33 @@
     "progression": {
       "experience": {
         "xp_goal": 50,
-        "xp_today": 51
+        "xp_today": 307
       },
       "session_information": {
-        "number_of_sessions": 3,
-        "session_time": 114
+        "number_of_sessions": 10,
+        "session_time": 451
       }
     },
     "streak_information": {
       "site_streak": 534
     },
     "time": "20:27:23"
+  },
+  {
+    "date": "2024/01/13",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 223
+      },
+      "session_information": {
+        "number_of_sessions": 9,
+        "session_time": 761
+      }
+    },
+    "streak_information": {
+      "site_streak": 535
+    },
+    "time": "20:25:07"
   }
 ]
