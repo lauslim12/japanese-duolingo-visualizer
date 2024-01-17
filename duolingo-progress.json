@@ -9144,5 +9144,22 @@
       "site_streak": 538
     },
     "time": "20:28:06"
+  },
+  {
+    "date": "2024/01/17",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 282
+      },
+      "session_information": {
+        "number_of_sessions": 5,
+        "session_time": 344
+      }
+    },
+    "streak_information": {
+      "site_streak": 539
+    },
+    "time": "20:27:54"
   }
 ]
