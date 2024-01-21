@@ -9212,5 +9212,22 @@
       "site_streak": 542
     },
     "time": "20:25:08"
+  },
+  {
+    "date": "2024/01/21",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 190
+      },
+      "session_information": {
+        "number_of_sessions": 7,
+        "session_time": 490
+      }
+    },
+    "streak_information": {
+      "site_streak": 543
+    },
+    "time": "20:26:33"
   }
 ]
