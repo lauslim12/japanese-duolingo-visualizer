@@ -10317,5 +10317,22 @@
       "site_streak": 607
     },
     "time": "20:25:10"
+  },
+  {
+    "date": "2024/03/26",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 134
+      },
+      "session_information": {
+        "number_of_sessions": 6,
+        "session_time": 349
+      }
+    },
+    "streak_information": {
+      "site_streak": 608
+    },
+    "time": "20:24:57"
   }
 ]
