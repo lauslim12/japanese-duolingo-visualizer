@@ -10850,16 +10850,33 @@
     "progression": {
       "experience": {
         "xp_goal": 50,
-        "xp_today": 57
+        "xp_today": 518
       },
       "session_information": {
-        "number_of_sessions": 4,
-        "session_time": 0
+        "number_of_sessions": 15,
+        "session_time": 925
       }
     },
     "streak_information": {
       "site_streak": 639
     },
     "time": "20:24:43"
+  },
+  {
+    "date": "2024/04/27",
+    "progression": {
+      "experience": {
+        "xp_goal": 50,
+        "xp_today": 359
+      },
+      "session_information": {
+        "number_of_sessions": 11,
+        "session_time": 624
+      }
+    },
+    "streak_information": {
+      "site_streak": 640
+    },
+    "time": "20:24:40"
   }
 ]
