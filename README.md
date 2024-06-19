@@ -26,7 +26,6 @@ Metrics that are visualized in this website:
 - Time spent in Duolingo
 - Number of sessions (lessons, events, or tests) taken
 - Streak information
-- Number of words learned (note: probably would be deprecated as this doesn't have any meaning)
 
 Please note that all of these metrics will be updated and synchronized daily and strives to show an accurate representation of your progress.
 
@@ -114,19 +113,10 @@ For development, if you wish to develop the visualizer, you have to mock the dat
 [
   {
     "date": "2022/07/28",
-    "experience": {
-      "xp_goal": 50,
-      "xp_today": 754
-    },
-    "number_of_learned_words": 10,
-    "session_information": {
-      "number_of_sessions": 27,
-      "session_time": 4792
-    },
-    "streak_information": {
-      "site_streak": 1
-    },
-    "time": "23:59:00"
+    "number_of_sessions": 27,
+    "session_time": 4792,
+    "streak": 1,
+    "xp_today": 754
   }
 ]
 ```
