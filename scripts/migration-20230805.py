@@ -1,11 +1,11 @@
-# This is a migration script used to migrate the data from the first format that we use to the second format.
+# This is a migration script used to migrate the data from the initial format that we use to the this format.
 # To run the migration script: `poetry run python3 -m scripts.migration` from the root folder.
 
-from pydantic import BaseModel
-from os import path
 from json import dump, load
+from os import path
 from pathlib import Path
 
+from pydantic import BaseModel
 
 from src.duolingo import (
     DatabaseEntry,
