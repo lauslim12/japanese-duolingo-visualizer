@@ -1,4853 +1,4166 @@
-[
-  {
-    "date": "2022/07/28",
+{
+  "2022/07/28": {
     "number_of_sessions": 27,
     "session_time": 4792,
     "streak": 1,
     "xp_today": 754
   },
-  {
-    "date": "2022/07/29",
+  "2022/07/29": {
     "number_of_sessions": 50,
     "session_time": 12791,
     "streak": 2,
     "xp_today": 1173
   },
-  {
-    "date": "2022/07/30",
+  "2022/07/30": {
     "number_of_sessions": 20,
     "session_time": 3908,
     "streak": 3,
     "xp_today": 544
   },
-  {
-    "date": "2022/07/31",
+  "2022/07/31": {
     "number_of_sessions": 25,
     "session_time": 5710,
     "streak": 4,
     "xp_today": 926
   },
-  {
-    "date": "2022/08/01",
+  "2022/08/01": {
     "number_of_sessions": 37,
     "session_time": 6444,
     "streak": 5,
     "xp_today": 1246
   },
-  {
-    "date": "2022/08/02",
+  "2022/08/02": {
     "number_of_sessions": 20,
     "session_time": 3436,
     "streak": 6,
     "xp_today": 645
   },
-  {
-    "date": "2022/08/03",
+  "2022/08/03": {
     "number_of_sessions": 28,
     "session_time": 4493,
     "streak": 7,
     "xp_today": 906
   },
-  {
-    "date": "2022/08/04",
+  "2022/08/04": {
     "number_of_sessions": 17,
     "session_time": 2647,
     "streak": 8,
     "xp_today": 916
   },
-  {
-    "date": "2022/08/05",
+  "2022/08/05": {
     "number_of_sessions": 44,
     "session_time": 5850,
     "streak": 9,
     "xp_today": 1610
   },
-  {
-    "date": "2022/08/06",
+  "2022/08/06": {
     "number_of_sessions": 26,
     "session_time": 2467,
     "streak": 10,
     "xp_today": 996
   },
-  {
-    "date": "2022/08/07",
+  "2022/08/07": {
     "number_of_sessions": 6,
     "session_time": 788,
     "streak": 11,
     "xp_today": 452
   },
-  {
-    "date": "2022/08/08",
+  "2022/08/08": {
     "number_of_sessions": 43,
     "session_time": 5623,
     "streak": 12,
     "xp_today": 1234
   },
-  {
-    "date": "2022/08/09",
+  "2022/08/09": {
     "number_of_sessions": 28,
     "session_time": 4625,
     "streak": 13,
     "xp_today": 932
   },
-  {
-    "date": "2022/08/10",
+  "2022/08/10": {
     "number_of_sessions": 24,
     "session_time": 4007,
     "streak": 14,
     "xp_today": 812
   },
-  {
-    "date": "2022/08/11",
+  "2022/08/11": {
     "number_of_sessions": 18,
     "session_time": 3045,
     "streak": 15,
     "xp_today": 456
   },
-  {
-    "date": "2022/08/12",
+  "2022/08/12": {
     "number_of_sessions": 25,
     "session_time": 6901,
     "streak": 16,
     "xp_today": 973
   },
-  {
-    "date": "2022/08/13",
+  "2022/08/13": {
     "number_of_sessions": 25,
     "session_time": 9764,
     "streak": 17,
     "xp_today": 599
   },
-  {
-    "date": "2022/08/14",
+  "2022/08/14": {
     "number_of_sessions": 28,
     "session_time": 7008,
     "streak": 18,
     "xp_today": 907
   },
-  {
-    "date": "2022/08/15",
+  "2022/08/15": {
     "number_of_sessions": 37,
     "session_time": 7785,
     "streak": 19,
     "xp_today": 1198
   },
-  {
-    "date": "2022/08/16",
+  "2022/08/16": {
     "number_of_sessions": 20,
     "session_time": 3567,
     "streak": 20,
     "xp_today": 794
   },
-  {
-    "date": "2022/08/17",
+  "2022/08/17": {
     "number_of_sessions": 27,
     "session_time": 4824,
     "streak": 21,
     "xp_today": 841
   },
-  {
-    "date": "2022/08/18",
+  "2022/08/18": {
     "number_of_sessions": 37,
     "session_time": 4822,
     "streak": 22,
     "xp_today": 1265
   },
-  {
-    "date": "2022/08/19",
+  "2022/08/19": {
     "number_of_sessions": 37,
     "session_time": 4903,
     "streak": 23,
     "xp_today": 1073
   },
-  {
-    "date": "2022/08/20",
+  "2022/08/20": {
     "number_of_sessions": 31,
     "session_time": 3721,
     "streak": 24,
     "xp_today": 854
   },
-  {
-    "date": "2022/08/21",
+  "2022/08/21": {
     "number_of_sessions": 11,
     "session_time": 2343,
     "streak": 25,
     "xp_today": 262
   },
-  {
-    "date": "2022/08/22",
+  "2022/08/22": {
     "number_of_sessions": 32,
     "session_time": 4940,
     "streak": 26,
     "xp_today": 1097
   },
-  {
-    "date": "2022/08/23",
+  "2022/08/23": {
     "number_of_sessions": 11,
     "session_time": 1347,
     "streak": 27,
     "xp_today": 491
   },
-  {
-    "date": "2022/08/24",
+  "2022/08/24": {
     "number_of_sessions": 38,
     "session_time": 4881,
     "streak": 28,
     "xp_today": 1403
   },
-  {
-    "date": "2022/08/25",
+  "2022/08/25": {
     "number_of_sessions": 27,
     "session_time": 5033,
     "streak": 29,
     "xp_today": 814
   },
-  {
-    "date": "2022/08/26",
+  "2022/08/26": {
     "number_of_sessions": 33,
     "session_time": 5929,
     "streak": 30,
     "xp_today": 1074
   },
-  {
-    "date": "2022/08/27",
+  "2022/08/27": {
     "number_of_sessions": 29,
     "session_time": 5746,
     "streak": 31,
     "xp_today": 1147
   },
-  {
-    "date": "2022/08/28",
+  "2022/08/28": {
     "number_of_sessions": 23,
     "session_time": 4440,
     "streak": 32,
     "xp_today": 768
   },
-  {
-    "date": "2022/08/29",
+  "2022/08/29": {
     "number_of_sessions": 8,
     "session_time": 1295,
     "streak": 33,
     "xp_today": 437
   },
-  {
-    "date": "2022/08/30",
+  "2022/08/30": {
     "number_of_sessions": 12,
     "session_time": 1655,
     "streak": 34,
     "xp_today": 570
   },
-  {
-    "date": "2022/08/31",
+  "2022/08/31": {
     "number_of_sessions": 9,
     "session_time": 2094,
     "streak": 35,
     "xp_today": 416
   },
-  {
-    "date": "2022/09/01",
+  "2022/09/01": {
     "number_of_sessions": 10,
     "session_time": 1428,
     "streak": 36,
     "xp_today": 326
   },
-  {
-    "date": "2022/09/02",
+  "2022/09/02": {
     "number_of_sessions": 12,
     "session_time": 1348,
     "streak": 37,
     "xp_today": 436
   },
-  {
-    "date": "2022/09/03",
+  "2022/09/03": {
     "number_of_sessions": 18,
     "session_time": 3344,
     "streak": 38,
     "xp_today": 520
   },
-  {
-    "date": "2022/09/04",
+  "2022/09/04": {
     "number_of_sessions": 46,
     "session_time": 7722,
     "streak": 39,
     "xp_today": 1718
   },
-  {
-    "date": "2022/09/05",
+  "2022/09/05": {
     "number_of_sessions": 17,
     "session_time": 2334,
     "streak": 40,
     "xp_today": 556
   },
-  {
-    "date": "2022/09/06",
+  "2022/09/06": {
     "number_of_sessions": 20,
     "session_time": 2736,
     "streak": 41,
     "xp_today": 653
   },
-  {
-    "date": "2022/09/07",
+  "2022/09/07": {
     "number_of_sessions": 21,
     "session_time": 3930,
     "streak": 42,
     "xp_today": 646
   },
-  {
-    "date": "2022/09/08",
+  "2022/09/08": {
     "number_of_sessions": 5,
     "session_time": 839,
     "streak": 43,
     "xp_today": 181
   },
-  {
-    "date": "2022/09/09",
+  "2022/09/09": {
     "number_of_sessions": 4,
     "session_time": 922,
     "streak": 44,
     "xp_today": 162
   },
-  {
-    "date": "2022/09/10",
+  "2022/09/10": {
     "number_of_sessions": 9,
     "session_time": 1193,
     "streak": 45,
     "xp_today": 230
   },
-  {
-    "date": "2022/09/11",
+  "2022/09/11": {
     "number_of_sessions": 19,
     "session_time": 3223,
     "streak": 46,
     "xp_today": 764
   },
-  {
-    "date": "2022/09/12",
+  "2022/09/12": {
     "number_of_sessions": 10,
     "session_time": 1625,
     "streak": 47,
     "xp_today": 372
   },
-  {
-    "date": "2022/09/13",
+  "2022/09/13": {
     "number_of_sessions": 5,
     "session_time": 644,
     "streak": 48,
     "xp_today": 204
   },
-  {
-    "date": "2022/09/14",
+  "2022/09/14": {
     "number_of_sessions": 15,
     "session_time": 2261,
     "streak": 49,
     "xp_today": 557
   },
-  {
-    "date": "2022/09/15",
+  "2022/09/15": {
     "number_of_sessions": 12,
     "session_time": 1765,
     "streak": 50,
     "xp_today": 404
   },
-  {
-    "date": "2022/09/16",
+  "2022/09/16": {
     "number_of_sessions": 18,
     "session_time": 3483,
     "streak": 51,
     "xp_today": 808
   },
-  {
-    "date": "2022/09/17",
+  "2022/09/17": {
     "number_of_sessions": 17,
     "session_time": 2165,
     "streak": 52,
     "xp_today": 711
   },
-  {
-    "date": "2022/09/18",
+  "2022/09/18": {
     "number_of_sessions": 14,
     "session_time": 2442,
     "streak": 53,
     "xp_today": 384
   },
-  {
-    "date": "2022/09/19",
+  "2022/09/19": {
     "number_of_sessions": 13,
     "session_time": 2261,
     "streak": 54,
     "xp_today": 447
   },
-  {
-    "date": "2022/09/20",
+  "2022/09/20": {
     "number_of_sessions": 11,
     "session_time": 1699,
     "streak": 55,
     "xp_today": 347
   },
-  {
-    "date": "2022/09/21",
+  "2022/09/21": {
     "number_of_sessions": 12,
     "session_time": 2310,
     "streak": 56,
     "xp_today": 270
   },
-  {
-    "date": "2022/09/22",
+  "2022/09/22": {
     "number_of_sessions": 10,
     "session_time": 1509,
     "streak": 57,
     "xp_today": 368
   },
-  {
-    "date": "2022/09/23",
+  "2022/09/23": {
     "number_of_sessions": 12,
     "session_time": 2015,
     "streak": 58,
     "xp_today": 598
   },
-  {
-    "date": "2022/09/24",
+  "2022/09/24": {
     "number_of_sessions": 3,
     "session_time": 325,
     "streak": 59,
     "xp_today": 115
   },
-  {
-    "date": "2022/09/25",
+  "2022/09/25": {
     "number_of_sessions": 31,
     "session_time": 5774,
     "streak": 60,
     "xp_today": 1067
   },
-  {
-    "date": "2022/09/26",
+  "2022/09/26": {
     "number_of_sessions": 21,
     "session_time": 3281,
     "streak": 61,
     "xp_today": 642
   },
-  {
-    "date": "2022/09/27",
+  "2022/09/27": {
     "number_of_sessions": 25,
     "session_time": 3781,
     "streak": 62,
     "xp_today": 813
   },
-  {
-    "date": "2022/09/28",
+  "2022/09/28": {
     "number_of_sessions": 17,
     "session_time": 2741,
     "streak": 63,
     "xp_today": 808
   },
-  {
-    "date": "2022/09/29",
+  "2022/09/29": {
     "number_of_sessions": 17,
     "session_time": 2785,
     "streak": 64,
     "xp_today": 634
   },
-  {
-    "date": "2022/09/30",
+  "2022/09/30": {
     "number_of_sessions": 14,
     "session_time": 1888,
     "streak": 65,
     "xp_today": 629
   },
-  {
-    "date": "2022/10/01",
+  "2022/10/01": {
     "number_of_sessions": 10,
     "session_time": 1069,
     "streak": 66,
     "xp_today": 197
   },
-  {
-    "date": "2022/10/02",
+  "2022/10/02": {
     "number_of_sessions": 5,
     "session_time": 380,
     "streak": 67,
     "xp_today": 196
   },
-  {
-    "date": "2022/10/03",
+  "2022/10/03": {
     "number_of_sessions": 8,
     "session_time": 1114,
     "streak": 68,
     "xp_today": 287
   },
-  {
-    "date": "2022/10/04",
+  "2022/10/04": {
     "number_of_sessions": 5,
     "session_time": 707,
     "streak": 69,
     "xp_today": 206
   },
-  {
-    "date": "2022/10/05",
+  "2022/10/05": {
     "number_of_sessions": 8,
     "session_time": 803,
     "streak": 70,
     "xp_today": 244
   },
-  {
-    "date": "2022/10/06",
+  "2022/10/06": {
     "number_of_sessions": 5,
     "session_time": 401,
     "streak": 71,
     "xp_today": 200
   },
-  {
-    "date": "2022/10/07",
+  "2022/10/07": {
     "number_of_sessions": 6,
     "session_time": 913,
     "streak": 72,
     "xp_today": 215
   },
-  {
-    "date": "2022/10/08",
+  "2022/10/08": {
     "number_of_sessions": 12,
     "session_time": 980,
     "streak": 73,
     "xp_today": 304
   },
-  {
-    "date": "2022/10/09",
+  "2022/10/09": {
     "number_of_sessions": 9,
     "session_time": 1383,
     "streak": 74,
     "xp_today": 288
   },
-  {
-    "date": "2022/10/10",
+  "2022/10/10": {
     "number_of_sessions": 10,
     "session_time": 1079,
     "streak": 75,
     "xp_today": 295
   },
-  {
-    "date": "2022/10/11",
+  "2022/10/11": {
     "number_of_sessions": 14,
     "session_time": 2193,
     "streak": 76,
     "xp_today": 426
   },
-  {
-    "date": "2022/10/12",
+  "2022/10/12": {
     "number_of_sessions": 19,
     "session_time": 2627,
     "streak": 77,
     "xp_today": 630
   },
-  {
-    "date": "2022/10/13",
+  "2022/10/13": {
     "number_of_sessions": 18,
     "session_time": 3187,
     "streak": 78,
     "xp_today": 838
   },
-  {
-    "date": "2022/10/14",
+  "2022/10/14": {
     "number_of_sessions": 8,
     "session_time": 1146,
     "streak": 79,
     "xp_today": 301
   },
-  {
-    "date": "2022/10/15",
+  "2022/10/15": {
     "number_of_sessions": 24,
     "session_time": 2799,
     "streak": 80,
     "xp_today": 1077
   },
-  {
-    "date": "2022/10/16",
+  "2022/10/16": {
     "number_of_sessions": 11,
     "session_time": 1147,
     "streak": 81,
     "xp_today": 406
   },
-  {
-    "date": "2022/10/17",
+  "2022/10/17": {
     "number_of_sessions": 9,
     "session_time": 1198,
     "streak": 82,
     "xp_today": 294
   },
-  {
-    "date": "2022/10/18",
+  "2022/10/18": {
     "number_of_sessions": 6,
     "session_time": 704,
     "streak": 83,
     "xp_today": 215
   },
-  {
-    "date": "2022/10/19",
+  "2022/10/19": {
     "number_of_sessions": 6,
     "session_time": 531,
     "streak": 84,
     "xp_today": 210
   },
-  {
-    "date": "2022/10/20",
+  "2022/10/20": {
     "number_of_sessions": 6,
     "session_time": 853,
     "streak": 85,
     "xp_today": 227
   },
-  {
-    "date": "2022/10/21",
+  "2022/10/21": {
     "number_of_sessions": 8,
     "session_time": 917,
     "streak": 86,
     "xp_today": 264
   },
-  {
-    "date": "2022/10/22",
+  "2022/10/22": {
     "number_of_sessions": 27,
     "session_time": 3029,
     "streak": 87,
     "xp_today": 914
   },
-  {
-    "date": "2022/10/23",
+  "2022/10/23": {
     "number_of_sessions": 15,
     "session_time": 1019,
     "streak": 88,
     "xp_today": 372
   },
-  {
-    "date": "2022/10/24",
+  "2022/10/24": {
     "number_of_sessions": 15,
     "session_time": 2040,
     "streak": 89,
     "xp_today": 521
   },
-  {
-    "date": "2022/10/25",
+  "2022/10/25": {
     "number_of_sessions": 9,
     "session_time": 1449,
     "streak": 90,
     "xp_today": 290
   },
-  {
-    "date": "2022/10/26",
+  "2022/10/26": {
     "number_of_sessions": 14,
     "session_time": 1493,
     "streak": 91,
     "xp_today": 550
   },
-  {
-    "date": "2022/10/27",
+  "2022/10/27": {
     "number_of_sessions": 10,
     "session_time": 1293,
     "streak": 92,
     "xp_today": 357
   },
-  {
-    "date": "2022/10/28",
+  "2022/10/28": {
     "number_of_sessions": 9,
     "session_time": 770,
     "streak": 93,
     "xp_today": 330
   },
-  {
-    "date": "2022/10/29",
+  "2022/10/29": {
     "number_of_sessions": 5,
     "session_time": 961,
     "streak": 94,
     "xp_today": 104
   },
-  {
-    "date": "2022/10/30",
+  "2022/10/30": {
     "number_of_sessions": 5,
     "session_time": 927,
     "streak": 95,
     "xp_today": 63
   },
-  {
-    "date": "2022/10/31",
+  "2022/10/31": {
     "number_of_sessions": 3,
     "session_time": 359,
     "streak": 96,
     "xp_today": 120
   },
-  {
-    "date": "2022/11/01",
+  "2022/11/01": {
     "number_of_sessions": 5,
     "session_time": 507,
     "streak": 97,
     "xp_today": 145
   },
-  {
-    "date": "2022/11/02",
+  "2022/11/02": {
     "number_of_sessions": 13,
     "session_time": 1739,
     "streak": 98,
     "xp_today": 388
   },
-  {
-    "date": "2022/11/03",
+  "2022/11/03": {
     "number_of_sessions": 10,
     "session_time": 1108,
     "streak": 99,
     "xp_today": 356
   },
-  {
-    "date": "2022/11/04",
+  "2022/11/04": {
     "number_of_sessions": 38,
     "session_time": 5831,
     "streak": 100,
     "xp_today": 1061
   },
-  {
-    "date": "2022/11/05",
+  "2022/11/05": {
     "number_of_sessions": 24,
     "session_time": 2987,
     "streak": 101,
     "xp_today": 727
   },
-  {
-    "date": "2022/11/06",
+  "2022/11/06": {
     "number_of_sessions": 16,
     "session_time": 1800,
     "streak": 102,
     "xp_today": 630
   },
-  {
-    "date": "2022/11/07",
+  "2022/11/07": {
     "number_of_sessions": 6,
     "session_time": 1102,
     "streak": 103,
     "xp_today": 258
   },
-  {
-    "date": "2022/11/08",
+  "2022/11/08": {
     "number_of_sessions": 30,
     "session_time": 3991,
     "streak": 104,
     "xp_today": 903
   },
-  {
-    "date": "2022/11/09",
+  "2022/11/09": {
     "number_of_sessions": 25,
     "session_time": 3323,
     "streak": 105,
     "xp_today": 1075
   },
-  {
-    "date": "2022/11/10",
+  "2022/11/10": {
     "number_of_sessions": 25,
     "session_time": 3278,
     "streak": 106,
     "xp_today": 901
   },
-  {
-    "date": "2022/11/11",
+  "2022/11/11": {
     "number_of_sessions": 17,
     "session_time": 1890,
     "streak": 107,
     "xp_today": 438
   },
-  {
-    "date": "2022/11/12",
+  "2022/11/12": {
     "number_of_sessions": 7,
     "session_time": 1195,
     "streak": 108,
     "xp_today": 232
   },
-  {
-    "date": "2022/11/13",
+  "2022/11/13": {
     "number_of_sessions": 9,
     "session_time": 1440,
     "streak": 109,
     "xp_today": 217
   },
-  {
-    "date": "2022/11/14",
+  "2022/11/14": {
     "number_of_sessions": 25,
     "session_time": 3696,
     "streak": 110,
     "xp_today": 1002
   },
-  {
-    "date": "2022/11/15",
+  "2022/11/15": {
     "number_of_sessions": 15,
     "session_time": 1972,
     "streak": 111,
     "xp_today": 504
   },
-  {
-    "date": "2022/11/16",
+  "2022/11/16": {
     "number_of_sessions": 22,
     "session_time": 2517,
     "streak": 112,
     "xp_today": 581
   },
-  {
-    "date": "2022/11/17",
+  "2022/11/17": {
     "number_of_sessions": 6,
     "session_time": 570,
     "streak": 113,
     "xp_today": 240
   },
-  {
-    "date": "2022/11/18",
+  "2022/11/18": {
     "number_of_sessions": 10,
     "session_time": 1081,
     "streak": 114,
     "xp_today": 292
   },
-  {
-    "date": "2022/11/19",
+  "2022/11/19": {
     "number_of_sessions": 9,
     "session_time": 667,
     "streak": 115,
     "xp_today": 216
   },
-  {
-    "date": "2022/11/20",
+  "2022/11/20": {
     "number_of_sessions": 16,
     "session_time": 1703,
     "streak": 116,
     "xp_today": 418
   },
-  {
-    "date": "2022/11/21",
+  "2022/11/21": {
     "number_of_sessions": 13,
     "session_time": 1186,
     "streak": 117,
     "xp_today": 459
   },
-  {
-    "date": "2022/11/22",
+  "2022/11/22": {
     "number_of_sessions": 14,
     "session_time": 2083,
     "streak": 118,
     "xp_today": 672
   },
-  {
-    "date": "2022/11/23",
+  "2022/11/23": {
     "number_of_sessions": 10,
     "session_time": 1420,
     "streak": 119,
     "xp_today": 461
   },
-  {
-    "date": "2022/11/24",
+  "2022/11/24": {
     "number_of_sessions": 16,
     "session_time": 1984,
     "streak": 120,
     "xp_today": 587
   },
-  {
-    "date": "2022/11/25",
+  "2022/11/25": {
     "number_of_sessions": 7,
     "session_time": 1001,
     "streak": 121,
     "xp_today": 390
   },
-  {
-    "date": "2022/11/26",
+  "2022/11/26": {
     "number_of_sessions": 7,
     "session_time": 458,
     "streak": 122,
     "xp_today": 90
   },
-  {
-    "date": "2022/11/27",
+  "2022/11/27": {
     "number_of_sessions": 6,
     "session_time": 809,
     "streak": 123,
     "xp_today": 350
   },
-  {
-    "date": "2022/11/28",
+  "2022/11/28": {
     "number_of_sessions": 8,
     "session_time": 1568,
     "streak": 124,
     "xp_today": 236
   },
-  {
-    "date": "2022/11/29",
+  "2022/11/29": {
     "number_of_sessions": 19,
     "session_time": 1574,
     "streak": 125,
     "xp_today": 913
   },
-  {
-    "date": "2022/11/30",
+  "2022/11/30": {
     "number_of_sessions": 25,
     "session_time": 2567,
     "streak": 126,
     "xp_today": 1239
   },
-  {
-    "date": "2022/12/01",
+  "2022/12/01": {
     "number_of_sessions": 9,
     "session_time": 694,
     "streak": 127,
     "xp_today": 486
   },
-  {
-    "date": "2022/12/02",
+  "2022/12/02": {
     "number_of_sessions": 8,
     "session_time": 845,
     "streak": 128,
     "xp_today": 260
   },
-  {
-    "date": "2022/12/03",
+  "2022/12/03": {
     "number_of_sessions": 13,
     "session_time": 1080,
     "streak": 129,
     "xp_today": 290
   },
-  {
-    "date": "2022/12/04",
+  "2022/12/04": {
     "number_of_sessions": 10,
     "session_time": 1231,
     "streak": 130,
     "xp_today": 337
   },
-  {
-    "date": "2022/12/05",
+  "2022/12/05": {
     "number_of_sessions": 7,
     "session_time": 653,
     "streak": 131,
     "xp_today": 217
   },
-  {
-    "date": "2022/12/06",
+  "2022/12/06": {
     "number_of_sessions": 13,
     "session_time": 1851,
     "streak": 132,
     "xp_today": 400
   },
-  {
-    "date": "2022/12/07",
+  "2022/12/07": {
     "number_of_sessions": 14,
     "session_time": 1763,
     "streak": 133,
     "xp_today": 550
   },
-  {
-    "date": "2022/12/08",
+  "2022/12/08": {
     "number_of_sessions": 10,
     "session_time": 1334,
     "streak": 134,
     "xp_today": 497
   },
-  {
-    "date": "2022/12/09",
+  "2022/12/09": {
     "number_of_sessions": 13,
     "session_time": 1865,
     "streak": 135,
     "xp_today": 738
   },
-  {
-    "date": "2022/12/10",
+  "2022/12/10": {
     "number_of_sessions": 12,
     "session_time": 851,
     "streak": 136,
     "xp_today": 824
   },
-  {
-    "date": "2022/12/11",
+  "2022/12/11": {
     "number_of_sessions": 15,
     "session_time": 1233,
     "streak": 137,
     "xp_today": 420
   },
-  {
-    "date": "2022/12/12",
+  "2022/12/12": {
     "number_of_sessions": 16,
     "session_time": 1528,
     "streak": 138,
     "xp_today": 364
   },
-  {
-    "date": "2022/12/13",
+  "2022/12/13": {
     "number_of_sessions": 21,
     "session_time": 1886,
     "streak": 139,
     "xp_today": 984
   },
-  {
-    "date": "2022/12/14",
+  "2022/12/14": {
     "number_of_sessions": 13,
     "session_time": 1078,
     "streak": 140,
     "xp_today": 762
   },
-  {
-    "date": "2022/12/15",
+  "2022/12/15": {
     "number_of_sessions": 20,
     "session_time": 2164,
     "streak": 141,
     "xp_today": 896
   },
-  {
-    "date": "2022/12/16",
+  "2022/12/16": {
     "number_of_sessions": 9,
     "session_time": 935,
     "streak": 142,
     "xp_today": 546
   },
-  {
-    "date": "2022/12/17",
+  "2022/12/17": {
     "number_of_sessions": 11,
     "session_time": 1312,
     "streak": 143,
     "xp_today": 386
   },
-  {
-    "date": "2022/12/18",
+  "2022/12/18": {
     "number_of_sessions": 12,
     "session_time": 1211,
     "streak": 144,
     "xp_today": 243
   },
-  {
-    "date": "2022/12/19",
+  "2022/12/19": {
     "number_of_sessions": 9,
     "session_time": 707,
     "streak": 145,
     "xp_today": 442
   },
-  {
-    "date": "2022/12/20",
+  "2022/12/20": {
     "number_of_sessions": 12,
     "session_time": 1163,
     "streak": 146,
     "xp_today": 540
   },
-  {
-    "date": "2022/12/21",
+  "2022/12/21": {
     "number_of_sessions": 6,
     "session_time": 1376,
     "streak": 147,
     "xp_today": 314
   },
-  {
-    "date": "2022/12/22",
+  "2022/12/22": {
     "number_of_sessions": 6,
     "session_time": 556,
     "streak": 148,
     "xp_today": 240
   },
-  {
-    "date": "2022/12/23",
+  "2022/12/23": {
     "number_of_sessions": 4,
     "session_time": 321,
     "streak": 149,
     "xp_today": 160
   },
-  {
-    "date": "2022/12/24",
+  "2022/12/24": {
     "number_of_sessions": 15,
     "session_time": 2015,
     "streak": 150,
     "xp_today": 470
   },
-  {
-    "date": "2022/12/25",
+  "2022/12/25": {
     "number_of_sessions": 33,
     "session_time": 3118,
     "streak": 151,
     "xp_today": 1124
   },
-  {
-    "date": "2022/12/26",
+  "2022/12/26": {
     "number_of_sessions": 9,
     "session_time": 590,
     "streak": 152,
     "xp_today": 288
   },
-  {
-    "date": "2022/12/27",
+  "2022/12/27": {
     "number_of_sessions": 23,
     "session_time": 2132,
     "streak": 153,
     "xp_today": 1246
   },
-  {
-    "date": "2022/12/28",
+  "2022/12/28": {
     "number_of_sessions": 17,
     "session_time": 1870,
     "streak": 154,
     "xp_today": 662
   },
-  {
-    "date": "2022/12/29",
+  "2022/12/29": {
     "number_of_sessions": 9,
     "session_time": 815,
     "streak": 155,
     "xp_today": 270
   },
-  {
-    "date": "2022/12/30",
+  "2022/12/30": {
     "number_of_sessions": 4,
     "session_time": 284,
     "streak": 156,
     "xp_today": 160
   },
-  {
-    "date": "2022/12/31",
+  "2022/12/31": {
     "number_of_sessions": 9,
     "session_time": 557,
     "streak": 157,
     "xp_today": 484
   },
-  {
-    "date": "2023/01/01",
+  "2023/01/01": {
     "number_of_sessions": 12,
     "session_time": 895,
     "streak": 158,
     "xp_today": 360
   },
-  {
-    "date": "2023/01/02",
+  "2023/01/02": {
     "number_of_sessions": 8,
     "session_time": 688,
     "streak": 159,
     "xp_today": 290
   },
-  {
-    "date": "2023/01/03",
+  "2023/01/03": {
     "number_of_sessions": 9,
     "session_time": 847,
     "streak": 160,
     "xp_today": 318
   },
-  {
-    "date": "2023/01/04",
+  "2023/01/04": {
     "number_of_sessions": 14,
     "session_time": 1460,
     "streak": 161,
     "xp_today": 647
   },
-  {
-    "date": "2023/01/05",
+  "2023/01/05": {
     "number_of_sessions": 10,
     "session_time": 965,
     "streak": 162,
     "xp_today": 592
   },
-  {
-    "date": "2023/01/06",
+  "2023/01/06": {
     "number_of_sessions": 12,
     "session_time": 1194,
     "streak": 163,
     "xp_today": 609
   },
-  {
-    "date": "2023/01/07",
+  "2023/01/07": {
     "number_of_sessions": 14,
     "session_time": 942,
     "streak": 164,
     "xp_today": 560
   },
-  {
-    "date": "2023/01/08",
+  "2023/01/08": {
     "number_of_sessions": 13,
     "session_time": 815,
     "streak": 165,
     "xp_today": 448
   },
-  {
-    "date": "2023/01/09",
+  "2023/01/09": {
     "number_of_sessions": 20,
     "session_time": 3052,
     "streak": 166,
     "xp_today": 1101
   },
-  {
-    "date": "2023/01/10",
+  "2023/01/10": {
     "number_of_sessions": 18,
     "session_time": 2738,
     "streak": 167,
     "xp_today": 466
   },
-  {
-    "date": "2023/01/11",
+  "2023/01/11": {
     "number_of_sessions": 24,
     "session_time": 3424,
     "streak": 168,
     "xp_today": 818
   },
-  {
-    "date": "2023/01/12",
+  "2023/01/12": {
     "number_of_sessions": 18,
     "session_time": 2564,
     "streak": 169,
     "xp_today": 710
   },
-  {
-    "date": "2023/01/13",
+  "2023/01/13": {
     "number_of_sessions": 9,
     "session_time": 897,
     "streak": 170,
     "xp_today": 362
   },
-  {
-    "date": "2023/01/14",
+  "2023/01/14": {
     "number_of_sessions": 15,
     "session_time": 2118,
     "streak": 171,
     "xp_today": 391
   },
-  {
-    "date": "2023/01/15",
+  "2023/01/15": {
     "number_of_sessions": 21,
     "session_time": 2352,
     "streak": 172,
     "xp_today": 586
   },
-  {
-    "date": "2023/01/16",
+  "2023/01/16": {
     "number_of_sessions": 27,
     "session_time": 3808,
     "streak": 173,
     "xp_today": 777
   },
-  {
-    "date": "2023/01/17",
+  "2023/01/17": {
     "number_of_sessions": 17,
     "session_time": 2013,
     "streak": 174,
     "xp_today": 816
   },
-  {
-    "date": "2023/01/18",
+  "2023/01/18": {
     "number_of_sessions": 4,
     "session_time": 307,
     "streak": 175,
     "xp_today": 320
   },
-  {
-    "date": "2023/01/19",
+  "2023/01/19": {
     "number_of_sessions": 9,
     "session_time": 778,
     "streak": 176,
     "xp_today": 304
   },
-  {
-    "date": "2023/01/20",
+  "2023/01/20": {
     "number_of_sessions": 10,
     "session_time": 1333,
     "streak": 177,
     "xp_today": 346
   },
-  {
-    "date": "2023/01/21",
+  "2023/01/21": {
     "number_of_sessions": 15,
     "session_time": 1630,
     "streak": 178,
     "xp_today": 405
   },
-  {
-    "date": "2023/01/22",
+  "2023/01/22": {
     "number_of_sessions": 10,
     "session_time": 910,
     "streak": 179,
     "xp_today": 440
   },
-  {
-    "date": "2023/01/23",
+  "2023/01/23": {
     "number_of_sessions": 6,
     "session_time": 1052,
     "streak": 180,
     "xp_today": 215
   },
-  {
-    "date": "2023/01/24",
+  "2023/01/24": {
     "number_of_sessions": 10,
     "session_time": 1995,
     "streak": 181,
     "xp_today": 200
   },
-  {
-    "date": "2023/01/25",
+  "2023/01/25": {
     "number_of_sessions": 5,
     "session_time": 375,
     "streak": 182,
     "xp_today": 200
   },
-  {
-    "date": "2023/01/26",
+  "2023/01/26": {
     "number_of_sessions": 6,
     "session_time": 469,
     "streak": 183,
     "xp_today": 206
   },
-  {
-    "date": "2023/01/27",
+  "2023/01/27": {
     "number_of_sessions": 17,
     "session_time": 2346,
     "streak": 184,
     "xp_today": 590
   },
-  {
-    "date": "2023/01/28",
+  "2023/01/28": {
     "number_of_sessions": 15,
     "session_time": 2629,
     "streak": 185,
     "xp_today": 555
   },
-  {
-    "date": "2023/01/29",
+  "2023/01/29": {
     "number_of_sessions": 14,
     "session_time": 864,
     "streak": 186,
     "xp_today": 251
   },
-  {
-    "date": "2023/01/30",
+  "2023/01/30": {
     "number_of_sessions": 6,
     "session_time": 1020,
     "streak": 187,
     "xp_today": 430
   },
-  {
-    "date": "2023/01/31",
+  "2023/01/31": {
     "number_of_sessions": 19,
     "session_time": 2003,
     "streak": 188,
     "xp_today": 589
   },
-  {
-    "date": "2023/02/01",
+  "2023/02/01": {
     "number_of_sessions": 6,
     "session_time": 649,
     "streak": 189,
     "xp_today": 174
   },
-  {
-    "date": "2023/02/02",
+  "2023/02/02": {
     "number_of_sessions": 8,
     "session_time": 782,
     "streak": 190,
     "xp_today": 238
   },
-  {
-    "date": "2023/02/03",
+  "2023/02/03": {
     "number_of_sessions": 6,
     "session_time": 650,
     "streak": 191,
     "xp_today": 390
   },
-  {
-    "date": "2023/02/04",
+  "2023/02/04": {
     "number_of_sessions": 12,
     "session_time": 874,
     "streak": 192,
     "xp_today": 282
   },
-  {
-    "date": "2023/02/05",
+  "2023/02/05": {
     "number_of_sessions": 12,
     "session_time": 930,
     "streak": 193,
     "xp_today": 581
   },
-  {
-    "date": "2023/02/06",
+  "2023/02/06": {
     "number_of_sessions": 17,
     "session_time": 1958,
     "streak": 194,
     "xp_today": 661
   },
-  {
-    "date": "2023/02/07",
+  "2023/02/07": {
     "number_of_sessions": 9,
     "session_time": 859,
     "streak": 195,
     "xp_today": 280
   },
-  {
-    "date": "2023/02/08",
+  "2023/02/08": {
     "number_of_sessions": 25,
     "session_time": 2436,
     "streak": 196,
     "xp_today": 1281
   },
-  {
-    "date": "2023/02/09",
+  "2023/02/09": {
     "number_of_sessions": 15,
     "session_time": 1386,
     "streak": 197,
     "xp_today": 846
   },
-  {
-    "date": "2023/02/10",
+  "2023/02/10": {
     "number_of_sessions": 8,
     "session_time": 771,
     "streak": 198,
     "xp_today": 242
   },
-  {
-    "date": "2023/02/11",
+  "2023/02/11": {
     "number_of_sessions": 8,
     "session_time": 1445,
     "streak": 199,
     "xp_today": 260
   },
-  {
-    "date": "2023/02/12",
+  "2023/02/12": {
     "number_of_sessions": 10,
     "session_time": 753,
     "streak": 200,
     "xp_today": 296
   },
-  {
-    "date": "2023/02/13",
+  "2023/02/13": {
     "number_of_sessions": 8,
     "session_time": 804,
     "streak": 201,
     "xp_today": 202
   },
-  {
-    "date": "2023/02/14",
+  "2023/02/14": {
     "number_of_sessions": 10,
     "session_time": 794,
     "streak": 202,
     "xp_today": 354
   },
-  {
-    "date": "2023/02/15",
+  "2023/02/15": {
     "number_of_sessions": 9,
     "session_time": 870,
     "streak": 203,
     "xp_today": 221
   },
-  {
-    "date": "2023/02/16",
+  "2023/02/16": {
     "number_of_sessions": 8,
     "session_time": 732,
     "streak": 204,
     "xp_today": 256
   },
-  {
-    "date": "2023/02/17",
+  "2023/02/17": {
     "number_of_sessions": 6,
     "session_time": 550,
     "streak": 205,
     "xp_today": 210
   },
-  {
-    "date": "2023/02/18",
+  "2023/02/18": {
     "number_of_sessions": 9,
     "session_time": 695,
     "streak": 206,
     "xp_today": 217
   },
-  {
-    "date": "2023/02/19",
+  "2023/02/19": {
     "number_of_sessions": 12,
     "session_time": 1763,
     "streak": 207,
     "xp_today": 498
   },
-  {
-    "date": "2023/02/20",
+  "2023/02/20": {
     "number_of_sessions": 10,
     "session_time": 1330,
     "streak": 208,
     "xp_today": 468
   },
-  {
-    "date": "2023/02/21",
+  "2023/02/21": {
     "number_of_sessions": 9,
     "session_time": 779,
     "streak": 209,
     "xp_today": 616
   },
-  {
-    "date": "2023/02/22",
+  "2023/02/22": {
     "number_of_sessions": 9,
     "session_time": 689,
     "streak": 210,
     "xp_today": 334
   },
-  {
-    "date": "2023/02/23",
+  "2023/02/23": {
     "number_of_sessions": 13,
     "session_time": 1006,
     "streak": 211,
     "xp_today": 388
   },
-  {
-    "date": "2023/02/24",
+  "2023/02/24": {
     "number_of_sessions": 7,
     "session_time": 649,
     "streak": 212,
     "xp_today": 222
   },
-  {
-    "date": "2023/02/25",
+  "2023/02/25": {
     "number_of_sessions": 13,
     "session_time": 867,
     "streak": 213,
     "xp_today": 283
   },
-  {
-    "date": "2023/02/26",
+  "2023/02/26": {
     "number_of_sessions": 12,
     "session_time": 779,
     "streak": 214,
     "xp_today": 238
   },
-  {
-    "date": "2023/02/27",
+  "2023/02/27": {
     "number_of_sessions": 8,
     "session_time": 1164,
     "streak": 215,
     "xp_today": 266
   },
-  {
-    "date": "2023/02/28",
+  "2023/02/28": {
     "number_of_sessions": 14,
     "session_time": 944,
     "streak": 216,
     "xp_today": 409
   },
-  {
-    "date": "2023/03/01",
+  "2023/03/01": {
     "number_of_sessions": 11,
     "session_time": 996,
     "streak": 217,
     "xp_today": 676
   },
-  {
-    "date": "2023/03/02",
+  "2023/03/02": {
     "number_of_sessions": 8,
     "session_time": 635,
     "streak": 218,
     "xp_today": 458
   },
-  {
-    "date": "2023/03/03",
+  "2023/03/03": {
     "number_of_sessions": 17,
     "session_time": 1207,
     "streak": 219,
     "xp_today": 820
   },
-  {
-    "date": "2023/03/04",
+  "2023/03/04": {
     "number_of_sessions": 18,
     "session_time": 1211,
     "streak": 220,
     "xp_today": 882
   },
-  {
-    "date": "2023/03/05",
+  "2023/03/05": {
     "number_of_sessions": 10,
     "session_time": 636,
     "streak": 221,
     "xp_today": 264
   },
-  {
-    "date": "2023/03/06",
+  "2023/03/06": {
     "number_of_sessions": 21,
     "session_time": 1642,
     "streak": 222,
     "xp_today": 1534
   },
-  {
-    "date": "2023/03/07",
+  "2023/03/07": {
     "number_of_sessions": 10,
     "session_time": 843,
     "streak": 223,
     "xp_today": 364
   },
-  {
-    "date": "2023/03/08",
+  "2023/03/08": {
     "number_of_sessions": 5,
     "session_time": 556,
     "streak": 224,
     "xp_today": 260
   },
-  {
-    "date": "2023/03/09",
+  "2023/03/09": {
     "number_of_sessions": 6,
     "session_time": 483,
     "streak": 225,
     "xp_today": 218
   },
-  {
-    "date": "2023/03/10",
+  "2023/03/10": {
     "number_of_sessions": 7,
     "session_time": 398,
     "streak": 226,
     "xp_today": 192
   },
-  {
-    "date": "2023/03/11",
+  "2023/03/11": {
     "number_of_sessions": 32,
     "session_time": 2713,
     "streak": 227,
     "xp_today": 978
   },
-  {
-    "date": "2023/03/12",
+  "2023/03/12": {
     "number_of_sessions": 10,
     "session_time": 626,
     "streak": 228,
     "xp_today": 506
   },
-  {
-    "date": "2023/03/13",
+  "2023/03/13": {
     "number_of_sessions": 10,
     "session_time": 889,
     "streak": 229,
     "xp_today": 440
   },
-  {
-    "date": "2023/03/14",
+  "2023/03/14": {
     "number_of_sessions": 12,
     "session_time": 1522,
     "streak": 230,
     "xp_today": 586
   },
-  {
-    "date": "2023/03/15",
+  "2023/03/15": {
     "number_of_sessions": 8,
     "session_time": 562,
     "streak": 231,
     "xp_today": 288
   },
-  {
-    "date": "2023/03/16",
+  "2023/03/16": {
     "number_of_sessions": 12,
     "session_time": 927,
     "streak": 232,
     "xp_today": 408
   },
-  {
-    "date": "2023/03/17",
+  "2023/03/17": {
     "number_of_sessions": 17,
     "session_time": 1297,
     "streak": 233,
     "xp_today": 1046
   },
-  {
-    "date": "2023/03/18",
+  "2023/03/18": {
     "number_of_sessions": 10,
     "session_time": 566,
     "streak": 234,
     "xp_today": 222
   },
-  {
-    "date": "2023/03/19",
+  "2023/03/19": {
     "number_of_sessions": 14,
     "session_time": 992,
     "streak": 235,
     "xp_today": 320
   },
-  {
-    "date": "2023/03/20",
+  "2023/03/20": {
     "number_of_sessions": 7,
     "session_time": 1052,
     "streak": 236,
     "xp_today": 220
   },
-  {
-    "date": "2023/03/21",
+  "2023/03/21": {
     "number_of_sessions": 24,
     "session_time": 1897,
     "streak": 237,
     "xp_today": 1382
   },
-  {
-    "date": "2023/03/22",
+  "2023/03/22": {
     "number_of_sessions": 15,
     "session_time": 1302,
     "streak": 238,
     "xp_today": 1084
   },
-  {
-    "date": "2023/03/23",
+  "2023/03/23": {
     "number_of_sessions": 10,
     "session_time": 726,
     "streak": 239,
     "xp_today": 372
   },
-  {
-    "date": "2023/03/24",
+  "2023/03/24": {
     "number_of_sessions": 4,
     "session_time": 262,
     "streak": 240,
     "xp_today": 320
   },
-  {
-    "date": "2023/03/25",
+  "2023/03/25": {
     "number_of_sessions": 12,
     "session_time": 782,
     "streak": 241,
     "xp_today": 223
   },
-  {
-    "date": "2023/03/26",
+  "2023/03/26": {
     "number_of_sessions": 10,
     "session_time": 765,
     "streak": 242,
     "xp_today": 610
   },
-  {
-    "date": "2023/03/27",
+  "2023/03/27": {
     "number_of_sessions": 11,
     "session_time": 1048,
     "streak": 243,
     "xp_today": 763
   },
-  {
-    "date": "2023/03/28",
+  "2023/03/28": {
     "number_of_sessions": 16,
     "session_time": 1871,
     "streak": 244,
     "xp_today": 956
   },
-  {
-    "date": "2023/03/29",
+  "2023/03/29": {
     "number_of_sessions": 10,
     "session_time": 874,
     "streak": 245,
     "xp_today": 686
   },
-  {
-    "date": "2023/03/30",
+  "2023/03/30": {
     "number_of_sessions": 7,
     "session_time": 526,
     "streak": 246,
     "xp_today": 248
   },
-  {
-    "date": "2023/03/31",
+  "2023/03/31": {
     "number_of_sessions": 10,
     "session_time": 727,
     "streak": 247,
     "xp_today": 678
   },
-  {
-    "date": "2023/04/01",
+  "2023/04/01": {
     "number_of_sessions": 13,
     "session_time": 946,
     "streak": 248,
     "xp_today": 244
   },
-  {
-    "date": "2023/04/02",
+  "2023/04/02": {
     "number_of_sessions": 6,
     "session_time": 437,
     "streak": 249,
     "xp_today": 180
   },
-  {
-    "date": "2023/04/03",
+  "2023/04/03": {
     "number_of_sessions": 9,
     "session_time": 811,
     "streak": 250,
     "xp_today": 294
   },
-  {
-    "date": "2023/04/04",
+  "2023/04/04": {
     "number_of_sessions": 11,
     "session_time": 809,
     "streak": 251,
     "xp_today": 812
   },
-  {
-    "date": "2023/04/05",
+  "2023/04/05": {
     "number_of_sessions": 14,
     "session_time": 1228,
     "streak": 252,
     "xp_today": 930
   },
-  {
-    "date": "2023/04/06",
+  "2023/04/06": {
     "number_of_sessions": 6,
     "session_time": 460,
     "streak": 253,
     "xp_today": 240
   },
-  {
-    "date": "2023/04/07",
+  "2023/04/07": {
     "number_of_sessions": 7,
     "session_time": 476,
     "streak": 254,
     "xp_today": 426
   },
-  {
-    "date": "2023/04/08",
+  "2023/04/08": {
     "number_of_sessions": 16,
     "session_time": 983,
     "streak": 255,
     "xp_today": 386
   },
-  {
-    "date": "2023/04/09",
+  "2023/04/09": {
     "number_of_sessions": 8,
     "session_time": 548,
     "streak": 256,
     "xp_today": 228
   },
-  {
-    "date": "2023/04/10",
+  "2023/04/10": {
     "number_of_sessions": 10,
     "session_time": 805,
     "streak": 257,
     "xp_today": 344
   },
-  {
-    "date": "2023/04/11",
+  "2023/04/11": {
     "number_of_sessions": 5,
     "session_time": 345,
     "streak": 258,
     "xp_today": 200
   },
-  {
-    "date": "2023/04/12",
+  "2023/04/12": {
     "number_of_sessions": 10,
     "session_time": 814,
     "streak": 259,
     "xp_today": 726
   },
-  {
-    "date": "2023/04/13",
+  "2023/04/13": {
     "number_of_sessions": 7,
     "session_time": 493,
     "streak": 260,
     "xp_today": 214
   },
-  {
-    "date": "2023/04/14",
+  "2023/04/14": {
     "number_of_sessions": 7,
     "session_time": 569,
     "streak": 261,
     "xp_today": 192
   },
-  {
-    "date": "2023/04/15",
+  "2023/04/15": {
     "number_of_sessions": 14,
     "session_time": 1008,
     "streak": 262,
     "xp_today": 636
   },
-  {
-    "date": "2023/04/16",
+  "2023/04/16": {
     "number_of_sessions": 13,
     "session_time": 881,
     "streak": 263,
     "xp_today": 316
   },
-  {
-    "date": "2023/04/17",
+  "2023/04/17": {
     "number_of_sessions": 9,
     "session_time": 1182,
     "streak": 264,
     "xp_today": 328
   },
-  {
-    "date": "2023/04/18",
+  "2023/04/18": {
     "number_of_sessions": 15,
     "session_time": 1302,
     "streak": 265,
     "xp_today": 800
   },
-  {
-    "date": "2023/04/19",
+  "2023/04/19": {
     "number_of_sessions": 15,
     "session_time": 1458,
     "streak": 266,
     "xp_today": 1072
   },
-  {
-    "date": "2023/04/20",
+  "2023/04/20": {
     "number_of_sessions": 7,
     "session_time": 538,
     "streak": 267,
     "xp_today": 432
   },
-  {
-    "date": "2023/04/21",
+  "2023/04/21": {
     "number_of_sessions": 11,
     "session_time": 931,
     "streak": 268,
     "xp_today": 344
   },
-  {
-    "date": "2023/04/22",
+  "2023/04/22": {
     "number_of_sessions": 14,
     "session_time": 1034,
     "streak": 269,
     "xp_today": 452
   },
-  {
-    "date": "2023/04/23",
+  "2023/04/23": {
     "number_of_sessions": 9,
     "session_time": 585,
     "streak": 270,
     "xp_today": 268
   },
-  {
-    "date": "2023/04/24",
+  "2023/04/24": {
     "number_of_sessions": 10,
     "session_time": 661,
     "streak": 271,
     "xp_today": 345
   },
-  {
-    "date": "2023/04/25",
+  "2023/04/25": {
     "number_of_sessions": 9,
     "session_time": 822,
     "streak": 272,
     "xp_today": 268
   },
-  {
-    "date": "2023/04/26",
+  "2023/04/26": {
     "number_of_sessions": 10,
     "session_time": 1407,
     "streak": 273,
     "xp_today": 447
   },
-  {
-    "date": "2023/04/27",
+  "2023/04/27": {
     "number_of_sessions": 9,
     "session_time": 880,
     "streak": 274,
     "xp_today": 658
   },
-  {
-    "date": "2023/04/28",
+  "2023/04/28": {
     "number_of_sessions": 8,
     "session_time": 659,
     "streak": 275,
     "xp_today": 236
   },
-  {
-    "date": "2023/04/29",
+  "2023/04/29": {
     "number_of_sessions": 5,
     "session_time": 804,
     "streak": 276,
     "xp_today": 244
   },
-  {
-    "date": "2023/04/30",
+  "2023/04/30": {
     "number_of_sessions": 10,
     "session_time": 617,
     "streak": 277,
     "xp_today": 224
   },
-  {
-    "date": "2023/05/01",
+  "2023/05/01": {
     "number_of_sessions": 6,
     "session_time": 421,
     "streak": 278,
     "xp_today": 220
   },
-  {
-    "date": "2023/05/02",
+  "2023/05/02": {
     "number_of_sessions": 9,
     "session_time": 737,
     "streak": 279,
     "xp_today": 656
   },
-  {
-    "date": "2023/05/03",
+  "2023/05/03": {
     "number_of_sessions": 13,
     "session_time": 1243,
     "streak": 280,
     "xp_today": 462
   },
-  {
-    "date": "2023/05/04",
+  "2023/05/04": {
     "number_of_sessions": 6,
     "session_time": 575,
     "streak": 281,
     "xp_today": 210
   },
-  {
-    "date": "2023/05/05",
+  "2023/05/05": {
     "number_of_sessions": 7,
     "session_time": 629,
     "streak": 282,
     "xp_today": 220
   },
-  {
-    "date": "2023/05/06",
+  "2023/05/06": {
     "number_of_sessions": 11,
     "session_time": 724,
     "streak": 283,
     "xp_today": 203
   },
-  {
-    "date": "2023/05/07",
+  "2023/05/07": {
     "number_of_sessions": 10,
     "session_time": 644,
     "streak": 284,
     "xp_today": 646
   },
-  {
-    "date": "2023/05/08",
+  "2023/05/08": {
     "number_of_sessions": 9,
     "session_time": 654,
     "streak": 285,
     "xp_today": 238
   },
-  {
-    "date": "2023/05/09",
+  "2023/05/09": {
     "number_of_sessions": 13,
     "session_time": 947,
     "streak": 286,
     "xp_today": 502
   },
-  {
-    "date": "2023/05/10",
+  "2023/05/10": {
     "number_of_sessions": 13,
     "session_time": 980,
     "streak": 287,
     "xp_today": 344
   },
-  {
-    "date": "2023/05/11",
+  "2023/05/11": {
     "number_of_sessions": 4,
     "session_time": 291,
     "streak": 288,
     "xp_today": 160
   },
-  {
-    "date": "2023/05/12",
+  "2023/05/12": {
     "number_of_sessions": 13,
     "session_time": 1525,
     "streak": 289,
     "xp_today": 689
   },
-  {
-    "date": "2023/05/13",
+  "2023/05/13": {
     "number_of_sessions": 21,
     "session_time": 2348,
     "streak": 290,
     "xp_today": 1090
   },
-  {
-    "date": "2023/05/14",
+  "2023/05/14": {
     "number_of_sessions": 23,
     "session_time": 2436,
     "streak": 291,
     "xp_today": 1072
   },
-  {
-    "date": "2023/05/15",
+  "2023/05/15": {
     "number_of_sessions": 11,
     "session_time": 1710,
     "streak": 292,
     "xp_today": 696
   },
-  {
-    "date": "2023/05/16",
+  "2023/05/16": {
     "number_of_sessions": 15,
     "session_time": 1543,
     "streak": 293,
     "xp_today": 962
   },
-  {
-    "date": "2023/05/17",
+  "2023/05/17": {
     "number_of_sessions": 17,
     "session_time": 2688,
     "streak": 294,
     "xp_today": 914
   },
-  {
-    "date": "2023/05/18",
+  "2023/05/18": {
     "number_of_sessions": 6,
     "session_time": 678,
     "streak": 295,
     "xp_today": 420
   },
-  {
-    "date": "2023/05/19",
+  "2023/05/19": {
     "number_of_sessions": 7,
     "session_time": 354,
     "streak": 296,
     "xp_today": 242
   },
-  {
-    "date": "2023/05/20",
+  "2023/05/20": {
     "number_of_sessions": 11,
     "session_time": 633,
     "streak": 297,
     "xp_today": 292
   },
-  {
-    "date": "2023/05/21",
+  "2023/05/21": {
     "number_of_sessions": 7,
     "session_time": 563,
     "streak": 298,
     "xp_today": 255
   },
-  {
-    "date": "2023/05/22",
+  "2023/05/22": {
     "number_of_sessions": 8,
     "session_time": 1256,
     "streak": 299,
     "xp_today": 426
   },
-  {
-    "date": "2023/05/23",
+  "2023/05/23": {
     "number_of_sessions": 8,
     "session_time": 1097,
     "streak": 300,
     "xp_today": 528
   },
-  {
-    "date": "2023/05/24",
+  "2023/05/24": {
     "number_of_sessions": 9,
     "session_time": 881,
     "streak": 301,
     "xp_today": 618
   },
-  {
-    "date": "2023/05/25",
+  "2023/05/25": {
     "number_of_sessions": 6,
     "session_time": 474,
     "streak": 302,
     "xp_today": 215
   },
-  {
-    "date": "2023/05/26",
+  "2023/05/26": {
     "number_of_sessions": 7,
     "session_time": 381,
     "streak": 303,
     "xp_today": 250
   },
-  {
-    "date": "2023/05/27",
+  "2023/05/27": {
     "number_of_sessions": 15,
     "session_time": 961,
     "streak": 304,
     "xp_today": 469
   },
-  {
-    "date": "2023/05/28",
+  "2023/05/28": {
     "number_of_sessions": 9,
     "session_time": 512,
     "streak": 305,
     "xp_today": 330
   },
-  {
-    "date": "2023/05/29",
+  "2023/05/29": {
     "number_of_sessions": 7,
     "session_time": 496,
     "streak": 306,
     "xp_today": 255
   },
-  {
-    "date": "2023/05/30",
+  "2023/05/30": {
     "number_of_sessions": 8,
     "session_time": 713,
     "streak": 307,
     "xp_today": 600
   },
-  {
-    "date": "2023/05/31",
+  "2023/05/31": {
     "number_of_sessions": 5,
     "session_time": 1007,
     "streak": 308,
     "xp_today": 360
   },
-  {
-    "date": "2023/06/01",
+  "2023/06/01": {
     "number_of_sessions": 12,
     "session_time": 739,
     "streak": 309,
     "xp_today": 570
   },
-  {
-    "date": "2023/06/02",
+  "2023/06/02": {
     "number_of_sessions": 4,
     "session_time": 442,
     "streak": 310,
     "xp_today": 338
   },
-  {
-    "date": "2023/06/03",
+  "2023/06/03": {
     "number_of_sessions": 13,
     "session_time": 660,
     "streak": 311,
     "xp_today": 314
   },
-  {
-    "date": "2023/06/04",
+  "2023/06/04": {
     "number_of_sessions": 9,
     "session_time": 606,
     "streak": 312,
     "xp_today": 297
   },
-  {
-    "date": "2023/06/05",
+  "2023/06/05": {
     "number_of_sessions": 6,
     "session_time": 418,
     "streak": 313,
     "xp_today": 214
   },
-  {
-    "date": "2023/06/06",
+  "2023/06/06": {
     "number_of_sessions": 7,
     "session_time": 535,
     "streak": 314,
     "xp_today": 412
   },
-  {
-    "date": "2023/06/07",
+  "2023/06/07": {
     "number_of_sessions": 7,
     "session_time": 344,
     "streak": 315,
     "xp_today": 244
   },
-  {
-    "date": "2023/06/08",
+  "2023/06/08": {
     "number_of_sessions": 7,
     "session_time": 474,
     "streak": 316,
     "xp_today": 494
   },
-  {
-    "date": "2023/06/09",
+  "2023/06/09": {
     "number_of_sessions": 6,
     "session_time": 432,
     "streak": 317,
     "xp_today": 252
   },
-  {
-    "date": "2023/06/10",
+  "2023/06/10": {
     "number_of_sessions": 6,
     "session_time": 376,
     "streak": 318,
     "xp_today": 259
   },
-  {
-    "date": "2023/06/11",
+  "2023/06/11": {
     "number_of_sessions": 6,
     "session_time": 375,
     "streak": 319,
     "xp_today": 200
   },
-  {
-    "date": "2023/06/12",
+  "2023/06/12": {
     "number_of_sessions": 10,
     "session_time": 1081,
     "streak": 320,
     "xp_today": 469
   },
-  {
-    "date": "2023/06/13",
+  "2023/06/13": {
     "number_of_sessions": 7,
     "session_time": 354,
     "streak": 321,
     "xp_today": 482
   },
-  {
-    "date": "2023/06/14",
+  "2023/06/14": {
     "number_of_sessions": 5,
     "session_time": 335,
     "streak": 322,
     "xp_today": 200
   },
-  {
-    "date": "2023/06/15",
+  "2023/06/15": {
     "number_of_sessions": 5,
     "session_time": 306,
     "streak": 323,
     "xp_today": 280
   },
-  {
-    "date": "2023/06/16",
+  "2023/06/16": {
     "number_of_sessions": 4,
     "session_time": 225,
     "streak": 324,
     "xp_today": 200
   },
-  {
-    "date": "2023/06/17",
+  "2023/06/17": {
     "number_of_sessions": 13,
     "session_time": 622,
     "streak": 325,
     "xp_today": 679
   },
-  {
-    "date": "2023/06/18",
+  "2023/06/18": {
     "number_of_sessions": 9,
     "session_time": 586,
     "streak": 326,
     "xp_today": 216
   },
-  {
-    "date": "2023/06/19",
+  "2023/06/19": {
     "number_of_sessions": 12,
     "session_time": 1217,
     "streak": 327,
     "xp_today": 594
   },
-  {
-    "date": "2023/06/20",
+  "2023/06/20": {
     "number_of_sessions": 5,
     "session_time": 786,
     "streak": 328,
     "xp_today": 364
   },
-  {
-    "date": "2023/06/21",
+  "2023/06/21": {
     "number_of_sessions": 10,
     "session_time": 523,
     "streak": 329,
     "xp_today": 330
   },
-  {
-    "date": "2023/06/22",
+  "2023/06/22": {
     "number_of_sessions": 8,
     "session_time": 933,
     "streak": 330,
     "xp_today": 468
   },
-  {
-    "date": "2023/06/23",
+  "2023/06/23": {
     "number_of_sessions": 8,
     "session_time": 1124,
     "streak": 331,
     "xp_today": 600
   },
-  {
-    "date": "2023/06/24",
+  "2023/06/24": {
     "number_of_sessions": 12,
     "session_time": 585,
     "streak": 332,
     "xp_today": 616
   },
-  {
-    "date": "2023/06/25",
+  "2023/06/25": {
     "number_of_sessions": 8,
     "session_time": 638,
     "streak": 333,
     "xp_today": 364
   },
-  {
-    "date": "2023/06/26",
+  "2023/06/26": {
     "number_of_sessions": 7,
     "session_time": 293,
     "streak": 334,
     "xp_today": 214
   },
-  {
-    "date": "2023/06/27",
+  "2023/06/27": {
     "number_of_sessions": 6,
     "session_time": 339,
     "streak": 335,
     "xp_today": 406
   },
-  {
-    "date": "2023/06/28",
+  "2023/06/28": {
     "number_of_sessions": 4,
     "session_time": 257,
     "streak": 336,
     "xp_today": 160
   },
-  {
-    "date": "2023/06/29",
+  "2023/06/29": {
     "number_of_sessions": 5,
     "session_time": 344,
     "streak": 337,
     "xp_today": 200
   },
-  {
-    "date": "2023/06/30",
+  "2023/06/30": {
     "number_of_sessions": 6,
     "session_time": 691,
     "streak": 338,
     "xp_today": 234
   },
-  {
-    "date": "2023/07/01",
+  "2023/07/01": {
     "number_of_sessions": 10,
     "session_time": 885,
     "streak": 339,
     "xp_today": 166
   },
-  {
-    "date": "2023/07/02",
+  "2023/07/02": {
     "number_of_sessions": 5,
     "session_time": 239,
     "streak": 340,
     "xp_today": 160
   },
-  {
-    "date": "2023/07/03",
+  "2023/07/03": {
     "number_of_sessions": 9,
     "session_time": 792,
     "streak": 341,
     "xp_today": 371
   },
-  {
-    "date": "2023/07/04",
+  "2023/07/04": {
     "number_of_sessions": 8,
     "session_time": 881,
     "streak": 342,
     "xp_today": 308
   },
-  {
-    "date": "2023/07/05",
+  "2023/07/05": {
     "number_of_sessions": 7,
     "session_time": 423,
     "streak": 343,
     "xp_today": 119
   },
-  {
-    "date": "2023/07/06",
+  "2023/07/06": {
     "number_of_sessions": 8,
     "session_time": 1166,
     "streak": 344,
     "xp_today": 417
   },
-  {
-    "date": "2023/07/07",
+  "2023/07/07": {
     "number_of_sessions": 6,
     "session_time": 418,
     "streak": 345,
     "xp_today": 184
   },
-  {
-    "date": "2023/07/08",
+  "2023/07/08": {
     "number_of_sessions": 15,
     "session_time": 1062,
     "streak": 346,
     "xp_today": 1001
   },
-  {
-    "date": "2023/07/09",
+  "2023/07/09": {
     "number_of_sessions": 9,
     "session_time": 549,
     "streak": 347,
     "xp_today": 526
   },
-  {
-    "date": "2023/07/10",
+  "2023/07/10": {
     "number_of_sessions": 7,
     "session_time": 411,
     "streak": 348,
     "xp_today": 176
   },
-  {
-    "date": "2023/07/11",
+  "2023/07/11": {
     "number_of_sessions": 8,
     "session_time": 710,
     "streak": 349,
     "xp_today": 157
   },
-  {
-    "date": "2023/07/12",
+  "2023/07/12": {
     "number_of_sessions": 6,
     "session_time": 833,
     "streak": 350,
     "xp_today": 444
   },
-  {
-    "date": "2023/07/13",
+  "2023/07/13": {
     "number_of_sessions": 8,
     "session_time": 823,
     "streak": 351,
     "xp_today": 186
   },
-  {
-    "date": "2023/07/14",
+  "2023/07/14": {
     "number_of_sessions": 8,
     "session_time": 611,
     "streak": 352,
     "xp_today": 167
   },
-  {
-    "date": "2023/07/15",
+  "2023/07/15": {
     "number_of_sessions": 10,
     "session_time": 538,
     "streak": 353,
     "xp_today": 465
   },
-  {
-    "date": "2023/07/16",
+  "2023/07/16": {
     "number_of_sessions": 4,
     "session_time": 288,
     "streak": 354,
     "xp_today": 160
   },
-  {
-    "date": "2023/07/17",
+  "2023/07/17": {
     "number_of_sessions": 9,
     "session_time": 597,
     "streak": 355,
     "xp_today": 179
   },
-  {
-    "date": "2023/07/18",
+  "2023/07/18": {
     "number_of_sessions": 7,
     "session_time": 485,
     "streak": 356,
     "xp_today": 174
   },
-  {
-    "date": "2023/07/19",
+  "2023/07/19": {
     "number_of_sessions": 9,
     "session_time": 736,
     "streak": 357,
     "xp_today": 267
   },
-  {
-    "date": "2023/07/20",
+  "2023/07/20": {
     "number_of_sessions": 11,
     "session_time": 1316,
     "streak": 358,
     "xp_today": 519
   },
-  {
-    "date": "2023/07/21",
+  "2023/07/21": {
     "number_of_sessions": 7,
     "session_time": 600,
     "streak": 359,
     "xp_today": 220
   },
-  {
-    "date": "2023/07/22",
+  "2023/07/22": {
     "number_of_sessions": 15,
     "session_time": 923,
     "streak": 360,
     "xp_today": 648
   },
-  {
-    "date": "2023/07/23",
+  "2023/07/23": {
     "number_of_sessions": 6,
     "session_time": 446,
     "streak": 361,
     "xp_today": 212
   },
-  {
-    "date": "2023/07/24",
+  "2023/07/24": {
     "number_of_sessions": 9,
     "session_time": 953,
     "streak": 362,
     "xp_today": 572
   },
-  {
-    "date": "2023/07/25",
+  "2023/07/25": {
     "number_of_sessions": 7,
     "session_time": 579,
     "streak": 363,
     "xp_today": 200
   },
-  {
-    "date": "2023/07/26",
+  "2023/07/26": {
     "number_of_sessions": 4,
     "session_time": 406,
     "streak": 364,
     "xp_today": 258
   },
-  {
-    "date": "2023/07/27",
+  "2023/07/27": {
     "number_of_sessions": 6,
     "session_time": 526,
     "streak": 365,
     "xp_today": 301
   },
-  {
-    "date": "2023/07/28",
+  "2023/07/28": {
     "number_of_sessions": 7,
     "session_time": 773,
     "streak": 366,
     "xp_today": 568
   },
-  {
-    "date": "2023/07/29",
+  "2023/07/29": {
     "number_of_sessions": 20,
     "session_time": 1282,
     "streak": 367,
     "xp_today": 541
   },
-  {
-    "date": "2023/07/30",
+  "2023/07/30": {
     "number_of_sessions": 8,
     "session_time": 576,
     "streak": 368,
     "xp_today": 512
   },
-  {
-    "date": "2023/07/31",
+  "2023/07/31": {
     "number_of_sessions": 5,
     "session_time": 774,
     "streak": 369,
     "xp_today": 276
   },
-  {
-    "date": "2023/08/01",
+  "2023/08/01": {
     "number_of_sessions": 8,
     "session_time": 649,
     "streak": 370,
     "xp_today": 414
   },
-  {
-    "date": "2023/08/02",
+  "2023/08/02": {
     "number_of_sessions": 5,
     "session_time": 541,
     "streak": 371,
     "xp_today": 195
   },
-  {
-    "date": "2023/08/03",
+  "2023/08/03": {
     "number_of_sessions": 4,
     "session_time": 471,
     "streak": 372,
     "xp_today": 175
   },
-  {
-    "date": "2023/08/04",
+  "2023/08/04": {
     "number_of_sessions": 6,
     "session_time": 697,
     "streak": 373,
     "xp_today": 238
   },
-  {
-    "date": "2023/08/05",
+  "2023/08/05": {
     "number_of_sessions": 10,
     "session_time": 580,
     "streak": 374,
     "xp_today": 432
   },
-  {
-    "date": "2023/08/06",
+  "2023/08/06": {
     "number_of_sessions": 8,
     "session_time": 550,
     "streak": 375,
     "xp_today": 470
   },
-  {
-    "date": "2023/08/07",
+  "2023/08/07": {
     "number_of_sessions": 12,
     "session_time": 932,
     "streak": 376,
     "xp_today": 321
   },
-  {
-    "date": "2023/08/08",
+  "2023/08/08": {
     "number_of_sessions": 5,
     "session_time": 527,
     "streak": 377,
     "xp_today": 390
   },
-  {
-    "date": "2023/08/09",
+  "2023/08/09": {
     "number_of_sessions": 5,
     "session_time": 537,
     "streak": 378,
     "xp_today": 165
   },
-  {
-    "date": "2023/08/10",
+  "2023/08/10": {
     "number_of_sessions": 2,
     "session_time": 201,
     "streak": 379,
     "xp_today": 180
   },
-  {
-    "date": "2023/08/11",
+  "2023/08/11": {
     "number_of_sessions": 8,
     "session_time": 962,
     "streak": 380,
     "xp_today": 253
   },
-  {
-    "date": "2023/08/12",
+  "2023/08/12": {
     "number_of_sessions": 10,
     "session_time": 545,
     "streak": 381,
     "xp_today": 358
   },
-  {
-    "date": "2023/08/13",
+  "2023/08/13": {
     "number_of_sessions": 3,
     "session_time": 203,
     "streak": 382,
     "xp_today": 116
   },
-  {
-    "date": "2023/08/14",
+  "2023/08/14": {
     "number_of_sessions": 15,
     "session_time": 1472,
     "streak": 383,
     "xp_today": 539
   },
-  {
-    "date": "2023/08/15",
+  "2023/08/15": {
     "number_of_sessions": 7,
     "session_time": 925,
     "streak": 384,
     "xp_today": 486
   },
-  {
-    "date": "2023/08/16",
+  "2023/08/16": {
     "number_of_sessions": 3,
     "session_time": 376,
     "streak": 385,
     "xp_today": 330
   },
-  {
-    "date": "2023/08/17",
+  "2023/08/17": {
     "number_of_sessions": 5,
     "session_time": 506,
     "streak": 386,
     "xp_today": 295
   },
-  {
-    "date": "2023/08/18",
+  "2023/08/18": {
     "number_of_sessions": 4,
     "session_time": 351,
     "streak": 387,
     "xp_today": 157
   },
-  {
-    "date": "2023/08/19",
+  "2023/08/19": {
     "number_of_sessions": 8,
     "session_time": 434,
     "streak": 388,
     "xp_today": 181
   },
-  {
-    "date": "2023/08/20",
+  "2023/08/20": {
     "number_of_sessions": 4,
     "session_time": 282,
     "streak": 389,
     "xp_today": 196
   },
-  {
-    "date": "2023/08/21",
+  "2023/08/21": {
     "number_of_sessions": 4,
     "session_time": 359,
     "streak": 390,
     "xp_today": 103
   },
-  {
-    "date": "2023/08/22",
+  "2023/08/22": {
     "number_of_sessions": 12,
     "session_time": 964,
     "streak": 391,
     "xp_today": 289
   },
-  {
-    "date": "2023/08/23",
+  "2023/08/23": {
     "number_of_sessions": 7,
     "session_time": 565,
     "streak": 392,
     "xp_today": 420
   },
-  {
-    "date": "2023/08/24",
+  "2023/08/24": {
     "number_of_sessions": 9,
     "session_time": 914,
     "streak": 393,
     "xp_today": 393
   },
-  {
-    "date": "2023/08/25",
+  "2023/08/25": {
     "number_of_sessions": 4,
     "session_time": 489,
     "streak": 394,
     "xp_today": 268
   },
-  {
-    "date": "2023/08/26",
+  "2023/08/26": {
     "number_of_sessions": 6,
     "session_time": 386,
     "streak": 395,
     "xp_today": 156
   },
-  {
-    "date": "2023/08/27",
+  "2023/08/27": {
     "number_of_sessions": 2,
     "session_time": 92,
     "streak": 396,
     "xp_today": 68
   },
-  {
-    "date": "2023/08/28",
+  "2023/08/28": {
     "number_of_sessions": 4,
     "session_time": 462,
     "streak": 397,
     "xp_today": 103
   },
-  {
-    "date": "2023/08/29",
+  "2023/08/29": {
     "number_of_sessions": 13,
     "session_time": 1259,
     "streak": 398,
     "xp_today": 557
   },
-  {
-    "date": "2023/08/30",
+  "2023/08/30": {
     "number_of_sessions": 5,
     "session_time": 585,
     "streak": 399,
     "xp_today": 260
   },
-  {
-    "date": "2023/08/31",
+  "2023/08/31": {
     "number_of_sessions": 4,
     "session_time": 343,
     "streak": 400,
     "xp_today": 103
   },
-  {
-    "date": "2023/09/01",
+  "2023/09/01": {
     "number_of_sessions": 7,
     "session_time": 772,
     "streak": 401,
     "xp_today": 360
   },
-  {
-    "date": "2023/09/02",
+  "2023/09/02": {
     "number_of_sessions": 6,
     "session_time": 380,
     "streak": 402,
     "xp_today": 133
   },
-  {
-    "date": "2023/09/03",
+  "2023/09/03": {
     "number_of_sessions": 3,
     "session_time": 254,
     "streak": 403,
     "xp_today": 108
   },
-  {
-    "date": "2023/09/04",
+  "2023/09/04": {
     "number_of_sessions": 9,
     "session_time": 677,
     "streak": 404,
     "xp_today": 295
   },
-  {
-    "date": "2023/09/05",
+  "2023/09/05": {
     "number_of_sessions": 6,
     "session_time": 924,
     "streak": 405,
     "xp_today": 255
   },
-  {
-    "date": "2023/09/06",
+  "2023/09/06": {
     "number_of_sessions": 5,
     "session_time": 327,
     "streak": 406,
     "xp_today": 95
   },
-  {
-    "date": "2023/09/07",
+  "2023/09/07": {
     "number_of_sessions": 8,
     "session_time": 611,
     "streak": 407,
     "xp_today": 425
   },
-  {
-    "date": "2023/09/08",
+  "2023/09/08": {
     "number_of_sessions": 6,
     "session_time": 297,
     "streak": 408,
     "xp_today": 111
   },
-  {
-    "date": "2023/09/09",
+  "2023/09/09": {
     "number_of_sessions": 8,
     "session_time": 459,
     "streak": 409,
     "xp_today": 248
   },
-  {
-    "date": "2023/09/10",
+  "2023/09/10": {
     "number_of_sessions": 4,
     "session_time": 253,
     "streak": 410,
     "xp_today": 250
   },
-  {
-    "date": "2023/09/11",
+  "2023/09/11": {
     "number_of_sessions": 4,
     "session_time": 189,
     "streak": 411,
     "xp_today": 100
   },
-  {
-    "date": "2023/09/12",
+  "2023/09/12": {
     "number_of_sessions": 6,
     "session_time": 372,
     "streak": 412,
     "xp_today": 270
   },
-  {
-    "date": "2023/09/13",
+  "2023/09/13": {
     "number_of_sessions": 5,
     "session_time": 404,
     "streak": 413,
     "xp_today": 112
   },
-  {
-    "date": "2023/09/14",
+  "2023/09/14": {
     "number_of_sessions": 7,
     "session_time": 489,
     "streak": 414,
     "xp_today": 117
   },
-  {
-    "date": "2023/09/15",
+  "2023/09/15": {
     "number_of_sessions": 6,
     "session_time": 655,
     "streak": 415,
     "xp_today": 112
   },
-  {
-    "date": "2023/09/16",
+  "2023/09/16": {
     "number_of_sessions": 10,
     "session_time": 489,
     "streak": 416,
     "xp_today": 533
   },
-  {
-    "date": "2023/09/17",
+  "2023/09/17": {
     "number_of_sessions": 5,
     "session_time": 240,
     "streak": 417,
     "xp_today": 162
   },
-  {
-    "date": "2023/09/18",
+  "2023/09/18": {
     "number_of_sessions": 8,
     "session_time": 602,
     "streak": 418,
     "xp_today": 346
   },
-  {
-    "date": "2023/09/19",
+  "2023/09/19": {
     "number_of_sessions": 4,
     "session_time": 295,
     "streak": 419,
     "xp_today": 172
   },
-  {
-    "date": "2023/09/20",
+  "2023/09/20": {
     "number_of_sessions": 10,
     "session_time": 1206,
     "streak": 420,
     "xp_today": 519
   },
-  {
-    "date": "2023/09/21",
+  "2023/09/21": {
     "number_of_sessions": 7,
     "session_time": 267,
     "streak": 421,
     "xp_today": 134
   },
-  {
-    "date": "2023/09/22",
+  "2023/09/22": {
     "number_of_sessions": 4,
     "session_time": 332,
     "streak": 422,
     "xp_today": 240
   },
-  {
-    "date": "2023/09/23",
+  "2023/09/23": {
     "number_of_sessions": 11,
     "session_time": 549,
     "streak": 423,
     "xp_today": 482
   },
-  {
-    "date": "2023/09/24",
+  "2023/09/24": {
     "number_of_sessions": 8,
     "session_time": 516,
     "streak": 424,
     "xp_today": 448
   },
-  {
-    "date": "2023/09/25",
+  "2023/09/25": {
     "number_of_sessions": 8,
     "session_time": 543,
     "streak": 425,
     "xp_today": 205
   },
-  {
-    "date": "2023/09/26",
+  "2023/09/26": {
     "number_of_sessions": 6,
     "session_time": 490,
     "streak": 426,
     "xp_today": 322
   },
-  {
-    "date": "2023/09/27",
+  "2023/09/27": {
     "number_of_sessions": 5,
     "session_time": 514,
     "streak": 427,
     "xp_today": 242
   },
-  {
-    "date": "2023/09/28",
+  "2023/09/28": {
     "number_of_sessions": 6,
     "session_time": 645,
     "streak": 428,
     "xp_today": 197
   },
-  {
-    "date": "2023/09/29",
+  "2023/09/29": {
     "number_of_sessions": 10,
     "session_time": 722,
     "streak": 429,
     "xp_today": 218
   },
-  {
-    "date": "2023/09/30",
+  "2023/09/30": {
     "number_of_sessions": 8,
     "session_time": 468,
     "streak": 430,
     "xp_today": 252
   },
-  {
-    "date": "2023/10/01",
+  "2023/10/01": {
     "number_of_sessions": 4,
     "session_time": 305,
     "streak": 431,
     "xp_today": 156
   },
-  {
-    "date": "2023/10/02",
+  "2023/10/02": {
     "number_of_sessions": 7,
     "session_time": 415,
     "streak": 432,
     "xp_today": 113
   },
-  {
-    "date": "2023/10/03",
+  "2023/10/03": {
     "number_of_sessions": 7,
     "session_time": 245,
     "streak": 433,
     "xp_today": 120
   },
-  {
-    "date": "2023/10/04",
+  "2023/10/04": {
     "number_of_sessions": 8,
     "session_time": 292,
     "streak": 434,
     "xp_today": 175
   },
-  {
-    "date": "2023/10/05",
+  "2023/10/05": {
     "number_of_sessions": 6,
     "session_time": 288,
     "streak": 435,
     "xp_today": 116
   },
-  {
-    "date": "2023/10/06",
+  "2023/10/06": {
     "number_of_sessions": 12,
     "session_time": 708,
     "streak": 436,
     "xp_today": 278
   },
-  {
-    "date": "2023/10/07",
+  "2023/10/07": {
     "number_of_sessions": 16,
     "session_time": 882,
     "streak": 437,
     "xp_today": 841
   },
-  {
-    "date": "2023/10/08",
+  "2023/10/08": {
     "number_of_sessions": 5,
     "session_time": 300,
     "streak": 438,
     "xp_today": 400
   },
-  {
-    "date": "2023/10/09",
+  "2023/10/09": {
     "number_of_sessions": 15,
     "session_time": 1364,
     "streak": 439,
     "xp_today": 701
   },
-  {
-    "date": "2023/10/10",
+  "2023/10/10": {
     "number_of_sessions": 5,
     "session_time": 472,
     "streak": 440,
     "xp_today": 238
   },
-  {
-    "date": "2023/10/11",
+  "2023/10/11": {
     "number_of_sessions": 9,
     "session_time": 364,
     "streak": 441,
     "xp_today": 302
   },
-  {
-    "date": "2023/10/12",
+  "2023/10/12": {
     "number_of_sessions": 17,
     "session_time": 244,
     "streak": 442,
     "xp_today": 315
   },
-  {
-    "date": "2023/10/13",
+  "2023/10/13": {
     "number_of_sessions": 13,
     "session_time": 316,
     "streak": 443,
     "xp_today": 405
   },
-  {
-    "date": "2023/10/14",
+  "2023/10/14": {
     "number_of_sessions": 9,
     "session_time": 546,
     "streak": 444,
     "xp_today": 462
   },
-  {
-    "date": "2023/10/15",
+  "2023/10/15": {
     "number_of_sessions": 5,
     "session_time": 266,
     "streak": 445,
     "xp_today": 200
   },
-  {
-    "date": "2023/10/16",
+  "2023/10/16": {
     "number_of_sessions": 9,
     "session_time": 263,
     "streak": 446,
     "xp_today": 152
   },
-  {
-    "date": "2023/10/17",
+  "2023/10/17": {
     "number_of_sessions": 14,
     "session_time": 773,
     "streak": 447,
     "xp_today": 630
   },
-  {
-    "date": "2023/10/18",
+  "2023/10/18": {
     "number_of_sessions": 8,
     "session_time": 0,
     "streak": 448,
     "xp_today": 120
   },
-  {
-    "date": "2023/10/19",
+  "2023/10/19": {
     "number_of_sessions": 9,
     "session_time": 421,
     "streak": 449,
     "xp_today": 355
   },
-  {
-    "date": "2023/10/20",
+  "2023/10/20": {
     "number_of_sessions": 11,
     "session_time": 227,
     "streak": 450,
     "xp_today": 230
   },
-  {
-    "date": "2023/10/21",
+  "2023/10/21": {
     "number_of_sessions": 9,
     "session_time": 536,
     "streak": 451,
     "xp_today": 261
   },
-  {
-    "date": "2023/10/22",
+  "2023/10/22": {
     "number_of_sessions": 9,
     "session_time": 503,
     "streak": 452,
     "xp_today": 570
   },
-  {
-    "date": "2023/10/23",
+  "2023/10/23": {
     "number_of_sessions": 10,
     "session_time": 297,
     "streak": 453,
     "xp_today": 176
   },
-  {
-    "date": "2023/10/24",
+  "2023/10/24": {
     "number_of_sessions": 8,
     "session_time": 179,
     "streak": 454,
     "xp_today": 135
   },
-  {
-    "date": "2023/10/25",
+  "2023/10/25": {
     "number_of_sessions": 8,
     "session_time": 512,
     "streak": 455,
     "xp_today": 156
   },
-  {
-    "date": "2023/10/26",
+  "2023/10/26": {
     "number_of_sessions": 8,
     "session_time": 168,
     "streak": 456,
     "xp_today": 175
   },
-  {
-    "date": "2023/10/27",
+  "2023/10/27": {
     "number_of_sessions": 5,
     "session_time": 496,
     "streak": 457,
     "xp_today": 330
   },
-  {
-    "date": "2023/10/28",
+  "2023/10/28": {
     "number_of_sessions": 10,
     "session_time": 542,
     "streak": 458,
     "xp_today": 423
   },
-  {
-    "date": "2023/10/29",
+  "2023/10/29": {
     "number_of_sessions": 11,
     "session_time": 248,
     "streak": 459,
     "xp_today": 250
   },
-  {
-    "date": "2023/10/30",
+  "2023/10/30": {
     "number_of_sessions": 14,
     "session_time": 672,
     "streak": 460,
     "xp_today": 391
   },
-  {
-    "date": "2023/10/31",
+  "2023/10/31": {
     "number_of_sessions": 10,
     "session_time": 1228,
     "streak": 461,
     "xp_today": 393
   },
-  {
-    "date": "2023/11/01",
+  "2023/11/01": {
     "number_of_sessions": 10,
     "session_time": 402,
     "streak": 462,
     "xp_today": 195
   },
-  {
-    "date": "2023/11/02",
+  "2023/11/02": {
     "number_of_sessions": 4,
     "session_time": 234,
     "streak": 463,
     "xp_today": 152
   },
-  {
-    "date": "2023/11/03",
+  "2023/11/03": {
     "number_of_sessions": 8,
     "session_time": 173,
     "streak": 464,
     "xp_today": 193
   },
-  {
-    "date": "2023/11/04",
+  "2023/11/04": {
     "number_of_sessions": 10,
     "session_time": 572,
     "streak": 465,
     "xp_today": 361
   },
-  {
-    "date": "2023/11/05",
+  "2023/11/05": {
     "number_of_sessions": 12,
     "session_time": 480,
     "streak": 466,
     "xp_today": 334
   },
-  {
-    "date": "2023/11/06",
+  "2023/11/06": {
     "number_of_sessions": 11,
     "session_time": 189,
     "streak": 467,
     "xp_today": 181
   },
-  {
-    "date": "2023/11/07",
+  "2023/11/07": {
     "number_of_sessions": 11,
     "session_time": 715,
     "streak": 468,
     "xp_today": 354
   },
-  {
-    "date": "2023/11/08",
+  "2023/11/08": {
     "number_of_sessions": 11,
     "session_time": 448,
     "streak": 469,
     "xp_today": 427
   },
-  {
-    "date": "2023/11/09",
+  "2023/11/09": {
     "number_of_sessions": 5,
     "session_time": 452,
     "streak": 470,
     "xp_today": 225
   },
-  {
-    "date": "2023/11/10",
+  "2023/11/10": {
     "number_of_sessions": 4,
     "session_time": 190,
     "streak": 471,
     "xp_today": 160
   },
-  {
-    "date": "2023/11/11",
+  "2023/11/11": {
     "number_of_sessions": 10,
     "session_time": 354,
     "streak": 472,
     "xp_today": 272
   },
-  {
-    "date": "2023/11/12",
+  "2023/11/12": {
     "number_of_sessions": 14,
     "session_time": 677,
     "streak": 473,
     "xp_today": 547
   },
-  {
-    "date": "2023/11/13",
+  "2023/11/13": {
     "number_of_sessions": 8,
     "session_time": 243,
     "streak": 474,
     "xp_today": 233
   },
-  {
-    "date": "2023/11/14",
+  "2023/11/14": {
     "number_of_sessions": 8,
     "session_time": 581,
     "streak": 475,
     "xp_today": 383
   },
-  {
-    "date": "2023/11/15",
+  "2023/11/15": {
     "number_of_sessions": 9,
     "session_time": 509,
     "streak": 476,
     "xp_today": 351
   },
-  {
-    "date": "2023/11/16",
+  "2023/11/16": {
     "number_of_sessions": 8,
     "session_time": 388,
     "streak": 477,
     "xp_today": 196
   },
-  {
-    "date": "2023/11/17",
+  "2023/11/17": {
     "number_of_sessions": 9,
     "session_time": 504,
     "streak": 478,
     "xp_today": 336
   },
-  {
-    "date": "2023/11/18",
+  "2023/11/18": {
     "number_of_sessions": 7,
     "session_time": 535,
     "streak": 479,
     "xp_today": 296
   },
-  {
-    "date": "2023/11/19",
+  "2023/11/19": {
     "number_of_sessions": 7,
     "session_time": 459,
     "streak": 480,
     "xp_today": 238
   },
-  {
-    "date": "2023/11/20",
+  "2023/11/20": {
     "number_of_sessions": 8,
     "session_time": 498,
     "streak": 481,
     "xp_today": 158
   },
-  {
-    "date": "2023/11/21",
+  "2023/11/21": {
     "number_of_sessions": 8,
     "session_time": 727,
     "streak": 482,
     "xp_today": 342
   },
-  {
-    "date": "2023/11/22",
+  "2023/11/22": {
     "number_of_sessions": 4,
     "session_time": 268,
     "streak": 483,
     "xp_today": 150
   },
-  {
-    "date": "2023/11/23",
+  "2023/11/23": {
     "number_of_sessions": 5,
     "session_time": 245,
     "streak": 484,
     "xp_today": 98
   },
-  {
-    "date": "2023/11/24",
+  "2023/11/24": {
     "number_of_sessions": 7,
     "session_time": 242,
     "streak": 485,
     "xp_today": 200
   },
-  {
-    "date": "2023/11/25",
+  "2023/11/25": {
     "number_of_sessions": 12,
     "session_time": 690,
     "streak": 486,
     "xp_today": 378
   },
-  {
-    "date": "2023/11/26",
+  "2023/11/26": {
     "number_of_sessions": 9,
     "session_time": 573,
     "streak": 487,
     "xp_today": 542
   },
-  {
-    "date": "2023/11/27",
+  "2023/11/27": {
     "number_of_sessions": 12,
     "session_time": 739,
     "streak": 488,
     "xp_today": 270
   },
-  {
-    "date": "2023/11/28",
+  "2023/11/28": {
     "number_of_sessions": 5,
     "session_time": 377,
     "streak": 489,
     "xp_today": 242
   },
-  {
-    "date": "2023/11/29",
+  "2023/11/29": {
     "number_of_sessions": 8,
     "session_time": 461,
     "streak": 490,
     "xp_today": 290
   },
-  {
-    "date": "2023/11/30",
+  "2023/11/30": {
     "number_of_sessions": 9,
     "session_time": 517,
     "streak": 491,
     "xp_today": 206
   },
-  {
-    "date": "2023/12/01",
+  "2023/12/01": {
     "number_of_sessions": 6,
     "session_time": 230,
     "streak": 492,
     "xp_today": 215
   },
-  {
-    "date": "2023/12/02",
+  "2023/12/02": {
     "number_of_sessions": 18,
     "session_time": 1019,
     "streak": 493,
     "xp_today": 1081
   },
-  {
-    "date": "2023/12/03",
+  "2023/12/03": {
     "number_of_sessions": 15,
     "session_time": 978,
     "streak": 494,
     "xp_today": 1084
   },
-  {
-    "date": "2023/12/04",
+  "2023/12/04": {
     "number_of_sessions": 15,
     "session_time": 943,
     "streak": 495,
     "xp_today": 590
   },
-  {
-    "date": "2023/12/05",
+  "2023/12/05": {
     "number_of_sessions": 12,
     "session_time": 988,
     "streak": 496,
     "xp_today": 401
   },
-  {
-    "date": "2023/12/06",
+  "2023/12/06": {
     "number_of_sessions": 8,
     "session_time": 425,
     "streak": 497,
     "xp_today": 194
   },
-  {
-    "date": "2023/12/07",
+  "2023/12/07": {
     "number_of_sessions": 8,
     "session_time": 517,
     "streak": 498,
     "xp_today": 239
   },
-  {
-    "date": "2023/12/08",
+  "2023/12/08": {
     "number_of_sessions": 9,
     "session_time": 342,
     "streak": 499,
     "xp_today": 290
   },
-  {
-    "date": "2023/12/09",
+  "2023/12/09": {
     "number_of_sessions": 10,
     "session_time": 652,
     "streak": 500,
     "xp_today": 284
   },
-  {
-    "date": "2023/12/10",
+  "2023/12/10": {
     "number_of_sessions": 6,
     "session_time": 436,
     "streak": 501,
     "xp_today": 406
   },
-  {
-    "date": "2023/12/11",
+  "2023/12/11": {
     "number_of_sessions": 10,
     "session_time": 456,
     "streak": 502,
     "xp_today": 310
   },
-  {
-    "date": "2023/12/12",
+  "2023/12/12": {
     "number_of_sessions": 10,
     "session_time": 610,
     "streak": 503,
     "xp_today": 299
   },
-  {
-    "date": "2023/12/13",
+  "2023/12/13": {
     "number_of_sessions": 10,
     "session_time": 215,
     "streak": 504,
     "xp_today": 286
   },
-  {
-    "date": "2023/12/14",
+  "2023/12/14": {
     "number_of_sessions": 9,
     "session_time": 479,
     "streak": 505,
     "xp_today": 398
   },
-  {
-    "date": "2023/12/15",
+  "2023/12/15": {
     "number_of_sessions": 9,
     "session_time": 404,
     "streak": 506,
     "xp_today": 234
   },
-  {
-    "date": "2023/12/16",
+  "2023/12/16": {
     "number_of_sessions": 13,
     "session_time": 824,
     "streak": 507,
     "xp_today": 813
   },
-  {
-    "date": "2023/12/17",
+  "2023/12/17": {
     "number_of_sessions": 7,
     "session_time": 453,
     "streak": 508,
     "xp_today": 186
   },
-  {
-    "date": "2023/12/18",
+  "2023/12/18": {
     "number_of_sessions": 11,
     "session_time": 702,
     "streak": 509,
     "xp_today": 340
   },
-  {
-    "date": "2023/12/19",
+  "2023/12/19": {
     "number_of_sessions": 10,
     "session_time": 556,
     "streak": 510,
     "xp_today": 244
   },
-  {
-    "date": "2023/12/20",
+  "2023/12/20": {
     "number_of_sessions": 5,
     "session_time": 367,
     "streak": 511,
     "xp_today": 286
   },
-  {
-    "date": "2023/12/21",
+  "2023/12/21": {
     "number_of_sessions": 13,
     "session_time": 346,
     "streak": 512,
     "xp_today": 445
   },
-  {
-    "date": "2023/12/22",
+  "2023/12/22": {
     "number_of_sessions": 14,
     "session_time": 554,
     "streak": 513,
     "xp_today": 540
   },
-  {
-    "date": "2023/12/23",
+  "2023/12/23": {
     "number_of_sessions": 11,
     "session_time": 854,
     "streak": 514,
     "xp_today": 702
   },
-  {
-    "date": "2023/12/24",
+  "2023/12/24": {
     "number_of_sessions": 15,
     "session_time": 951,
     "streak": 515,
     "xp_today": 341
   },
-  {
-    "date": "2023/12/25",
+  "2023/12/25": {
     "number_of_sessions": 11,
     "session_time": 471,
     "streak": 516,
     "xp_today": 330
   },
-  {
-    "date": "2023/12/26",
+  "2023/12/26": {
     "number_of_sessions": 10,
     "session_time": 492,
     "streak": 517,
     "xp_today": 320
   },
-  {
-    "date": "2023/12/27",
+  "2023/12/27": {
     "number_of_sessions": 4,
     "session_time": 261,
     "streak": 518,
     "xp_today": 218
   },
-  {
-    "date": "2023/12/28",
+  "2023/12/28": {
     "number_of_sessions": 7,
     "session_time": 301,
     "streak": 519,
     "xp_today": 135
   },
-  {
-    "date": "2023/12/29",
+  "2023/12/29": {
     "number_of_sessions": 6,
     "session_time": 351,
     "streak": 520,
     "xp_today": 230
   },
-  {
-    "date": "2023/12/30",
+  "2023/12/30": {
     "number_of_sessions": 10,
     "session_time": 602,
     "streak": 521,
     "xp_today": 215
   },
-  {
-    "date": "2023/12/31",
+  "2023/12/31": {
     "number_of_sessions": 7,
     "session_time": 370,
     "streak": 522,
     "xp_today": 221
   },
-  {
-    "date": "2024/01/01",
+  "2024/01/01": {
     "number_of_sessions": 11,
     "session_time": 502,
     "streak": 523,
     "xp_today": 212
   },
-  {
-    "date": "2024/01/02",
+  "2024/01/02": {
     "number_of_sessions": 8,
     "session_time": 407,
     "streak": 524,
     "xp_today": 160
   },
-  {
-    "date": "2024/01/03",
+  "2024/01/03": {
     "number_of_sessions": 9,
     "session_time": 403,
     "streak": 525,
     "xp_today": 247
   },
-  {
-    "date": "2024/01/04",
+  "2024/01/04": {
     "number_of_sessions": 9,
     "session_time": 880,
     "streak": 526,
     "xp_today": 276
   },
-  {
-    "date": "2024/01/05",
+  "2024/01/05": {
     "number_of_sessions": 8,
     "session_time": 391,
     "streak": 527,
     "xp_today": 160
   },
-  {
-    "date": "2024/01/06",
+  "2024/01/06": {
     "number_of_sessions": 11,
     "session_time": 664,
     "streak": 528,
     "xp_today": 319
   },
-  {
-    "date": "2024/01/07",
+  "2024/01/07": {
     "number_of_sessions": 9,
     "session_time": 653,
     "streak": 529,
     "xp_today": 296
   },
-  {
-    "date": "2024/01/08",
+  "2024/01/08": {
     "number_of_sessions": 9,
     "session_time": 569,
     "streak": 530,
     "xp_today": 334
   },
-  {
-    "date": "2024/01/09",
+  "2024/01/09": {
     "number_of_sessions": 8,
     "session_time": 434,
     "streak": 531,
     "xp_today": 331
   },
-  {
-    "date": "2024/01/10",
+  "2024/01/10": {
     "number_of_sessions": 3,
     "session_time": 125,
     "streak": 532,
     "xp_today": 145
   },
-  {
-    "date": "2024/01/11",
+  "2024/01/11": {
     "number_of_sessions": 7,
     "session_time": 437,
     "streak": 533,
     "xp_today": 170
   },
-  {
-    "date": "2024/01/12",
+  "2024/01/12": {
     "number_of_sessions": 10,
     "session_time": 451,
     "streak": 534,
     "xp_today": 307
   },
-  {
-    "date": "2024/01/13",
+  "2024/01/13": {
     "number_of_sessions": 9,
     "session_time": 761,
     "streak": 535,
     "xp_today": 223
   },
-  {
-    "date": "2024/01/14",
+  "2024/01/14": {
     "number_of_sessions": 5,
     "session_time": 326,
     "streak": 536,
     "xp_today": 150
   },
-  {
-    "date": "2024/01/15",
+  "2024/01/15": {
     "number_of_sessions": 9,
     "session_time": 467,
     "streak": 537,
     "xp_today": 250
   },
-  {
-    "date": "2024/01/16",
+  "2024/01/16": {
     "number_of_sessions": 8,
     "session_time": 421,
     "streak": 538,
     "xp_today": 265
   },
-  {
-    "date": "2024/01/17",
+  "2024/01/17": {
     "number_of_sessions": 5,
     "session_time": 344,
     "streak": 539,
     "xp_today": 282
   },
-  {
-    "date": "2024/01/18",
+  "2024/01/18": {
     "number_of_sessions": 11,
     "session_time": 497,
     "streak": 540,
     "xp_today": 316
   },
-  {
-    "date": "2024/01/19",
+  "2024/01/19": {
     "number_of_sessions": 11,
     "session_time": 527,
     "streak": 541,
     "xp_today": 324
   },
-  {
-    "date": "2024/01/20",
+  "2024/01/20": {
     "number_of_sessions": 8,
     "session_time": 539,
     "streak": 542,
     "xp_today": 172
   },
-  {
-    "date": "2024/01/21",
+  "2024/01/21": {
     "number_of_sessions": 7,
     "session_time": 490,
     "streak": 543,
     "xp_today": 190
   },
-  {
-    "date": "2024/01/22",
+  "2024/01/22": {
     "number_of_sessions": 6,
     "session_time": 196,
     "streak": 544,
     "xp_today": 207
   },
-  {
-    "date": "2024/01/23",
+  "2024/01/23": {
     "number_of_sessions": 12,
     "session_time": 419,
     "streak": 545,
     "xp_today": 220
   },
-  {
-    "date": "2024/01/24",
+  "2024/01/24": {
     "number_of_sessions": 7,
     "session_time": 360,
     "streak": 546,
     "xp_today": 264
   },
-  {
-    "date": "2024/01/25",
+  "2024/01/25": {
     "number_of_sessions": 4,
     "session_time": 246,
     "streak": 547,
     "xp_today": 74
   },
-  {
-    "date": "2024/01/26",
+  "2024/01/26": {
     "number_of_sessions": 4,
     "session_time": 350,
     "streak": 548,
     "xp_today": 260
   },
-  {
-    "date": "2024/01/27",
+  "2024/01/27": {
     "number_of_sessions": 6,
     "session_time": 386,
     "streak": 549,
     "xp_today": 130
   },
-  {
-    "date": "2024/01/28",
+  "2024/01/28": {
     "number_of_sessions": 6,
     "session_time": 373,
     "streak": 550,
     "xp_today": 228
   },
-  {
-    "date": "2024/01/29",
+  "2024/01/29": {
     "number_of_sessions": 10,
     "session_time": 687,
     "streak": 551,
     "xp_today": 217
   },
-  {
-    "date": "2024/01/30",
+  "2024/01/30": {
     "number_of_sessions": 6,
     "session_time": 545,
     "streak": 552,
     "xp_today": 216
   },
-  {
-    "date": "2024/01/31",
+  "2024/01/31": {
     "number_of_sessions": 7,
     "session_time": 366,
     "streak": 553,
     "xp_today": 246
   },
-  {
-    "date": "2024/02/01",
+  "2024/02/01": {
     "number_of_sessions": 5,
     "session_time": 218,
     "streak": 554,
     "xp_today": 100
   },
-  {
-    "date": "2024/02/02",
+  "2024/02/02": {
     "number_of_sessions": 5,
     "session_time": 492,
     "streak": 555,
     "xp_today": 400
   },
-  {
-    "date": "2024/02/03",
+  "2024/02/03": {
     "number_of_sessions": 11,
     "session_time": 715,
     "streak": 556,
     "xp_today": 301
   },
-  {
-    "date": "2024/02/04",
+  "2024/02/04": {
     "number_of_sessions": 4,
     "session_time": 197,
     "streak": 557,
     "xp_today": 120
   },
-  {
-    "date": "2024/02/05",
+  "2024/02/05": {
     "number_of_sessions": 7,
     "session_time": 305,
     "streak": 558,
     "xp_today": 131
   },
-  {
-    "date": "2024/02/06",
+  "2024/02/06": {
     "number_of_sessions": 7,
     "session_time": 774,
     "streak": 559,
     "xp_today": 234
   },
-  {
-    "date": "2024/02/07",
+  "2024/02/07": {
     "number_of_sessions": 5,
     "session_time": 280,
     "streak": 560,
     "xp_today": 164
   },
-  {
-    "date": "2024/02/08",
+  "2024/02/08": {
     "number_of_sessions": 9,
     "session_time": 377,
     "streak": 561,
     "xp_today": 180
   },
-  {
-    "date": "2024/02/09",
+  "2024/02/09": {
     "number_of_sessions": 11,
     "session_time": 978,
     "streak": 562,
     "xp_today": 565
   },
-  {
-    "date": "2024/02/10",
+  "2024/02/10": {
     "number_of_sessions": 14,
     "session_time": 936,
     "streak": 563,
     "xp_today": 428
   },
-  {
-    "date": "2024/02/11",
+  "2024/02/11": {
     "number_of_sessions": 6,
     "session_time": 334,
     "streak": 564,
     "xp_today": 180
   },
-  {
-    "date": "2024/02/12",
+  "2024/02/12": {
     "number_of_sessions": 8,
     "session_time": 326,
     "streak": 565,
     "xp_today": 158
   },
-  {
-    "date": "2024/02/13",
+  "2024/02/13": {
     "number_of_sessions": 8,
     "session_time": 533,
     "streak": 566,
     "xp_today": 248
   },
-  {
-    "date": "2024/02/14",
+  "2024/02/14": {
     "number_of_sessions": 8,
     "session_time": 442,
     "streak": 567,
     "xp_today": 310
   },
-  {
-    "date": "2024/02/15",
+  "2024/02/15": {
     "number_of_sessions": 9,
     "session_time": 484,
     "streak": 568,
     "xp_today": 338
   },
-  {
-    "date": "2024/02/16",
+  "2024/02/16": {
     "number_of_sessions": 9,
     "session_time": 549,
     "streak": 569,
     "xp_today": 304
   },
-  {
-    "date": "2024/02/17",
+  "2024/02/17": {
     "number_of_sessions": 13,
     "session_time": 827,
     "streak": 570,
     "xp_today": 709
   },
-  {
-    "date": "2024/02/18",
+  "2024/02/18": {
     "number_of_sessions": 5,
     "session_time": 370,
     "streak": 571,
     "xp_today": 162
   },
-  {
-    "date": "2024/02/19",
+  "2024/02/19": {
     "number_of_sessions": 5,
     "session_time": 327,
     "streak": 572,
     "xp_today": 144
   },
-  {
-    "date": "2024/02/20",
+  "2024/02/20": {
     "number_of_sessions": 5,
     "session_time": 186,
     "streak": 573,
     "xp_today": 168
   },
-  {
-    "date": "2024/02/21",
+  "2024/02/21": {
     "number_of_sessions": 6,
     "session_time": 241,
     "streak": 574,
     "xp_today": 120
   },
-  {
-    "date": "2024/02/22",
+  "2024/02/22": {
     "number_of_sessions": 7,
     "session_time": 583,
     "streak": 575,
     "xp_today": 490
   },
-  {
-    "date": "2024/02/23",
+  "2024/02/23": {
     "number_of_sessions": 4,
     "session_time": 153,
     "streak": 576,
     "xp_today": 80
   },
-  {
-    "date": "2024/02/24",
+  "2024/02/24": {
     "number_of_sessions": 13,
     "session_time": 1133,
     "streak": 577,
     "xp_today": 397
   },
-  {
-    "date": "2024/02/25",
+  "2024/02/25": {
     "number_of_sessions": 16,
     "session_time": 1248,
     "streak": 578,
     "xp_today": 830
   },
-  {
-    "date": "2024/02/26",
+  "2024/02/26": {
     "number_of_sessions": 6,
     "session_time": 588,
     "streak": 579,
     "xp_today": 101
   },
-  {
-    "date": "2024/02/27",
+  "2024/02/27": {
     "number_of_sessions": 8,
     "session_time": 547,
     "streak": 580,
     "xp_today": 252
   },
-  {
-    "date": "2024/02/28",
+  "2024/02/28": {
     "number_of_sessions": 3,
     "session_time": 244,
     "streak": 581,
     "xp_today": 170
   },
-  {
-    "date": "2024/02/29",
+  "2024/02/29": {
     "number_of_sessions": 8,
     "session_time": 326,
     "streak": 582,
     "xp_today": 275
   },
-  {
-    "date": "2024/03/01",
+  "2024/03/01": {
     "number_of_sessions": 18,
     "session_time": 1480,
     "streak": 583,
     "xp_today": 834
   },
-  {
-    "date": "2024/03/02",
+  "2024/03/02": {
     "number_of_sessions": 10,
     "session_time": 660,
     "streak": 584,
     "xp_today": 548
   },
-  {
-    "date": "2024/03/03",
+  "2024/03/03": {
     "number_of_sessions": 10,
     "session_time": 910,
     "streak": 585,
     "xp_today": 446
   },
-  {
-    "date": "2024/03/04",
+  "2024/03/04": {
     "number_of_sessions": 8,
     "session_time": 393,
     "streak": 586,
     "xp_today": 220
   },
-  {
-    "date": "2024/03/05",
+  "2024/03/05": {
     "number_of_sessions": 7,
     "session_time": 365,
     "streak": 587,
     "xp_today": 155
   },
-  {
-    "date": "2024/03/06",
+  "2024/03/06": {
     "number_of_sessions": 5,
     "session_time": 281,
     "streak": 588,
     "xp_today": 222
   },
-  {
-    "date": "2024/03/07",
+  "2024/03/07": {
     "number_of_sessions": 3,
     "session_time": 95,
     "streak": 589,
     "xp_today": 58
   },
-  {
-    "date": "2024/03/08",
+  "2024/03/08": {
     "number_of_sessions": 8,
     "session_time": 589,
     "streak": 590,
     "xp_today": 330
   },
-  {
-    "date": "2024/03/09",
+  "2024/03/09": {
     "number_of_sessions": 11,
     "session_time": 594,
     "streak": 591,
     "xp_today": 320
   },
-  {
-    "date": "2024/03/10",
+  "2024/03/10": {
     "number_of_sessions": 9,
     "session_time": 645,
     "streak": 592,
     "xp_today": 534
   },
-  {
-    "date": "2024/03/11",
+  "2024/03/11": {
     "number_of_sessions": 9,
     "session_time": 363,
     "streak": 593,
     "xp_today": 246
   },
-  {
-    "date": "2024/03/12",
+  "2024/03/12": {
     "number_of_sessions": 10,
     "session_time": 1088,
     "streak": 594,
     "xp_today": 254
   },
-  {
-    "date": "2024/03/13",
+  "2024/03/13": {
     "number_of_sessions": 6,
     "session_time": 452,
     "streak": 595,
     "xp_today": 216
   },
-  {
-    "date": "2024/03/14",
+  "2024/03/14": {
     "number_of_sessions": 4,
     "session_time": 447,
     "streak": 596,
     "xp_today": 202
   },
-  {
-    "date": "2024/03/15",
+  "2024/03/15": {
     "number_of_sessions": 7,
     "session_time": 499,
     "streak": 597,
     "xp_today": 342
   },
-  {
-    "date": "2024/03/16",
+  "2024/03/16": {
     "number_of_sessions": 6,
     "session_time": 508,
     "streak": 598,
     "xp_today": 109
   },
-  {
-    "date": "2024/03/17",
+  "2024/03/17": {
     "number_of_sessions": 9,
     "session_time": 722,
     "streak": 599,
     "xp_today": 288
   },
-  {
-    "date": "2024/03/18",
+  "2024/03/18": {
     "number_of_sessions": 12,
     "session_time": 591,
     "streak": 600,
     "xp_today": 394
   },
-  {
-    "date": "2024/03/19",
+  "2024/03/19": {
     "number_of_sessions": 6,
     "session_time": 244,
     "streak": 601,
     "xp_today": 240
   },
-  {
-    "date": "2024/03/20",
+  "2024/03/20": {
     "number_of_sessions": 8,
     "session_time": 568,
     "streak": 602,
     "xp_today": 251
   },
-  {
-    "date": "2024/03/21",
+  "2024/03/21": {
     "number_of_sessions": 6,
     "session_time": 170,
     "streak": 603,
     "xp_today": 236
   },
-  {
-    "date": "2024/03/22",
+  "2024/03/22": {
     "number_of_sessions": 12,
     "session_time": 1092,
     "streak": 604,
     "xp_today": 532
   },
-  {
-    "date": "2024/03/23",
+  "2024/03/23": {
     "number_of_sessions": 8,
     "session_time": 667,
     "streak": 605,
     "xp_today": 195
   },
-  {
-    "date": "2024/03/24",
+  "2024/03/24": {
     "number_of_sessions": 7,
     "session_time": 535,
     "streak": 606,
     "xp_today": 292
   },
-  {
-    "date": "2024/03/25",
+  "2024/03/25": {
     "number_of_sessions": 8,
     "session_time": 725,
     "streak": 607,
     "xp_today": 139
   },
-  {
-    "date": "2024/03/26",
+  "2024/03/26": {
     "number_of_sessions": 6,
     "session_time": 349,
     "streak": 608,
     "xp_today": 134
   },
-  {
-    "date": "2024/03/27",
+  "2024/03/27": {
     "number_of_sessions": 4,
     "session_time": 192,
     "streak": 609,
     "xp_today": 152
   },
-  {
-    "date": "2024/03/28",
+  "2024/03/28": {
     "number_of_sessions": 8,
     "session_time": 843,
     "streak": 610,
     "xp_today": 243
   },
-  {
-    "date": "2024/03/29",
+  "2024/03/29": {
     "number_of_sessions": 5,
     "session_time": 510,
     "streak": 611,
     "xp_today": 330
   },
-  {
-    "date": "2024/03/30",
+  "2024/03/30": {
     "number_of_sessions": 10,
     "session_time": 763,
     "streak": 612,
     "xp_today": 369
   },
-  {
-    "date": "2024/03/31",
+  "2024/03/31": {
     "number_of_sessions": 5,
     "session_time": 327,
     "streak": 613,
     "xp_today": 142
   },
-  {
-    "date": "2024/04/01",
+  "2024/04/01": {
     "number_of_sessions": 4,
     "session_time": 736,
     "streak": 614,
     "xp_today": 99
   },
-  {
-    "date": "2024/04/02",
+  "2024/04/02": {
     "number_of_sessions": 7,
     "session_time": 257,
     "streak": 615,
     "xp_today": 103
   },
-  {
-    "date": "2024/04/03",
+  "2024/04/03": {
     "number_of_sessions": 4,
     "session_time": 218,
     "streak": 616,
     "xp_today": 76
   },
-  {
-    "date": "2024/04/04",
+  "2024/04/04": {
     "number_of_sessions": 8,
     "session_time": 469,
     "streak": 617,
     "xp_today": 322
   },
-  {
-    "date": "2024/04/05",
+  "2024/04/05": {
     "number_of_sessions": 12,
     "session_time": 988,
     "streak": 618,
     "xp_today": 514
   },
-  {
-    "date": "2024/04/06",
+  "2024/04/06": {
     "number_of_sessions": 12,
     "session_time": 857,
     "streak": 619,
     "xp_today": 595
   },
-  {
-    "date": "2024/04/07",
+  "2024/04/07": {
     "number_of_sessions": 8,
     "session_time": 727,
     "streak": 620,
     "xp_today": 217
   },
-  {
-    "date": "2024/04/08",
+  "2024/04/08": {
     "number_of_sessions": 6,
     "session_time": 191,
     "streak": 621,
     "xp_today": 120
   },
-  {
-    "date": "2024/04/09",
+  "2024/04/09": {
     "number_of_sessions": 12,
     "session_time": 1326,
     "streak": 622,
     "xp_today": 371
   },
-  {
-    "date": "2024/04/10",
+  "2024/04/10": {
     "number_of_sessions": 7,
     "session_time": 474,
     "streak": 623,
     "xp_today": 230
   },
-  {
-    "date": "2024/04/11",
+  "2024/04/11": {
     "number_of_sessions": 5,
     "session_time": 285,
     "streak": 624,
     "xp_today": 230
   },
-  {
-    "date": "2024/04/12",
+  "2024/04/12": {
     "number_of_sessions": 8,
     "session_time": 751,
     "streak": 625,
     "xp_today": 460
   },
-  {
-    "date": "2024/04/13",
+  "2024/04/13": {
     "number_of_sessions": 13,
     "session_time": 1045,
     "streak": 626,
     "xp_today": 416
   },
-  {
-    "date": "2024/04/14",
+  "2024/04/14": {
     "number_of_sessions": 6,
     "session_time": 465,
     "streak": 627,
     "xp_today": 240
   },
-  {
-    "date": "2024/04/15",
+  "2024/04/15": {
     "number_of_sessions": 7,
     "session_time": 239,
     "streak": 628,
     "xp_today": 174
   },
-  {
-    "date": "2024/04/16",
+  "2024/04/16": {
     "number_of_sessions": 5,
     "session_time": 262,
     "streak": 629,
     "xp_today": 200
   },
-  {
-    "date": "2024/04/17",
+  "2024/04/17": {
     "number_of_sessions": 8,
     "session_time": 421,
     "streak": 630,
     "xp_today": 203
   },
-  {
-    "date": "2024/04/18",
+  "2024/04/18": {
     "number_of_sessions": 6,
     "session_time": 244,
     "streak": 631,
     "xp_today": 240
   },
-  {
-    "date": "2024/04/19",
+  "2024/04/19": {
     "number_of_sessions": 10,
     "session_time": 897,
     "streak": 632,
     "xp_today": 438
   },
-  {
-    "date": "2024/04/20",
+  "2024/04/20": {
     "number_of_sessions": 10,
     "session_time": 656,
     "streak": 633,
     "xp_today": 552
   },
-  {
-    "date": "2024/04/21",
+  "2024/04/21": {
     "number_of_sessions": 5,
     "session_time": 266,
     "streak": 634,
     "xp_today": 136
   },
-  {
-    "date": "2024/04/22",
+  "2024/04/22": {
     "number_of_sessions": 5,
     "session_time": 172,
     "streak": 635,
     "xp_today": 94
   },
-  {
-    "date": "2024/04/23",
+  "2024/04/23": {
     "number_of_sessions": 7,
     "session_time": 652,
     "streak": 636,
     "xp_today": 246
   },
-  {
-    "date": "2024/04/24",
+  "2024/04/24": {
     "number_of_sessions": 5,
     "session_time": 424,
     "streak": 637,
     "xp_today": 142
   },
-  {
-    "date": "2024/04/25",
+  "2024/04/25": {
     "number_of_sessions": 7,
     "session_time": 364,
     "streak": 638,
     "xp_today": 230
   },
-  {
-    "date": "2024/04/26",
+  "2024/04/26": {
     "number_of_sessions": 15,
     "session_time": 925,
     "streak": 639,
     "xp_today": 518
   },
-  {
-    "date": "2024/04/27",
+  "2024/04/27": {
     "number_of_sessions": 11,
     "session_time": 624,
     "streak": 640,
     "xp_today": 359
   },
-  {
-    "date": "2024/04/28",
+  "2024/04/28": {
     "number_of_sessions": 11,
     "session_time": 761,
     "streak": 641,
     "xp_today": 251
   },
-  {
-    "date": "2024/04/29",
+  "2024/04/29": {
     "number_of_sessions": 6,
     "session_time": 291,
     "streak": 642,
     "xp_today": 120
   },
-  {
-    "date": "2024/04/30",
+  "2024/04/30": {
     "number_of_sessions": 11,
     "session_time": 592,
     "streak": 643,
     "xp_today": 253
   },
-  {
-    "date": "2024/05/01",
+  "2024/05/01": {
     "number_of_sessions": 5,
     "session_time": 237,
     "streak": 644,
     "xp_today": 192
   },
-  {
-    "date": "2024/05/02",
+  "2024/05/02": {
     "number_of_sessions": 5,
     "session_time": 322,
     "streak": 645,
     "xp_today": 100
   },
-  {
-    "date": "2024/05/03",
+  "2024/05/03": {
     "number_of_sessions": 9,
     "session_time": 913,
     "streak": 646,
     "xp_today": 452
   },
-  {
-    "date": "2024/05/04",
+  "2024/05/04": {
     "number_of_sessions": 12,
     "session_time": 1099,
     "streak": 647,
     "xp_today": 240
   },
-  {
-    "date": "2024/05/05",
+  "2024/05/05": {
     "number_of_sessions": 9,
     "session_time": 754,
     "streak": 648,
     "xp_today": 427
   },
-  {
-    "date": "2024/05/06",
+  "2024/05/06": {
     "number_of_sessions": 10,
     "session_time": 679,
     "streak": 649,
     "xp_today": 246
   },
-  {
-    "date": "2024/05/07",
+  "2024/05/07": {
     "number_of_sessions": 10,
     "session_time": 876,
     "streak": 650,
     "xp_today": 242
   },
-  {
-    "date": "2024/05/08",
+  "2024/05/08": {
     "number_of_sessions": 17,
     "session_time": 329,
     "streak": 651,
     "xp_today": 562
   },
-  {
-    "date": "2024/05/09",
+  "2024/05/09": {
     "number_of_sessions": 10,
     "session_time": 672,
     "streak": 652,
     "xp_today": 360
   },
-  {
-    "date": "2024/05/10",
+  "2024/05/10": {
     "number_of_sessions": 12,
     "session_time": 660,
     "streak": 653,
     "xp_today": 358
   },
-  {
-    "date": "2024/05/11",
+  "2024/05/11": {
     "number_of_sessions": 12,
     "session_time": 747,
     "streak": 654,
     "xp_today": 553
   },
-  {
-    "date": "2024/05/12",
+  "2024/05/12": {
     "number_of_sessions": 9,
     "session_time": 465,
     "streak": 655,
     "xp_today": 335
   },
-  {
-    "date": "2024/05/13",
+  "2024/05/13": {
     "number_of_sessions": 8,
     "session_time": 323,
     "streak": 656,
     "xp_today": 220
   },
-  {
-    "date": "2024/05/14",
+  "2024/05/14": {
     "number_of_sessions": 9,
     "session_time": 610,
     "streak": 657,
     "xp_today": 364
   },
-  {
-    "date": "2024/05/15",
+  "2024/05/15": {
     "number_of_sessions": 7,
     "session_time": 437,
     "streak": 658,
     "xp_today": 336
   },
-  {
-    "date": "2024/05/16",
+  "2024/05/16": {
     "number_of_sessions": 6,
     "session_time": 420,
     "streak": 659,
     "xp_today": 115
   },
-  {
-    "date": "2024/05/17",
+  "2024/05/17": {
     "number_of_sessions": 9,
     "session_time": 782,
     "streak": 660,
     "xp_today": 264
   },
-  {
-    "date": "2024/05/18",
+  "2024/05/18": {
     "number_of_sessions": 14,
     "session_time": 1116,
     "streak": 661,
     "xp_today": 291
   },
-  {
-    "date": "2024/05/19",
+  "2024/05/19": {
     "number_of_sessions": 11,
     "session_time": 736,
     "streak": 662,
     "xp_today": 287
   },
-  {
-    "date": "2024/05/20",
+  "2024/05/20": {
     "number_of_sessions": 4,
     "session_time": 211,
     "streak": 663,
     "xp_today": 160
   },
-  {
-    "date": "2024/05/21",
+  "2024/05/21": {
     "number_of_sessions": 6,
     "session_time": 882,
     "streak": 664,
     "xp_today": 158
   },
-  {
-    "date": "2024/05/22",
+  "2024/05/22": {
     "number_of_sessions": 11,
     "session_time": 608,
     "streak": 665,
     "xp_today": 308
   },
-  {
-    "date": "2024/05/23",
+  "2024/05/23": {
     "number_of_sessions": 9,
     "session_time": 852,
     "streak": 666,
     "xp_today": 384
   },
-  {
-    "date": "2024/05/24",
+  "2024/05/24": {
     "number_of_sessions": 3,
     "session_time": 249,
     "streak": 667,
     "xp_today": 222
   },
-  {
-    "date": "2024/05/25",
+  "2024/05/25": {
     "number_of_sessions": 9,
     "session_time": 630,
     "streak": 668,
     "xp_today": 296
   },
-  {
-    "date": "2024/05/26",
+  "2024/05/26": {
     "number_of_sessions": 5,
     "session_time": 354,
     "streak": 669,
     "xp_today": 260
   },
-  {
-    "date": "2024/05/27",
+  "2024/05/27": {
     "number_of_sessions": 6,
     "session_time": 661,
     "streak": 670,
     "xp_today": 306
   },
-  {
-    "date": "2024/05/28",
+  "2024/05/28": {
     "number_of_sessions": 8,
     "session_time": 365,
     "streak": 671,
     "xp_today": 220
   },
-  {
-    "date": "2024/05/29",
+  "2024/05/29": {
     "number_of_sessions": 4,
     "session_time": 459,
     "streak": 672,
     "xp_today": 200
   },
-  {
-    "date": "2024/05/30",
+  "2024/05/30": {
     "number_of_sessions": 10,
     "session_time": 559,
     "streak": 673,
     "xp_today": 223
   },
-  {
-    "date": "2024/05/31",
+  "2024/05/31": {
     "number_of_sessions": 7,
     "session_time": 675,
     "streak": 674,
     "xp_today": 420
   },
-  {
-    "date": "2024/06/01",
+  "2024/06/01": {
     "number_of_sessions": 7,
     "session_time": 476,
     "streak": 675,
     "xp_today": 320
   },
-  {
-    "date": "2024/06/02",
+  "2024/06/02": {
     "number_of_sessions": 12,
     "session_time": 635,
     "streak": 676,
     "xp_today": 226
   },
-  {
-    "date": "2024/06/03",
+  "2024/06/03": {
     "number_of_sessions": 10,
     "session_time": 914,
     "streak": 677,
     "xp_today": 223
   },
-  {
-    "date": "2024/06/04",
+  "2024/06/04": {
     "number_of_sessions": 6,
     "session_time": 448,
     "streak": 678,
     "xp_today": 230
   },
-  {
-    "date": "2024/06/05",
+  "2024/06/05": {
     "number_of_sessions": 9,
     "session_time": 488,
     "streak": 679,
     "xp_today": 322
   },
-  {
-    "date": "2024/06/06",
+  "2024/06/06": {
     "number_of_sessions": 5,
     "session_time": 377,
     "streak": 680,
     "xp_today": 235
   },
-  {
-    "date": "2024/06/07",
+  "2024/06/07": {
     "number_of_sessions": 8,
     "session_time": 901,
     "streak": 681,
     "xp_today": 440
   },
-  {
-    "date": "2024/06/08",
+  "2024/06/08": {
     "number_of_sessions": 8,
     "session_time": 382,
     "streak": 682,
     "xp_today": 312
   },
-  {
-    "date": "2024/06/09",
+  "2024/06/09": {
     "number_of_sessions": 10,
     "session_time": 645,
     "streak": 683,
     "xp_today": 424
   },
-  {
-    "date": "2024/06/10",
+  "2024/06/10": {
     "number_of_sessions": 11,
     "session_time": 965,
     "streak": 684,
     "xp_today": 193
   },
-  {
-    "date": "2024/06/11",
+  "2024/06/11": {
     "number_of_sessions": 7,
     "session_time": 176,
     "streak": 685,
     "xp_today": 236
   },
-  {
-    "date": "2024/06/12",
+  "2024/06/12": {
     "number_of_sessions": 7,
     "session_time": 59,
     "streak": 686,
     "xp_today": 214
   },
-  {
-    "date": "2024/06/13",
+  "2024/06/13": {
     "number_of_sessions": 4,
     "session_time": 268,
     "streak": 687,
     "xp_today": 80
   },
-  {
-    "date": "2024/06/14",
+  "2024/06/14": {
     "number_of_sessions": 6,
     "session_time": 557,
     "streak": 688,
     "xp_today": 355
   },
-  {
-    "date": "2024/06/15",
+  "2024/06/15": {
     "number_of_sessions": 13,
     "session_time": 761,
     "streak": 689,
     "xp_today": 694
   },
-  {
-    "date": "2024/06/16",
+  "2024/06/16": {
     "number_of_sessions": 7,
     "session_time": 380,
     "streak": 690,
     "xp_today": 244
   },
-  {
-    "date": "2024/06/17",
+  "2024/06/17": {
     "number_of_sessions": 11,
     "session_time": 571,
     "streak": 691,
     "xp_today": 370
   },
-  {
-    "date": "2024/06/18",
+  "2024/06/18": {
     "number_of_sessions": 7,
     "session_time": 594,
     "streak": 692,
     "xp_today": 249
   },
-  {
-    "date": "2024/06/19",
+  "2024/06/19": {
     "number_of_sessions": 7,
     "session_time": 461,
     "streak": 693,
     "xp_today": 255
+  },
+  "2024/06/20": {
+    "number_of_sessions": 6,
+    "session_time": 372,
+    "streak": 694,
+    "xp_today": 120
   }
-]
+}
