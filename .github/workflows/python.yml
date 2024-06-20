@@ -10,35 +10,25 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Get Python version
-        run: |
-          PYTHON_VERSION=`sed -n '1p' .python-version`
-          echo "PYTHON_VERSION=${PYTHON_VERSION}" >> $GITHUB_ENV
+        uses: actions/checkout@v4
 
       - name: Install Poetry
-        run: curl -sSL https://install.python-poetry.org | python3 -
+        run: pipx install poetry
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          python-version-file: ".python-version"
           cache: "poetry"
-
-      - name: Ensures Poetry uses the specified Python version
-        run: poetry env use $PYTHON_VERSION
-        env:
-          PYTHON_VERSION: ${{ env.PYTHON_VERSION }}
 
       - name: Install all dependencies
         run: poetry install
 
-      - name: Format code (black)
-        run: poetry run black src
+      - name: Check code (ruff)
+        run: poetry run ruff check
 
-      - name: Sort imports (isort)
-        run: poetry run isort src
+      - name: Format code (ruff)
+        run: poetry run ruff format
 
       - name: Check typing (mypy)
         run: poetry run mypy
