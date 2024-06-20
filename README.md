@@ -110,15 +110,14 @@ poetry run python3 main.py
 For development, if you wish to develop the visualizer, you have to mock the data in the `web/index.html`, more specifically, the `getDataFromJSON()` function. You have to hard-code (change the `response.json()`) and change it to something like the following:
 
 ```json
-[
-  {
-    "date": "2022/07/28",
+{
+  "2022/07/28": {
     "number_of_sessions": 27,
     "session_time": 4792,
     "streak": 1,
     "xp_today": 754
   }
-]
+}
 ```
 
 You may have to add more than one data to make sure that it is rendering well enough. Developing the other components should be more straightforward (Python code and GitHub Actions as the infrastructure).
@@ -128,11 +127,11 @@ You may have to add more than one data to make sure that it is rendering well en
 Ensure to run these scripts to keep the code quality consistent:
 
 ```bash
-# run black, isort, mypy, and pytest
-poetry run black src
-poetry run isort src
-poetry run mypy
-poetry run pytest --verbose --cov=src tests
+# run ruff, mypy, pytest
+ruff check
+ruff format
+mypy
+pytest --verbose --cov=src tests
 ```
 
 Please also write tests if you want to add a new feature!
