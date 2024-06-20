@@ -6,7 +6,7 @@ from os import path
 from pathlib import Path
 
 from src.database import Database
-from src.schema import BaseSchema, DatabaseEntry, Statistics
+from src.schema import BaseSchema, DatabaseEntry
 
 
 class Experience(BaseSchema):
@@ -51,19 +51,19 @@ def main():
     parsed_old_database = [OldDatabaseEntry(**data) for data in raw_old_database]
 
     # Migrate to the new data structure.
-    new_progression_database = [
-        DatabaseEntry(
-            date=data.date,
-            xp_today=data.progression.experience.xp_today,
-            number_of_sessions=data.progression.session_information.number_of_sessions,
-            session_time=data.progression.session_information.session_time,
-            streak=data.streak_information.site_streak,
+    new_progression_database = {
+        data.date: (
+            DatabaseEntry(
+                date=data.date,
+                xp_today=data.progression.experience.xp_today,
+                number_of_sessions=data.progression.session_information.number_of_sessions,
+                session_time=data.progression.session_information.session_time,
+                streak=data.streak_information.site_streak,
+            )
         )
         for data in parsed_old_database
-    ]
-    new_statistics_database = Statistics(
-        datetime={data.date: data.time for data in parsed_old_database}
-    )
+    }
+    new_statistics_database = {data.date: data.time for data in parsed_old_database}
 
     # Prepare the databases.
     progression_database = Database(
@@ -75,9 +75,9 @@ def main():
 
     # Map the data so it can be accepted by the database.
     progression_database.set(
-        [DatabaseEntry.to_dict(data) for data in new_progression_database]
+        {key: value.model_dump() for key, value in new_progression_database.items()}
     )
-    statistics_database.set(Statistics.to_dict(new_statistics_database))
+    statistics_database.set(new_statistics_database)
 
     # Print success screen.
     print("Migration script has been successfully run!")

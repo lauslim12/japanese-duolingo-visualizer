@@ -199,19 +199,21 @@
        * Who doesn't love intellisense? I'll define the JSON schema of the `duolingo-progress.json` here so you can
        * enjoy the intellisense.
        *
-       * @typedef Data
+       * @typedef Entry
        * @type {object}
-       * @property {string} date - The date when this data / progression is collected.
        * @property {number} number_of_sessions - Number of sessions that are done in a single day.
        * @property {number} session_time - Duration of session in a single day, in seconds.
        * @property {number} streak - Current streak.
        * @property {number} xp_today - Experience points that are gained in a single day.
+       *
+       * @typedef Data
+       * @type {Object.<string, Entry>}
        */
 
       /**
        * Fetches the 'database' - a JSON file consisting of Duolingo progress.
        *
-       * @returns {Promise<Data[]>} Data consisting of Duolingo information.
+       * @returns {Promise<Data>} Data consisting of Duolingo information.
        */
       async function getDataFromJSON() {
         const url = `${window.location.protocol}//${window.location.hostname}`;
@@ -225,22 +227,24 @@
       /**
        * Renders the experience graph.
        *
-       * @param {Data[]} data - Parsed data.
+       * @param {Data} data - Parsed data.
        */
       function renderExperienceGraph(data) {
+        const dates = Object.keys(data);
+        const values = Object.values(data);
         const element = document.getElementById("experienceGraph");
         if (!element) return null;
 
         return new Chart(element, {
           type: "line",
           data: {
-            labels: data.map((value) => value.date),
+            labels: dates,
             datasets: [
               {
                 backgroundColor: "rgba(46, 204, 113, 0.5)",
                 borderColor: "rgba(46, 204, 113, 1.0)",
                 borderWidth: 2,
-                data: data.map((value) => value.xp_today),
+                data: values.map((value) => value.xp_today),
                 fill: true,
                 label: "XP Gained",
                 pointBackgroundColor: "rgba(52, 152, 219, 1.0)",
@@ -265,19 +269,19 @@
                     label: {
                       display: true,
                       content: `Average: ${(
-                        data.reduce(
+                        values.reduce(
                           (previous, current) => previous + current.xp_today,
                           0
-                        ) / data.length
+                        ) / values.length
                       ).toFixed(2)} XP`,
                       position: "center",
                     },
                     scaleID: "y",
                     value:
-                      data.reduce(
+                      values.reduce(
                         (previous, current) => previous + current.xp_today,
                         0
-                      ) / data.length,
+                      ) / values.length,
                   },
                   lower: {
                     type: "line",
@@ -288,12 +292,12 @@
                       backgroundColor: "rgba(232, 67, 147, 1.0)",
                       display: true,
                       content: `Min: ${Math.min(
-                        ...data.map((value) => value.xp_today)
+                        ...values.map((value) => value.xp_today)
                       )} XP`,
                       position: "start",
                     },
                     scaleID: "y",
-                    value: Math.min(...data.map((value) => value.xp_today)),
+                    value: Math.min(...values.map((value) => value.xp_today)),
                   },
                   upper: {
                     type: "line",
@@ -304,12 +308,12 @@
                       backgroundColor: "rgba(232, 67, 147, 1.0)",
                       display: true,
                       content: `Max: ${Math.max(
-                        ...data.map((value) => value.xp_today)
+                        ...values.map((value) => value.xp_today)
                       )} XP`,
                       position: "start",
                     },
                     scaleID: "y",
-                    value: Math.max(...data.map((value) => value.xp_today)),
+                    value: Math.max(...values.map((value) => value.xp_today)),
                   },
                 },
               },
@@ -335,6 +339,8 @@
        * @param {Data[]} data - Parsed data.
        */
       function renderTimeGraph(data) {
+        const dates = Object.keys(data);
+        const values = Object.values(data);
         const element = document.getElementById("timeGraph");
         if (!element) return null;
 
@@ -342,23 +348,23 @@
         // them here, these variables are used when we want to make a line/average
         // label.
         const totalMinutes = (
-          data.reduce(
+          values.reduce(
             (previous, current) => previous + current.session_time / 60, // In minutes.
             0
-          ) / data.length
+          ) / values.length
         ).toFixed(2);
         const totalHours = Math.floor(totalMinutes / 60).toFixed(2);
 
         return new Chart(element, {
           type: "line",
           data: {
-            labels: data.map((value) => value.date),
+            labels: dates,
             datasets: [
               {
                 backgroundColor: "rgb(255, 248, 10, 0.5)",
                 borderColor: "rgb(254, 177, 57, 1.0)",
                 borderWidth: 2,
-                data: data.map(
+                data: values.map(
                   (value) => (value.session_time / 60).toFixed(2) // This is in minutes for easier calculation.
                 ),
                 fill: true,
@@ -389,11 +395,11 @@
                     },
                     scaleID: "y",
                     value: (
-                      data.reduce(
+                      values.reduce(
                         (previous, current) =>
                           previous + current.session_time / 60, // This is in minutes for easier line calculation.
                         0
-                      ) / data.length
+                      ) / values.length
                     ).toFixed(2),
                   },
                 },
@@ -433,19 +439,21 @@
        * @param {Data[]} data - Parsed data.
        */
       function renderSessionsGraph(data) {
+        const dates = Object.keys(data);
+        const values = Object.values(data);
         const element = document.getElementById("sessionsGraph");
         if (!element) return null;
 
         return new Chart(element, {
           type: "line",
           data: {
-            labels: data.map((value) => value.date),
+            labels: dates,
             datasets: [
               {
                 backgroundColor: "rgb(125, 157, 156, 0.5)",
                 borderColor: "rgb(239, 91, 12, 1.0)",
                 borderWidth: 2,
-                data: data.map((value) => value.number_of_sessions),
+                data: values.map((value) => value.number_of_sessions),
                 fill: true,
                 label: "Number of Sessions",
                 pointBackgroundColor: "rgb(242, 223, 58, 1.0)",
@@ -470,21 +478,21 @@
                     label: {
                       display: true,
                       content: `Average: ${(
-                        data.reduce(
+                        values.reduce(
                           (previous, current) =>
                             previous + current.number_of_sessions,
                           0
-                        ) / data.length
+                        ) / values.length
                       ).toFixed(2)} session(s)`,
                       position: "center",
                     },
                     scaleID: "y",
                     value:
-                      data.reduce(
+                      values.reduce(
                         (previous, current) =>
                           previous + current.number_of_sessions,
                         0
-                      ) / data.length,
+                      ) / values.length,
                   },
                 },
               },
@@ -510,19 +518,21 @@
        * @param {Data[]} data - Parsed data.
        */
       function renderStreakGraph(data) {
+        const dates = Object.keys(data);
+        const values = Object.values(data);
         const element = document.getElementById("streakGraph");
         if (!element) return null;
 
         return new Chart(element, {
           type: "line",
           data: {
-            labels: data.map((value) => value.date),
+            labels: dates,
             datasets: [
               {
                 backgroundColor: "rgb(0, 215, 255, 0.5)",
                 borderColor: "rgb(0, 150, 255, 1.0)",
                 borderWidth: 2,
-                data: data.map((value) => value.streak),
+                data: values.map((value) => value.streak),
                 fill: true,
                 label: "Number of Streak",
                 pointBackgroundColor: "rgb(88, 0, 255, 1.0)",

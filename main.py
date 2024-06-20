@@ -1,3 +1,4 @@
+from datetime import datetime
 from os import environ, path
 from traceback import format_exc
 
@@ -11,7 +12,7 @@ from src.api import (
     UnauthorizedException,
 )
 from src.database import Database
-from src.schema import DatabaseEntry, Statistics, Summary, User
+from src.schema import DatabaseEntry, Summary, User
 from src.synchronizer import check_database_change, sync_database_with_summaries
 
 
@@ -47,15 +48,18 @@ def run() -> tuple[bool, bool]:
     raw_user, raw_summary = api.fetch_data(username, token)
 
     # Transform them into our internal schema.
-    user = User.to_user(raw_user)
+    user = User(**raw_user)
     summaries = [Summary(**summary) for summary in raw_summary["summaries"]]
 
     # Get all existing data from the database. Add the new data to the end of the database
-    # declaratively. `0` means the first entry, or today (when the script is run).
-    database_entries = [
-        *[DatabaseEntry(**entry) for entry in progression_database.get()],
-        DatabaseEntry.create_now(summaries[0], user.site_streak),
-    ]
+    # declaratively. `0` means the first entry, or today (when the script is run). Initially,
+    # we try to transform the existing data from the database into our own structure so it's easier
+    # to process.
+    current_progression = progression_database.get()
+    database_entries: dict[str, DatabaseEntry] = {
+        **{key: DatabaseEntry(**entry) for key, entry in current_progression.items()},
+        **{summaries[0].date: DatabaseEntry.create(summaries[0], user.site_streak)},
+    }
 
     # Synchronize the database with the summaries.
     synchronized_database = sync_database_with_summaries(database_entries, summaries)
@@ -65,20 +69,21 @@ def run() -> tuple[bool, bool]:
 
     # Store the synchronized database in our repository.
     progression_database.set(
-        [DatabaseEntry.to_dict(entry) for entry in synchronized_database]
+        {key: value.model_dump() for key, value in synchronized_database.items()}
     )
 
     # On the other hand, get all of the statistics of the cron run, and then immutably
     # add the current cron statistics.
-    statistics_entries = Statistics(
-        datetime={
-            **statistics_database.get()["datetime"],
-            **Statistics.create_datetime_now(),
-        }
-    )
+    current_date = datetime.now().strftime("%Y/%m/%d")
+    current_time = datetime.now().strftime("%H:%M:%S")
+    current_statistics = statistics_database.get()
+    statistics_entries: dict[str, str] = {
+        **current_statistics,
+        **{current_date: current_time},
+    }
 
     # Store the statistics in our repository.
-    statistics_database.set(Statistics.to_dict(statistics_entries))
+    statistics_database.set(statistics_entries)
 
     # Return flags from the program to consolidate the print statements in the outer loop,
     # minimizing side effects.
