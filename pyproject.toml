@@ -5,6 +5,7 @@ description = "Visualize your Japanese learning process with the help of Duoling
 authors = ["lauslim12 <31909304+lauslim12@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 homepage = "https://github.com/lauslim12/japanese-duolingo-visualizer"
 repository = "https://github.com/lauslim12/japanese-duolingo-visualizer"
 documentation = "https://github.com/lauslim12/japanese-duolingo-visualizer"
