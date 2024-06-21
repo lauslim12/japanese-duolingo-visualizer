@@ -83,18 +83,22 @@ This right and recommended usage of this is 'you should never have to run this s
 
 Please note that sometimes the cron scheduler may delay because of some unforeseen circumstances at GitHub's side. That's why I provided the `workflow_dispatch` option, so it could be run, even when the cron scheduler fails to run.
 
-It is recommended that you run this script **with your JWT and not your password for safety concerns.**
+> [!WARNING]
+> It is recommended that you run this script **with your JWT and not your password for safety concerns**.
 
 ## Usage (Manual)
 
-This should be dedicated for GitHub Actions only. If you want the script manually, then:
+> [!NOTE]
+> For production, this should be run in GitHub Actions only.
+
+If you want the script manually, then:
 
 ```bash
 # Clone repository.
 git clone git@github.com:lauslim12/japanese-duolingo-visualizer.git
 cd japanese-duolingo-visualizer
 
-# Use `poetry`.
+# Use `poetry` as the package manager.
 poetry shell
 poetry install
 
