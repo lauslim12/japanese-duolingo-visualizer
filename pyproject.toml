@@ -20,22 +20,26 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Environment :: Console",
   "Environment :: No Input/Output (Daemon)",
+  "Environment :: Web Environment",
+  "Intended Audience :: Education",
   "Intended Audience :: Information Technology",
   "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: Implementation",
   "Topic :: Database",
   "Topic :: Education",
   "Topic :: Internet",
   "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Software Development :: Testing",
   "Topic :: Utilities",
   "Typing :: Typed",
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 requests = "^2.32.3"
 pydantic = "^2.7.4"
 
