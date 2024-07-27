@@ -4374,9 +4374,15 @@
     "xp_today": 310
   },
   "2024/07/26": {
-    "number_of_sessions": 6,
-    "session_time": 273,
+    "number_of_sessions": 10,
+    "session_time": 612,
     "streak": 730,
-    "xp_today": 118
+    "xp_today": 388
+  },
+  "2024/07/27": {
+    "number_of_sessions": 15,
+    "session_time": 462,
+    "streak": 731,
+    "xp_today": 373
   }
 }
