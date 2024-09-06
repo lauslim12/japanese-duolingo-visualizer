@@ -4620,9 +4620,15 @@
     "xp_today": 112
   },
   "2024/09/05": {
-    "number_of_sessions": 7,
-    "session_time": 0,
+    "number_of_sessions": 13,
+    "session_time": 414,
     "streak": 771,
-    "xp_today": 104
+    "xp_today": 300
+  },
+  "2024/09/06": {
+    "number_of_sessions": 5,
+    "session_time": 202,
+    "streak": 772,
+    "xp_today": 100
   }
 }
