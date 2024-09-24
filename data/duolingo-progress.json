@@ -4732,5 +4732,11 @@
     "session_time": 645,
     "streak": 789,
     "xp_today": 440
+  },
+  "2024/09/24": {
+    "number_of_sessions": 12,
+    "session_time": 0,
+    "streak": 790,
+    "xp_today": 177
   }
 }
