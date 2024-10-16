@@ -4860,9 +4860,15 @@
     "xp_today": 533
   },
   "2024/10/15": {
-    "number_of_sessions": 6,
-    "session_time": 0,
+    "number_of_sessions": 9,
+    "session_time": 165,
     "streak": 811,
-    "xp_today": 86
+    "xp_today": 146
+  },
+  "2024/10/16": {
+    "number_of_sessions": 11,
+    "session_time": 0,
+    "streak": 812,
+    "xp_today": 326
   }
 }
