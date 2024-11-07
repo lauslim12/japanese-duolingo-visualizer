@@ -4992,9 +4992,15 @@
     "xp_today": 116
   },
   "2024/11/06": {
-    "number_of_sessions": 4,
-    "session_time": 149,
+    "number_of_sessions": 8,
+    "session_time": 399,
     "streak": 833,
-    "xp_today": 82
+    "xp_today": 278
+  },
+  "2024/11/07": {
+    "number_of_sessions": 12,
+    "session_time": 272,
+    "streak": 834,
+    "xp_today": 538
   }
 }
