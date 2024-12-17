@@ -20,6 +20,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup UV
+        uses: astral-sh/setup-uv@v4
+
       - name: Set up system timezone
         run: |
           sudo timedatectl set-timezone ${{ env.TZ }}
@@ -30,14 +33,11 @@ jobs:
         with:
           python-version-file: ".python-version"
 
-      - name: Install Poetry
-        run: pipx install poetry
-
       - name: Install all dependencies
-        run: poetry install --no-interaction --only main
+        run: uv sync --no-dev
 
       - name: Execute Python script
-        run: poetry run python3 main.py
+        run: uv run main.py
         env:
           DUOLINGO_USERNAME: ${{ secrets.DUOLINGO_USERNAME }}
           DUOLINGO_PASSWORD: ${{ secrets.DUOLINGO_PASSWORD }}
