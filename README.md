@@ -1,6 +1,6 @@
 # Japanese Duolingo Visualizer
 
-Visualize your 日本語 progress in Duolingo everyday. Powered with Python, Poetry, GitHub Actions, and GitHub Pages (HTML, CSS, JS, Bootstrap).
+Visualize your 日本語 progress in Duolingo everyday. Powered with Python, UV, GitHub Actions, and GitHub Pages (HTML, CSS, JS, Bootstrap).
 
 Currently, the automation is done and fully tested, and the website is live on GitHub Pages. Please see the link in the repository to take a look!
 
@@ -98,9 +98,14 @@ If you want the script manually, then:
 git clone git@github.com:lauslim12/japanese-duolingo-visualizer.git
 cd japanese-duolingo-visualizer
 
-# Use `poetry` as the package manager.
-poetry shell
-poetry install
+# Use `uv` as the package manager, install Python if haven't already.
+uv python install
+
+# Sync and install all dependencies.
+uv sync --all-extras
+
+# Access virtual development environment.
+source .venv/bin/activate
 
 # Put necessary environment variables, or else it will not work.
 export DUOLINGO_USERNAME=...
@@ -108,7 +113,7 @@ export DUOLINGO_PASSWORD=...
 export DUOLINGO_JWT=...
 
 # Run script.
-poetry run python3 main.py
+uv run main.py
 ```
 
 For development, if you wish to develop the visualizer, you have to mock the data in the `web/index.html`, more specifically, the `getDataFromJSON()` function. You have to hard-code (change the `response.json()`) and change it to something like the following:

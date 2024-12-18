@@ -12,25 +12,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup UV
+        uses: astral-sh/setup-uv@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version-file: ".python-version"
 
-      - name: Install Poetry
-        run: pipx install poetry
-
       - name: Install all dependencies
-        run: poetry install
+        run: uv sync --all-extras
 
       - name: Check code (ruff)
-        run: poetry run ruff check
+        run: uv run ruff check
 
       - name: Format code (ruff)
-        run: poetry run ruff format
+        run: uv run ruff format
 
       - name: Check typing (mypy)
-        run: poetry run mypy
+        run: uv run mypy
 
       - name: Run unit-tests and generate coverage in console
-        run: poetry run pytest --verbose --cov=src tests
+        run: uv run pytest --verbose --cov=src tests
