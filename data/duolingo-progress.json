@@ -5250,9 +5250,15 @@
     "xp_today": 440
   },
   "2024/12/19": {
-    "number_of_sessions": 13,
-    "session_time": 784,
+    "number_of_sessions": 16,
+    "session_time": 935,
     "streak": 876,
-    "xp_today": 913
+    "xp_today": 1093
+  },
+  "2024/12/20": {
+    "number_of_sessions": 24,
+    "session_time": 0,
+    "streak": 877,
+    "xp_today": 662
   }
 }
