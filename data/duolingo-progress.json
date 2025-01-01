@@ -5322,9 +5322,15 @@
     "xp_today": 256
   },
   "2024/12/31": {
-    "number_of_sessions": 4,
-    "session_time": 185,
+    "number_of_sessions": 9,
+    "session_time": 444,
     "streak": 888,
-    "xp_today": 100
+    "xp_today": 445
+  },
+  "2025/01/01": {
+    "number_of_sessions": 8,
+    "session_time": 505,
+    "streak": 889,
+    "xp_today": 497
   }
 }
