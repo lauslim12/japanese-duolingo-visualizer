@@ -6006,9 +6006,15 @@
     "xp_today": 1638
   },
   "2025/04/24": {
-    "number_of_sessions": 11,
-    "session_time": 467,
+    "number_of_sessions": 13,
+    "session_time": 687,
     "streak": 1002,
-    "xp_today": 214
+    "xp_today": 304
+  },
+  "2025/04/25": {
+    "number_of_sessions": 14,
+    "session_time": 81,
+    "streak": 1003,
+    "xp_today": 579
   }
 }
