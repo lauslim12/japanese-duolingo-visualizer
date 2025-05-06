@@ -6072,9 +6072,15 @@
     "xp_today": 240
   },
   "2025/05/05": {
-    "number_of_sessions": 6,
-    "session_time": 452,
+    "number_of_sessions": 15,
+    "session_time": 732,
     "streak": 1013,
-    "xp_today": 510
+    "xp_today": 1227
+  },
+  "2025/05/06": {
+    "number_of_sessions": 8,
+    "session_time": 461,
+    "streak": 1014,
+    "xp_today": 666
   }
 }
