@@ -6450,9 +6450,15 @@
     "xp_today": 194
   },
   "2025/07/07": {
-    "number_of_sessions": 8,
-    "session_time": 389,
+    "number_of_sessions": 16,
+    "session_time": 1005,
     "streak": 1076,
-    "xp_today": 495
+    "xp_today": 1500
+  },
+  "2025/07/08": {
+    "number_of_sessions": 11,
+    "session_time": 295,
+    "streak": 1077,
+    "xp_today": 651
   }
 }
