@@ -7402,5 +7402,11 @@
     "session_time": 84,
     "streak": 1234,
     "xp_today": 114
+  },
+  "2025/12/13": {
+    "number_of_sessions": 7,
+    "session_time": 0,
+    "streak": 1235,
+    "xp_today": 312
   }
 }
