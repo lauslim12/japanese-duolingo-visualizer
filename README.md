@@ -27,7 +27,7 @@ Metrics that are visualized in this website:
 - Number of sessions (lessons, events, or tests) taken
 - Streak information
 
-Please note that all of these metrics will be updated and synchronized daily and strives to show an accurate representation of your progress.
+Please note that all of these metrics will be updated, synchronized daily, and strives to show an accurate representation of your progress.
 
 Experience points gain, time spent in Duolingo, and number of sessions will be synchronized with the API (your real data) with each run, so you would have no worries about the accuracy of your progress.
 
