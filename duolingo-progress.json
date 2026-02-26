@@ -7846,5 +7846,17 @@
     "session_time": 0,
     "streak": 1308,
     "xp_today": 53
+  },
+  "2026/02/25": {
+    "number_of_sessions": 2,
+    "session_time": 0,
+    "streak": 1309,
+    "xp_today": 90
+  },
+  "2026/02/26": {
+    "number_of_sessions": 3,
+    "session_time": 0,
+    "streak": 1310,
+    "xp_today": 53
   }
 }
