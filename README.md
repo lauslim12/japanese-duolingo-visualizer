@@ -129,7 +129,7 @@ For development, if you wish to develop the visualizer, you have to mock the dat
 }
 ```
 
-You may have to add more than one data to make sure that it is rendering well enough. Developing the other components should be more straightforward (Python code and GitHub Actions as the infrastructure).
+You may have to add more than one data to make sure that it is rendering the charts well enough. Developing the other components should be more straightforward (Python code and GitHub Actions as the infrastructure).
 
 ## Notes
 
