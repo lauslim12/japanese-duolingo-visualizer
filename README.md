@@ -8,7 +8,7 @@ Currently, the automation is done and fully tested, and the website is live on G
 
 Everyday, I practice 日本語 on Duolingo.
 
-One feature that I find the lack of it disturbing in Duolingo is a feature to visualize a graph/plot to trace your language learning progression. As with other skills, language requires you to constantly train and practice everyday to ensure that your skills are always at the bleeding edge. Essentially, by having that feature, we could trace our language learning progression everyday, which I believe is good for several reasons. Gaining a constant amount of Duolingo's experience points everyday would allow you to give an idea about how continuous your learning progression is. We trace several points to be visualized during the usage of the application. All of these metrics will be plotted to a chart to help you visualize your progress.
+One feature that I find the lack of it disturbing in Duolingo is a feature to visualize a graph/plot to trace your language learning progression. As with other skills, language requires you to constantly train and practice everyday to ensure that your skills are always at the bleeding edge. Essentially, by having that feature, we could trace our language learning progression everyday, which I believe is good for several reasons. Gaining a constant amount of Duolingo's experience points everyday would allow you to give an idea about how continuous your learning progression is. We track several points to be visualized during the usage of the application. All of these metrics will be plotted to a chart to help you visualize your progress.
 
 Mainly, this project is inspired by:
 
